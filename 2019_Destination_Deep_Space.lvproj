@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{0608E826-06ED-417D-88C2-CDB7E54FCBFA}" Type="Ref">/Target/ControlRoom.lvlib/Iteration Duration</Property>
 	<Property Name="varPersistentID:{4F89F2CD-8264-4AE6-A252-3CC40D8AA0F3}" Type="Ref">/Target/Dev Refs.lvlib/Drive DevRef Out</Property>
 	<Property Name="varPersistentID:{59A777CA-633B-4EE1-A83C-4E95402EBD5A}" Type="Ref">/Target/Dev Refs.lvlib/RearLeftDevRef</Property>
 	<Property Name="varPersistentID:{6C5ADEC3-7DF1-435D-9F03-5D7EEFB38682}" Type="Ref">/Target/Dev Refs.lvlib/MiddleLeftDevRef</Property>
@@ -9,6 +10,9 @@
 	<Property Name="varPersistentID:{BB971DAC-3904-4F50-8F5A-7A65E1F45075}" Type="Ref">/Target/Dev Refs.lvlib/RearRightDevRef</Property>
 	<Property Name="varPersistentID:{BE33C5ED-BD3E-46BC-8C27-A0533D8E69AC}" Type="Ref">/Target/Dev Refs.lvlib/MiddleRightDevRef</Property>
 	<Property Name="varPersistentID:{C6474222-24B4-44DC-9EAF-2728A665C3F1}" Type="Ref">/Target/Dev Refs.lvlib/FrontRightDevRef</Property>
+	<Property Name="varPersistentID:{CECCD8ED-409C-4387-97BA-456DE9C03EE6}" Type="Ref">/Target/ControlRoom.lvlib/Drive Finished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{ECE65C84-D0E7-4728-9D32-0032C74E316D}" Type="Ref">/Target/Current_Limiting.lvlib/Enable Current Limit?</Property>
+	<Property Name="varPersistentID:{F2927BA9-A7F0-4258-BE0F-F62BC55EAD40}" Type="Ref">/Target/ControlRoom.lvlib/Drive Period</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -120,6 +124,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="ControlRoom.lvlib" Type="Library" URL="../ControlRoom.lvlib"/>
+		<Item Name="Current_Limiting.lvlib" Type="Library" URL="../Current_Limiting.lvlib"/>
 		<Item Name="Dev Refs.lvlib" Type="Library" URL="../Dev Refs.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -183,8 +189,10 @@ AddOutputFilter chunkFilter
 				<Item Name="Create Actual Table Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Create Actual Table Name.vi"/>
 				<Item Name="CTRE_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_ErrorHandle.vi"/>
 				<Item Name="CTRE_LibraryCall_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_LibraryCall_ErrorHandle.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_ConfigContinuousCurrentLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Current Limit/CTRE_Phoenix_MotorControl_ConfigContinuousCurrentLimit.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
+				<Item Name="CTRE_Phoenix_MotorControl_EnableCurrentLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Current Limit/CTRE_Phoenix_MotorControl_EnableCurrentLimit.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_Follow.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Follow.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
@@ -496,6 +504,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="Current_Limiting.vi" Type="VI" URL="../Current_Limiting.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
