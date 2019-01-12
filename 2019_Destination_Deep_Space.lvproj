@@ -2,11 +2,22 @@
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{4061A991-1343-4290-B048-63182236263D}" Type="Ref">/Target/SensorSharedVars.lvlib/encoderDirection</Property>
+	<Property Name="varPersistentID:{19F492E6-189E-4EB2-91F1-1AE02F663004}" Type="Ref">/Target/SensorSharedVars.lvlib/climbYellowIRAVal</Property>
+	<Property Name="varPersistentID:{288365A4-F0FC-4851-B83C-D3510A4629B7}" Type="Ref">/Target/SensorSharedVars.lvlib/climbYellowIRBVal</Property>
 	<Property Name="varPersistentID:{4F89F2CD-8264-4AE6-A252-3CC40D8AA0F3}" Type="Ref">/Target/Dev Refs.lvlib/Drive DevRef Out</Property>
-	<Property Name="varPersistentID:{87EEF695-FB05-4EED-8A33-564ECFBA7076}" Type="Ref">/Target/SensorSharedVars.lvlib/imuAccelerometer</Property>
-	<Property Name="varPersistentID:{921CBC60-BECB-472E-874F-D23B38D224FC}" Type="Ref">/Target/SensorSharedVars.lvlib/imuGyro</Property>
-	<Property Name="varPersistentID:{C5B92793-25FB-4A37-8821-78D357C58100}" Type="Ref">/Target/SensorSharedVars.lvlib/encoderDistance</Property>
+	<Property Name="varPersistentID:{561B0F2B-838F-4A40-922A-87C10E835EA1}" Type="Ref">/Target/SensorSharedVars.lvlib/climbEncoderBDistance</Property>
+	<Property Name="varPersistentID:{72C203CD-448E-4416-8DD7-B2A4C1A062D1}" Type="Ref">/Target/SensorSharedVars.lvlib/hatchPanelYellowIRAVal</Property>
+	<Property Name="varPersistentID:{85C99EE7-88F9-4E70-8F9D-A59BC1CC4EDB}" Type="Ref">/Target/SensorSharedVars.lvlib/hatchPanelYellowIRCVal</Property>
+	<Property Name="varPersistentID:{867C1518-3C97-4774-93A7-139986903D68}" Type="Ref">/Target/SensorSharedVars.lvlib/climbEncoderADistance</Property>
+	<Property Name="varPersistentID:{87EEF695-FB05-4EED-8A33-564ECFBA7076}" Type="Ref">/Target/SensorSharedVars.lvlib/driveIMUAccelerometer</Property>
+	<Property Name="varPersistentID:{8A1383E9-71D5-4A80-8E94-C6F6A0CE6E58}" Type="Ref">/Target/SensorSharedVars.lvlib/hatchPanelYellowIRDVal</Property>
+	<Property Name="varPersistentID:{921CBC60-BECB-472E-874F-D23B38D224FC}" Type="Ref">/Target/SensorSharedVars.lvlib/driveIMUGyro</Property>
+	<Property Name="varPersistentID:{92A0FB72-0866-4B18-B729-2F6AAF2AEAD1}" Type="Ref">/Target/SensorSharedVars.lvlib/cargoYellowIRAVal</Property>
+	<Property Name="varPersistentID:{BF39C9BA-EFEE-40CD-9847-E5559BF5E577}" Type="Ref">/Target/SensorSharedVars.lvlib/cargoYellowIRBVal</Property>
+	<Property Name="varPersistentID:{C5B92793-25FB-4A37-8821-78D357C58100}" Type="Ref">/Target/SensorSharedVars.lvlib/driveEncoderADistance</Property>
+	<Property Name="varPersistentID:{C96E8A95-90D9-427A-B797-6612C80EFAC1}" Type="Ref">/Target/SensorSharedVars.lvlib/hatchPanelYellowIRBVal</Property>
+	<Property Name="varPersistentID:{CB5C480D-F518-4607-82A4-C39CE5C77290}" Type="Ref">/Target/SensorSharedVars.lvlib/cargoYellowIRCVal</Property>
+	<Property Name="varPersistentID:{F7CC0974-A1E3-4D90-871B-A868F748B32F}" Type="Ref">/Target/SensorSharedVars.lvlib/driveEncoderBDistance</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -32,6 +43,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -530,6 +542,12 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
+				<Item Name="WPI_DigitalInputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputDevRef.ctl"/>
+				<Item Name="WPI_DigitalInputRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Get.vi"/>
+				<Item Name="FPGA_DIOReadDI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDI.vi"/>
+				<Item Name="WPI_DigitalModuleGetDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetDIO.vi"/>
+				<Item Name="WPI_DigitalInputToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputToDigitalModule.vi"/>
+				<Item Name="WPI_DigitalInputGetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputGetValue.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
