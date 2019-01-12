@@ -2,7 +2,11 @@
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{4061A991-1343-4290-B048-63182236263D}" Type="Ref">/Target/SensorSharedVars.lvlib/encoderDirection</Property>
 	<Property Name="varPersistentID:{4F89F2CD-8264-4AE6-A252-3CC40D8AA0F3}" Type="Ref">/Target/Dev Refs.lvlib/Drive DevRef Out</Property>
+	<Property Name="varPersistentID:{87EEF695-FB05-4EED-8A33-564ECFBA7076}" Type="Ref">/Target/SensorSharedVars.lvlib/imuAccelerometer</Property>
+	<Property Name="varPersistentID:{921CBC60-BECB-472E-874F-D23B38D224FC}" Type="Ref">/Target/SensorSharedVars.lvlib/imuGyro</Property>
+	<Property Name="varPersistentID:{C5B92793-25FB-4A37-8821-78D357C58100}" Type="Ref">/Target/SensorSharedVars.lvlib/encoderDistance</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -116,28 +120,61 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Dev Refs.lvlib" Type="Library" URL="../Dev Refs.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="SensorLoop.vi" Type="VI" URL="../SensorLoop.vi"/>
+		<Item Name="SensorSharedVars.lvlib" Type="Library" URL="../SensorSharedVars.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="AngleInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/AngleInfo.ctl"/>
+				<Item Name="ApproachCameraParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/ApproachCameraParam.ctl"/>
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Camera_Cluster.ctl"/>
+				<Item Name="CheesyDriveParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/CheesyDriveParam.ctl"/>
 				<Item Name="Command_Tolerance_Info.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerance_Info.ctl"/>
 				<Item Name="Command_Tolerances.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerances.ctl"/>
 				<Item Name="Create_Drive_Train_Base.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Create_Drive_Train_Base.vi"/>
 				<Item Name="CreateDriveTrain.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/CreateDriveTrain.vi"/>
+				<Item Name="DistanceInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/DistanceInfo.ctl"/>
 				<Item Name="Drive_Code_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Drive_Code_Bundle.ctl"/>
 				<Item Name="Drive_Code_Command_List.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Code_Command_List.ctl"/>
+				<Item Name="Drive_Code_Command_States.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Code_Command_States.ctl"/>
 				<Item Name="Drive_Code_Command_Type.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Code_Command_Type.ctl"/>
+				<Item Name="Drive_Code_PID_Bundle.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/Drive_Code_PID_Bundle.ctl"/>
+				<Item Name="Drive_Loop_Control_Loop.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Loop_Control_Loop.vi"/>
 				<Item Name="Drive_Loop_Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Loop_Initialize.vi"/>
 				<Item Name="Drive_Trains.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Drive_Trains.ctl"/>
+				<Item Name="Drive_Values.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Drive_Values.ctl"/>
+				<Item Name="DriveContinuousParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/DriveContinuousParam.ctl"/>
+				<Item Name="DriveDistanceParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/DriveDistanceParam.ctl"/>
 				<Item Name="DrivePidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/DrivePidInputs.ctl"/>
+				<Item Name="DrivePidRange.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/DrivePidRange.ctl"/>
+				<Item Name="DriveToPidRange.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveToPidRange.vi"/>
+				<Item Name="FollowCameraparam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/FollowCameraparam.ctl"/>
+				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/hmi_cheesy_drive.vi"/>
+				<Item Name="HoldPositionParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldPositionParam.ctl"/>
+				<Item Name="HoldYawParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldYawParam.ctl"/>
+				<Item Name="ImuDevRef.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/ImuDevRef.ctl"/>
+				<Item Name="IMUOrientGetSetRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientGetSetRefNum.vi"/>
+				<Item Name="IMUOrientRead.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRead.vi"/>
+				<Item Name="IMUOrientRefNum Registry Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum Registry Get.vi"/>
 				<Item Name="Kiwi.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Kiwi/Kiwi.vi"/>
 				<Item Name="Mechanum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Mechanum/Mechanum.vi"/>
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
 				<Item Name="PidInversions.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInversions.ctl"/>
+				<Item Name="PidRange.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidRange.ctl"/>
+				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Quaternion to Euler.vi"/>
+				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Sensor_Cluster.ctl"/>
+				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
 				<Item Name="Tank_2_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_2_Motor.vi"/>
 				<Item Name="Tank_4_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_4_Motor.vi"/>
 				<Item Name="Tank_6_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_6_Motor.vi"/>
 				<Item Name="Tank_Allowed_Commands.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_Allowed_Commands.vi"/>
+				<Item Name="TankCommandProcess.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/TankCommandProcess.vi"/>
+				<Item Name="TankDriveParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TankDriveParam.ctl"/>
+				<Item Name="Tol_Check.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Tol_Check.vi"/>
+				<Item Name="TurnParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnParam.ctl"/>
+				<Item Name="TurnToCameraParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnToCameraParam.ctl"/>
+				<Item Name="UpdatePeriodParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/UpdatePeriodParam.ctl"/>
+				<Item Name="Wrap2Wind.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Conversions/Wrap2Wind.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -166,9 +203,19 @@ AddOutputFilter chunkFilter
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
 				<Item Name="Field ID.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field ID.ctl"/>
 				<Item Name="Field Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Type.ctl"/>
+				<Item Name="FPGA_AnalogTriggerIndex.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerIndex.ctl"/>
+				<Item Name="FPGA_AnalogTriggerOutType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerOutType.ctl"/>
+				<Item Name="FPGA_CounterCtrDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterCtrDevRef.ctl"/>
+				<Item Name="FPGA_CounterCtrSystemIndex.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterCtrSystemIndex.ctl"/>
+				<Item Name="FPGA_CounterEncoderSourceConvertionLVSourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/CounterEncoderSourceConvertion/FPGA_CounterEncoderSourceConvertionLVSourceType.ctl"/>
+				<Item Name="FPGA_CounterEncoderSourceConvertionLVSourceTypeToFPGAType.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/CounterEncoderSourceConvertion/FPGA_CounterEncoderSourceConvertionLVSourceTypeToFPGAType.vi"/>
 				<Item Name="FPGA_CounterERRInvalidResource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterERRInvalidResource.vi"/>
+				<Item Name="FPGA_CounterOpen WO Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterOpen WO Configuration.vi"/>
+				<Item Name="FPGA_CounterReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterReadOutput.vi"/>
+				<Item Name="FPGA_CounterReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterReadTimerOutput.vi"/>
 				<Item Name="FPGA_DIOChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOChannel.ctl"/>
 				<Item Name="FPGA_DIODevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIODevRef.ctl"/>
+				<Item Name="FPGA_DIODigitalSourceChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIODigitalSourceChannel.ctl"/>
 				<Item Name="FPGA_DIOERRInvalidPWMChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOERRInvalidPWMChannel.vi"/>
 				<Item Name="FPGA_DIOOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOOpen.vi"/>
 				<Item Name="FPGA_DIOPWMChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOPWMChannel.ctl"/>
@@ -181,6 +228,16 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOWriteMXPSpecialFunction.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteMXPSpecialFunction.vi"/>
 				<Item Name="FPGA_DIOWriteOutputEnable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteOutputEnable.vi"/>
 				<Item Name="FPGA_DIOWritePWMValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMValue.vi"/>
+				<Item Name="FPGA_EncoderDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderDevRef.ctl"/>
+				<Item Name="FPGA_EncoderERRInvalidResource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderERRInvalidResource.vi"/>
+				<Item Name="FPGA_EncoderIdx.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderIdx.ctl"/>
+				<Item Name="FPGA_EncoderOpen &amp; Configure.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderOpen &amp; Configure.vi"/>
+				<Item Name="FPGA_EncoderOpen WO Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderOpen WO Configuration.vi"/>
+				<Item Name="FPGA_EncoderOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderOpen.vi"/>
+				<Item Name="FPGA_EncoderReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadOutput.vi"/>
+				<Item Name="FPGA_EncoderReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadTimerOutput.vi"/>
+				<Item Name="FPGA_EncoderWriteConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderWriteConfiguration.vi"/>
+				<Item Name="FPGA_ERRInvalidAnalogTriggerChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_ERRInvalidAnalogTriggerChannel.vi"/>
 				<Item Name="FPGA_MapDIOChannelEnumToModuleLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_MapDIOChannelEnumToModuleLine.vi"/>
 				<Item Name="FPGA_NIFPGAInterfaceFPGAResourceConstant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/FPGA_NIFPGAInterfaceFPGAResourceConstant.vi"/>
 				<Item Name="FPGA_SPI_Write_EnableDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPI_Write_EnableDIO.vi"/>
@@ -194,13 +251,17 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
 				<Item Name="Get Image w retry.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/Get Image w retry.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="GetSystemError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/GetSystemError.vi"/>
 				<Item Name="i2c_bus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2c_bus.ctl"/>
+				<Item Name="i2clib_read.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_read.vi"/>
+				<Item Name="i2clib_writeread.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2clib_writeread.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="LEB Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/LEB Encoder.vi"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
 				<Item Name="Manage Dirty Field ID List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Dirty Field ID List.vi"/>
@@ -219,6 +280,11 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_UnloadCPPStartupProgram.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UnloadCPPStartupProgram.vi"/>
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="NT Globals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Globals.vi"/>
@@ -375,9 +441,15 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DriverStationStart VI Asynchronous.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStart VI Asynchronous.vi"/>
 				<Item Name="WPI_DriverStationStartStopVI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStartStopVI.vi"/>
 				<Item Name="WPI_DriverStationStop VI Asynchronous.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStop VI Asynchronous.vi"/>
+				<Item Name="WPI_EncoderDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderDevRef.ctl"/>
+				<Item Name="WPI_EncoderGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderGet.vi"/>
+				<Item Name="WPI_EncoderRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderRefNum Registry Get.vi"/>
+				<Item Name="WPI_EncoderType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderType.ctl"/>
 				<Item Name="WPI_ERRAcquireInvalidPWMChannelIdx.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRAcquireInvalidPWMChannelIdx.vi"/>
 				<Item Name="WPI_ERRPwmChannelAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRPwmChannelAllocated.vi"/>
 				<Item Name="WPI_GetSetVariantRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_GetSetVariantRefNum.vi"/>
+				<Item Name="WPI_I2CDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CDevRef.ctl"/>
+				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
 				<Item Name="WPI_JoystickArcadeMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickArcadeMapping.vi"/>
 				<Item Name="WPI_JoystickButtonSpinMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonSpinMapping.vi"/>
 				<Item Name="WPI_JoystickClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickClose.vi"/>
@@ -386,6 +458,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickGetValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetValues.vi"/>
 				<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
+				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
 				<Item Name="WPI_MotorControlClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlClose.vi"/>
 				<Item Name="WPI_MotorControlDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDeviceRef.ctl"/>
 				<Item Name="WPI_MotorControlDisable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDisable.vi"/>
@@ -447,6 +520,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_RobotDriveSafetyError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyError.vi"/>
 				<Item Name="WPI_RobotDriveSafetyTest.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyTest.vi"/>
 				<Item Name="WPI_RobotDriveSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyUpdate.vi"/>
+				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
 				<Item Name="WPI_SafetyOutputCheckMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputCheckMenu.ctl"/>
 				<Item Name="WPI_SafetyOutputConfigMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputConfigMenu.ctl"/>
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
@@ -460,6 +534,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
