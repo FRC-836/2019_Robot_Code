@@ -6,6 +6,9 @@
 	<Property Name="varPersistentID:{288365A4-F0FC-4851-B83C-D3510A4629B7}" Type="Ref">/Target/SensorSharedVars.lvlib/climbYellowIRBVal</Property>
 	<Property Name="varPersistentID:{4F89F2CD-8264-4AE6-A252-3CC40D8AA0F3}" Type="Ref">/Target/Dev Refs.lvlib/Drive DevRef Out</Property>
 	<Property Name="varPersistentID:{561B0F2B-838F-4A40-922A-87C10E835EA1}" Type="Ref">/Target/SensorSharedVars.lvlib/climbEncoderBDistance</Property>
+	<Property Name="varPersistentID:{576BB0E1-AE3F-404E-9322-7D0410FA2FB3}" Type="Ref">/Target/limelightVars.lvlib/verticalOffset</Property>
+	<Property Name="varPersistentID:{6E6F6FB2-304B-4B68-BC5D-FD3D09A10390}" Type="Ref">/Target/limelightVars.lvlib/hasTarget</Property>
+	<Property Name="varPersistentID:{703FE00D-4C84-4F2E-B97A-46FFB8A9C78A}" Type="Ref">/Target/limelightVars.lvlib/horizontalOffset</Property>
 	<Property Name="varPersistentID:{72C203CD-448E-4416-8DD7-B2A4C1A062D1}" Type="Ref">/Target/SensorSharedVars.lvlib/hatchPanelYellowIRAVal</Property>
 	<Property Name="varPersistentID:{85C99EE7-88F9-4E70-8F9D-A59BC1CC4EDB}" Type="Ref">/Target/SensorSharedVars.lvlib/hatchPanelYellowIRCVal</Property>
 	<Property Name="varPersistentID:{867C1518-3C97-4774-93A7-139986903D68}" Type="Ref">/Target/SensorSharedVars.lvlib/climbEncoderADistance</Property>
@@ -134,6 +137,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="SensorLoop.vi" Type="VI" URL="../SensorLoop.vi"/>
 		<Item Name="SensorSharedVars.lvlib" Type="Library" URL="../SensorSharedVars.lvlib"/>
+		<Item Name="limelightVars.lvlib" Type="Library" URL="../limelightVars.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AngleInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/AngleInfo.ctl"/>
