@@ -5,6 +5,7 @@
 	<Property Name="varPersistentID:{06DB6812-83FD-43FB-B2F1-8F87916C2179}" Type="Ref">/Target/hatchPanelLoopVars.lvlib/Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{0AE4D4DC-E174-43D4-B19C-FA48CB17099F}" Type="Ref">/Target/hatchPanelLoopVars.lvlib/Period</Property>
 	<Property Name="varPersistentID:{4F89F2CD-8264-4AE6-A252-3CC40D8AA0F3}" Type="Ref">/Target/Dev Refs.lvlib/Drive DevRef Out</Property>
+	<Property Name="varPersistentID:{C5E0CF08-9E6E-4BD2-9FB5-E5EE783A731A}" Type="Ref">/Target/Notifications.lvlib/hatchPanelArmNotifier</Property>
 	<Property Name="varPersistentID:{D0AAA6D9-5371-4798-92FF-B8ABE017E776}" Type="Ref">/Target/hatchPanelLoopVars.lvlib/Expected End [i-1]</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -121,6 +122,7 @@ AddOutputFilter chunkFilter
 		<Item Name="HatchPanel.vi" Type="VI" URL="../HatchPanel.vi"/>
 		<Item Name="hatchPanelEnum.ctl" Type="VI" URL="../hatchPanelEnum.ctl"/>
 		<Item Name="hatchPanelLoopVars.lvlib" Type="Library" URL="../hatchPanelLoopVars.lvlib"/>
+		<Item Name="Notifications.lvlib" Type="Library" URL="../Notifications.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
