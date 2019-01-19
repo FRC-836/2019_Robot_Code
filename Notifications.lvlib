@@ -11,6 +11,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">hatchPanelEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../hatchPanelEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"E9!!!!"A!A!!!!!!#!%)!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!!H1"9!!Q24&gt;'^Q"U:P=H&gt;B=G1)1G&amp;D;X&gt;B=G1!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A8!!!!"A!A!!!!!!#!$Y!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!!D1"9!!AB#97.L&gt;W&amp;S:!&gt;'&lt;X*X98*E!!!%27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
