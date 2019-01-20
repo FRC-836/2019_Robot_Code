@@ -11,7 +11,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">climbEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../climbEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"L:Q!!!"A!A!!!!!!#!%E!]1!!!!!!!!!"$7.M;7VC27ZV&lt;3ZD&gt;'Q!-U!7!!-*:'^/&lt;X2I;7ZH"U:P=H&gt;B=G1)1G&amp;D;X&gt;B=G1!!!N$&lt;'FN9C"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#$@Q!!!"A!A!!!!!!#!'%!]1!!!!!!!!!"$7.M;7VC27ZV&lt;3ZD&gt;'Q!3U!7!!5,:'6Q&lt;'^Z)(*F98)-:'6Q&lt;'^Z)':S&lt;WZU#72P4G^U;'FO:Q&gt;'&lt;X*X98*E#%*B9WNX98*E!!N$&lt;'FN9C"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="climbStateNotifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>

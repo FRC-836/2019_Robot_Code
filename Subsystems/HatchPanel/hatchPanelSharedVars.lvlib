@@ -27,7 +27,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">hatchPanelEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../hatchPanelEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"M;!!!!"A!A!!!!!!#!%I!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!!P1"9!!AB#97.L&gt;W&amp;S:!&gt;'&lt;X*X98*E!!!23'&amp;U9WAA5'&amp;O:7QA5X2B&gt;'5!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%A!!!!"A!A!!!!!!#!')!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!"(1"9!"1JE&lt;S"O&lt;X2I;7ZH"V*F&lt;'6B=W5%;'^M:!B#97.L&gt;W&amp;S:!&gt;'&lt;X*X98*E!!!23'&amp;U9WAA5'&amp;O:7QA5X2B&gt;'5!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Period" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>

@@ -10,16 +10,8 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">Drive_Commands.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../Drive_Commands.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%A!!!!"A!A!!!!!!#!')!]1!!!!!!!!!"%E2S;8:F8U.P&lt;7VB&lt;G2T,G.U&lt;!"(1"9!"1:5:7RF&lt;X!,2G^M&lt;'^X)&amp;"B&gt;'A/47^W:3"U&lt;S"598*H:81,2GFO:#"598*H:81'47&amp;O&gt;76M!!!%27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Period" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!5!"!!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">driveEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../driveEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"`?Q!!!"A!A!!!!!!#!&amp;U!]1!!!!!!!!!"$72S;8:F27ZV&lt;3ZD&gt;'Q!2U!7!!5'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U#U:J&lt;G1A6'&amp;S:W6U"EVB&lt;H6F&lt;!!!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

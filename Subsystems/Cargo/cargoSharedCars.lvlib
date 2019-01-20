@@ -12,6 +12,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">cargoEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../cargoEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"241!!!"A!A!!!!!!#!#]!]1!!!!!!!!!"$7.B=G&gt;P27ZV&lt;3ZD&gt;'Q!'5!7!!%!!!!,1W&amp;S:W]A5X2B&gt;'5!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#6E1!!!"A!A!!!!!!#!(-!]1!!!!!!!!!"$7.B=G&gt;P27ZV&lt;3ZD&gt;'Q!85!7!!5+:']A&lt;G^U;'FO:QRS&lt;W.L:81A=GFH;(1,=G^D;W6U)'RF:H109W&amp;S:W]A=WBJ=#"M:7:U%'.B=G&gt;P)(.I;8!A=GFH;(1!!!N$98*H&lt;S"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
