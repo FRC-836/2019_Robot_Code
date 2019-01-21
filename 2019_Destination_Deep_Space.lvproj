@@ -5,63 +5,64 @@
 	<Property Name="varPersistentID:{02975547-2B30-4CF2-9DC9-0216CBADB5DD}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Iteration Duration</Property>
 	<Property Name="varPersistentID:{032FF983-7BA7-44FA-9801-1E9637A3C1EA}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/Roll Wind</Property>
 	<Property Name="varPersistentID:{03E4FDAB-0492-4616-90DE-2F0A4F2B4A85}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveEncoderADistance</Property>
+	<Property Name="varPersistentID:{0A20DC6B-B819-4B5A-AAD7-61C69508C431}" Type="Ref">/Target/Subsystems/Sensors/limelightVars.lvlib/horOffsetMoveAvgSize</Property>
 	<Property Name="varPersistentID:{0AD4ECBC-45E3-49AE-B599-BFA975A0BF78}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Expected End [i-1]</Property>
 	<Property Name="varPersistentID:{0E25BA83-F18A-40AF-9270-E17E5C786A51}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{13FF37DD-DBCF-467A-AD4D-1EA1203C172E}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/hatchPanelYellowIRCVal</Property>
 	<Property Name="varPersistentID:{160D6E64-CB9F-4D0A-9740-EAA56861FB6E}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedCars.lvlib/cargoNotifier</Property>
-	<Property Name="varPersistentID:{1845DF97-BF3B-435A-A182-42B103213CBE}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Start</Property>
+	<Property Name="varPersistentID:{1845DF97-BF3B-435A-A182-42B103213CBE}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Start(9)</Property>
+	<Property Name="varPersistentID:{1CD48EB1-DCD7-4E76-AD56-55D698188019}" Type="Ref">/Target/Subsystems/Sensors/limelightVars.lvlib/horOffsetMoveAvg</Property>
 	<Property Name="varPersistentID:{1F0C3BF8-E70B-45F9-9611-A8754AD16309}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Period</Property>
 	<Property Name="varPersistentID:{24A00719-777A-42C3-993D-21A1612BC4B2}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/SensorsPeriod</Property>
 	<Property Name="varPersistentID:{29B9B571-61E2-4AFB-BB32-D90D501101DE}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/HatchPannelFinished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{2D420719-F235-474E-A628-92317D9250D9}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbEncoderADistance</Property>
 	<Property Name="varPersistentID:{2E5CBE3D-9F5B-4069-A193-27FE41148A77}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Cargo Iteration Duration</Property>
 	<Property Name="varPersistentID:{2F8A67B2-873B-497A-B78D-4CA795FE0F54}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/Pitch Wind</Property>
-	<Property Name="varPersistentID:{3148D846-FBBD-4CDF-9F7E-F2667CA58C40}" Type="Ref">/Target/SharedVariables/Buttons.lvlib/Joystick_2</Property>
 	<Property Name="varPersistentID:{34515877-5FA5-4052-BAD9-4BD3EE22891C}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/hatchPanelYellowIRDVal</Property>
-	<Property Name="varPersistentID:{3A035A52-272C-44CA-BE40-504BE783C4DF}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_X</Property>
+	<Property Name="varPersistentID:{3A035A52-272C-44CA-BE40-504BE783C4DF}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_X(0)</Property>
 	<Property Name="varPersistentID:{3E238FE8-5942-41B3-974C-9128FA5CB200}" Type="Ref">/Target/Subsystems/Sensors/limelightVars.lvlib/horizontalOffset</Property>
-	<Property Name="varPersistentID:{423D43FE-9CE1-408C-9337-8F3C4B4EDA3A}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Back</Property>
-	<Property Name="varPersistentID:{44F46A49-09F7-4E5D-967A-B7A77084D416}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_B</Property>
+	<Property Name="varPersistentID:{423D43FE-9CE1-408C-9337-8F3C4B4EDA3A}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Back(8)</Property>
+	<Property Name="varPersistentID:{44F46A49-09F7-4E5D-967A-B7A77084D416}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_B(2)</Property>
 	<Property Name="varPersistentID:{4529512B-F0F5-4222-9617-D7C6EA3F3FBF}" Type="Ref">/Target/Subsystems/Sensors/limelightVars.lvlib/hasTarget</Property>
 	<Property Name="varPersistentID:{46655ACB-55F3-40BA-9FE2-A730D038153E}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Iteration Duration</Property>
 	<Property Name="varPersistentID:{49C7C3D7-BF10-4A47-9F89-C9999E728B2C}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/Yaw Wind</Property>
-	<Property Name="varPersistentID:{4C296C1B-58DF-4CFE-95AC-E7EE2F4E173D}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LB</Property>
-	<Property Name="varPersistentID:{4F8B63B2-4E65-4790-A99E-9DBEDD305823}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RB</Property>
-	<Property Name="varPersistentID:{5B63F3AB-5178-491B-AA83-2E4A8F123200}" Type="Ref">/Target/SharedVariables/Buttons.lvlib/Joystick_1</Property>
+	<Property Name="varPersistentID:{4C296C1B-58DF-4CFE-95AC-E7EE2F4E173D}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LB(4)</Property>
+	<Property Name="varPersistentID:{4F8B63B2-4E65-4790-A99E-9DBEDD305823}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RB(5)</Property>
 	<Property Name="varPersistentID:{61F2A8AF-820E-44C5-8271-E6F69654F3C7}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Iteration Duration</Property>
 	<Property Name="varPersistentID:{680B373F-4660-45BA-9352-0A34DFF559AE}" Type="Ref">/Target/Subsystems/Drive/Current_Limiting.lvlib/Enable Current Limit?</Property>
 	<Property Name="varPersistentID:{6B5B91DA-6D0C-45B0-BE4C-FD47019763A3}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbEncoderBDistance</Property>
-	<Property Name="varPersistentID:{6C3461B4-F9A9-4438-B70A-11C5C6103790}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Up</Property>
-	<Property Name="varPersistentID:{6D6EBAB5-23D9-4344-B2C4-6F61769BCC82}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LT</Property>
+	<Property Name="varPersistentID:{6C3461B4-F9A9-4438-B70A-11C5C6103790}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Up(0)</Property>
+	<Property Name="varPersistentID:{6D6EBAB5-23D9-4344-B2C4-6F61769BCC82}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LT(6)</Property>
 	<Property Name="varPersistentID:{754F13BE-DB18-46F1-8CA3-81FD08CF1336}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/HatchPannelPeriod</Property>
 	<Property Name="varPersistentID:{78F93F9E-0DCB-43F6-9BF7-C9CCFE401E16}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Finished Late? [i-1]</Property>
-	<Property Name="varPersistentID:{7F04926E-511D-4D4E-9FC2-90102005E3C9}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_A</Property>
+	<Property Name="varPersistentID:{7F04926E-511D-4D4E-9FC2-90102005E3C9}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_A(1)</Property>
 	<Property Name="varPersistentID:{8432015B-4DBA-45E9-94FD-F3E04F6CFC66}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/hatchPanelYellowIRAVal</Property>
 	<Property Name="varPersistentID:{843DC632-F1BB-4AAE-A5A8-E729BDA50405}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/ClimbPeriod</Property>
 	<Property Name="varPersistentID:{8592DEA5-4D82-4C11-A1CC-0B4C0C788E1B}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelNotifier</Property>
 	<Property Name="varPersistentID:{8D9BAADF-4D4F-4F0D-A9DC-AFC804A35499}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Finished Late? [i-1]</Property>
-	<Property Name="varPersistentID:{978F3DC1-69CB-472C-B645-20472806CE49}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RT</Property>
-	<Property Name="varPersistentID:{9A5B7631-F8C2-4054-B492-8A06A3840EAC}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Y</Property>
-	<Property Name="varPersistentID:{9EC34111-A574-4A8C-AE79-BA51A25D1F81}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Right</Property>
+	<Property Name="varPersistentID:{978F3DC1-69CB-472C-B645-20472806CE49}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RT(7)</Property>
+	<Property Name="varPersistentID:{9A5B7631-F8C2-4054-B492-8A06A3840EAC}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Y(3)</Property>
+	<Property Name="varPersistentID:{9EC34111-A574-4A8C-AE79-BA51A25D1F81}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Right(90)</Property>
+	<Property Name="varPersistentID:{A39A2D88-3116-4968-B776-91C4F1341C81}" Type="Ref">/Target/Subsystems/Sensors/limelightVars.lvlib/horOffsetMoveAvgSizeMax</Property>
 	<Property Name="varPersistentID:{A482C4F1-685E-4633-8170-B2494A471B42}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbStateNotifier</Property>
 	<Property Name="varPersistentID:{AB5D9A93-4225-4D68-B922-9EE7C753F35D}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CargoFinished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{B405E57C-C3A8-4EC6-8DCE-A3273461BAFE}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveNotifier</Property>
 	<Property Name="varPersistentID:{B6840377-0D22-4934-93B2-D625EA4C0201}" Type="Ref">/Target/SharedVariables/Drive Dev Ref.lvlib/Drive DevRef Out</Property>
 	<Property Name="varPersistentID:{BA8F5129-BA65-4140-AEA4-244BDBCF1FA2}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/cargoYellowIRBVal</Property>
-	<Property Name="varPersistentID:{C3A1F235-9671-4422-B695-1179A4B96871}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Down</Property>
+	<Property Name="varPersistentID:{C3A1F235-9671-4422-B695-1179A4B96871}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Down(180)</Property>
 	<Property Name="varPersistentID:{C83BE3B3-3B53-48C9-997A-CE081FF20C19}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveEncoderBDistance</Property>
 	<Property Name="varPersistentID:{CB77B4F6-ED44-425F-B929-B76AE3175769}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Period</Property>
-	<Property Name="varPersistentID:{CCFB7986-C7E2-4019-957D-7BBB9B33099F}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_1</Property>
-	<Property Name="varPersistentID:{D25794CD-3D4C-4A82-9370-B8F8FA3C2628}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Left</Property>
+	<Property Name="varPersistentID:{CCFB7986-C7E2-4019-957D-7BBB9B33099F}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Left_Y(1)</Property>
+	<Property Name="varPersistentID:{D25794CD-3D4C-4A82-9370-B8F8FA3C2628}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Left(270)</Property>
 	<Property Name="varPersistentID:{D9DB59A4-25ED-4806-AE75-69E25F483D8F}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Iteration Duration</Property>
 	<Property Name="varPersistentID:{DB1E8B45-3585-4BDE-8529-63F6D1D087CC}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbNotifier</Property>
-	<Property Name="varPersistentID:{DCD602D9-67D6-405A-AF87-4488519F3718}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_2</Property>
+	<Property Name="varPersistentID:{DCD602D9-67D6-405A-AF87-4488519F3718}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Right_X(2)</Property>
 	<Property Name="varPersistentID:{DD09B003-3DD3-48B0-BEA1-6E6193EAD8B3}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CargoPeriod</Property>
 	<Property Name="varPersistentID:{E35F0EDF-DAB2-44E0-9094-B61F66942307}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{E4749F87-DB09-4C8E-A714-4E5D1A486E44}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbYellowIRBVal</Property>
 	<Property Name="varPersistentID:{E8191E5B-94C0-4D1D-9524-CD060624FDE3}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbYellowIRAVal</Property>
-	<Property Name="varPersistentID:{E8E9BACC-C846-42E2-AA73-9876EC077417}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_3</Property>
-	<Property Name="varPersistentID:{EE8C96DA-4563-46B3-A3F4-567EC839B440}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_0</Property>
+	<Property Name="varPersistentID:{E8E9BACC-C846-42E2-AA73-9876EC077417}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Right_Y(3)</Property>
+	<Property Name="varPersistentID:{EE8C96DA-4563-46B3-A3F4-567EC839B440}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Left_X(0)</Property>
 	<Property Name="varPersistentID:{EEDE2386-F5FF-46E2-AF74-4B0CC83B6B9B}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/hatchPanelYellowIRBVal</Property>
 	<Property Name="varPersistentID:{F83C9A02-17E7-4490-A737-1ECCD17979C4}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/cargoYellowIRAVal</Property>
 	<Property Name="varPersistentID:{FAD18CBA-4330-4EFF-AB69-4FFE6380DBF5}" Type="Ref">/Target/Subsystems/Sensors/limelightVars.lvlib/verticalOffset</Property>
@@ -241,7 +242,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Sensor_Cluster.ctl"/>
-				<Item Name="Stable_Rise&amp;Fall.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable_Rise&amp;Fall.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
 				<Item Name="Tank_2_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_2_Motor.vi"/>
 				<Item Name="Tank_4_Motor.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Tank/Tank_4_Motor.vi"/>
@@ -289,16 +289,24 @@ AddOutputFilter chunkFilter
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
 				<Item Name="Field ID.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field ID.ctl"/>
 				<Item Name="Field Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Type.ctl"/>
+				<Item Name="FPGA_AnalogTriggerDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerDevRef.ctl"/>
 				<Item Name="FPGA_AnalogTriggerIndex.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerIndex.ctl"/>
 				<Item Name="FPGA_AnalogTriggerOutType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerOutType.ctl"/>
+				<Item Name="FPGA_CounterConvertEdgeTypeToMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterConvertEdgeTypeToMode.vi"/>
 				<Item Name="FPGA_CounterCtrDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterCtrDevRef.ctl"/>
+				<Item Name="FPGA_CounterCtrEdgeDetectionType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterCtrEdgeDetectionType.ctl"/>
 				<Item Name="FPGA_CounterCtrSystemIndex.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterCtrSystemIndex.ctl"/>
 				<Item Name="FPGA_CounterEncoderSourceConvertionLVSourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/CounterEncoderSourceConvertion/FPGA_CounterEncoderSourceConvertionLVSourceType.ctl"/>
 				<Item Name="FPGA_CounterEncoderSourceConvertionLVSourceTypeToFPGAType.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/CounterEncoderSourceConvertion/FPGA_CounterEncoderSourceConvertionLVSourceTypeToFPGAType.vi"/>
 				<Item Name="FPGA_CounterERRInvalidResource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterERRInvalidResource.vi"/>
+				<Item Name="FPGA_CounterEventCtrMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterEventCtrMode.ctl"/>
+				<Item Name="FPGA_CounterOpen &amp; Configured.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterOpen &amp; Configured.vi"/>
 				<Item Name="FPGA_CounterOpen WO Configuration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterOpen WO Configuration.vi"/>
 				<Item Name="FPGA_CounterReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterReadOutput.vi"/>
 				<Item Name="FPGA_CounterReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterReadTimerOutput.vi"/>
+				<Item Name="FPGA_CounterWriteConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterWriteConfiguration.vi"/>
+				<Item Name="FPGA_CounterWriteReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterWriteReset.vi"/>
+				<Item Name="FPGA_CounterWriteTimerConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Counter/FPGA_CounterWriteTimerConfiguration.vi"/>
 				<Item Name="FPGA_DIOChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOChannel.ctl"/>
 				<Item Name="FPGA_DIODevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIODevRef.ctl"/>
 				<Item Name="FPGA_DIODigitalSourceChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIODigitalSourceChannel.ctl"/>
@@ -307,6 +315,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOPWMChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOPWMChannel.ctl"/>
 				<Item Name="FPGA_DIOReadDI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDI.vi"/>
 				<Item Name="FPGA_DIOReadDO_PWMDutyCycle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDO_PWMDutyCycle.vi"/>
+				<Item Name="FPGA_DIOReadLoopTiming.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadLoopTiming.vi"/>
 				<Item Name="FPGA_DIOReadMXPSpecialFunction.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadMXPSpecialFunction.vi"/>
 				<Item Name="FPGA_DIOReadOutputEnable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadOutputEnable.vi"/>
 				<Item Name="FPGA_DIOReadPWMValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadPWMValue.vi"/>
@@ -314,7 +323,12 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_DIOWriteDO_PWMDutyCycle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteDO_PWMDutyCycle.vi"/>
 				<Item Name="FPGA_DIOWriteMXPSpecialFunction.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteMXPSpecialFunction.vi"/>
 				<Item Name="FPGA_DIOWriteOutputEnable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteOutputEnable.vi"/>
+				<Item Name="FPGA_DIOWritePWMMinHigh.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMMinHigh.vi"/>
+				<Item Name="FPGA_DIOWritePWMPeriod.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMPeriod.vi"/>
+				<Item Name="FPGA_DIOWritePWMPeriodScale.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMPeriodScale.vi"/>
 				<Item Name="FPGA_DIOWritePWMValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWritePWMValue.vi"/>
+				<Item Name="FPGA_DIOWriteSlowValueRelayFwd.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteSlowValueRelayFwd.vi"/>
+				<Item Name="FPGA_DIOWriteSlowValueRelayRev.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteSlowValueRelayRev.vi"/>
 				<Item Name="FPGA_EncoderDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderDevRef.ctl"/>
 				<Item Name="FPGA_EncoderERRInvalidResource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderERRInvalidResource.vi"/>
 				<Item Name="FPGA_EncoderIdx.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderIdx.ctl"/>
@@ -324,6 +338,8 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_EncoderReadOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadOutput.vi"/>
 				<Item Name="FPGA_EncoderReadTimerOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderReadTimerOutput.vi"/>
 				<Item Name="FPGA_EncoderWriteConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderWriteConfiguration.vi"/>
+				<Item Name="FPGA_EncoderWriteReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderWriteReset.vi"/>
+				<Item Name="FPGA_EncoderWriteTimerConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Encoder/FPGA_EncoderWriteTimerConfiguration.vi"/>
 				<Item Name="FPGA_ERRInvalidAnalogTriggerChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_ERRInvalidAnalogTriggerChannel.vi"/>
 				<Item Name="FPGA_MapDIOChannelEnumToModuleLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_MapDIOChannelEnumToModuleLine.vi"/>
 				<Item Name="FPGA_NIFPGAInterfaceFPGAResourceConstant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/FPGA_NIFPGAInterfaceFPGAResourceConstant.vi"/>
@@ -498,13 +514,26 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CAN_PCMGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobalOps.ctl"/>
 				<Item Name="WPI_CAN_PCMMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMMessageIDs.ctl"/>
 				<Item Name="WPI_CAN_PCMSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMSend.vi"/>
+				<Item Name="WPI_CounterAnalogTriggerToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterAnalogTriggerToDigitalSource.vi"/>
+				<Item Name="WPI_CounterCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterCache.vi"/>
+				<Item Name="WPI_CounterCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterCacheOp.ctl"/>
+				<Item Name="WPI_CounterDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterDevRef.ctl"/>
+				<Item Name="WPI_CounterDigitalInputToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterDigitalInputToDigitalSource.vi"/>
+				<Item Name="WPI_CounterDigitalOutputToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterDigitalOutputToDigitalSource.vi"/>
+				<Item Name="WPI_CounterEdgeLevel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterEdgeLevel.ctl"/>
+				<Item Name="WPI_CounterOpen &amp; Configure.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterOpen &amp; Configure.vi"/>
+				<Item Name="WPI_CounterToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterToDigitalSource.vi"/>
+				<Item Name="WPI_CounterVerifyDigitalSourceOkWithEdgeType.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterVerifyDigitalSourceOkWithEdgeType.vi"/>
+				<Item Name="WPI_CounterWARNDigitalSourceAndEdgeType.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterWARNDigitalSourceAndEdgeType.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_Disable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_Disable.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_Enable.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_SetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_SetOutput.vi"/>
 				<Item Name="WPI_DefaultPWMConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_DefaultPWMConstants.vi"/>
 				<Item Name="WPI_DigitalInputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputDevRef.ctl"/>
 				<Item Name="WPI_DigitalInputGetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputGetValue.vi"/>
+				<Item Name="WPI_DigitalInputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputOpen.vi"/>
 				<Item Name="WPI_DigitalInputRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Get.vi"/>
+				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="WPI_DigitalInputToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputToDigitalModule.vi"/>
 				<Item Name="WPI_DigitalModuleDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDeviceRef.ctl"/>
 				<Item Name="WPI_DigitalModuleDIOAllocator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDIOAllocator.vi"/>
@@ -515,7 +544,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DigitalModuleERRSetOnUnallocatedDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleERRSetOnUnallocatedDIO.vi"/>
 				<Item Name="WPI_DigitalModuleGetDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetDIO.vi"/>
 				<Item Name="WPI_DigitalModuleGetPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetPWM.vi"/>
+				<Item Name="WPI_DigitalModuleOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleOpen.vi"/>
 				<Item Name="WPI_DigitalModuleSetPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleSetPWM.vi"/>
+				<Item Name="WPI_DigitalModuleValidateDIOChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleValidateDIOChannel.vi"/>
 				<Item Name="WPI_DigitalOutputClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputClose.vi"/>
 				<Item Name="WPI_DigitalOutputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputDevRef.ctl"/>
 				<Item Name="WPI_DigitalOutputDisablePWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputDisablePWM.vi"/>
@@ -538,12 +569,19 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_DriverStationStart VI Asynchronous.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStart VI Asynchronous.vi"/>
 				<Item Name="WPI_DriverStationStartStopVI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStartStopVI.vi"/>
 				<Item Name="WPI_DriverStationStop VI Asynchronous.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStop VI Asynchronous.vi"/>
+				<Item Name="WPI_EncoderCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderCache.vi"/>
+				<Item Name="WPI_EncoderCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderCacheOp.ctl"/>
 				<Item Name="WPI_EncoderDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderDevRef.ctl"/>
+				<Item Name="WPI_EncoderERRInvalidDistancePerCount.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderERRInvalidDistancePerCount.vi"/>
 				<Item Name="WPI_EncoderGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderGet.vi"/>
+				<Item Name="WPI_EncoderOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderOpen.vi"/>
 				<Item Name="WPI_EncoderRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderRefNum Registry Get.vi"/>
+				<Item Name="WPI_EncoderRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderRefNum Registry Set.vi"/>
 				<Item Name="WPI_EncoderType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderType.ctl"/>
 				<Item Name="WPI_ERRAcquireInvalidPWMChannelIdx.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRAcquireInvalidPWMChannelIdx.vi"/>
 				<Item Name="WPI_ERRAllocAnInvalidSolenoidIdx.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_ERRAllocAnInvalidSolenoidIdx.vi"/>
+				<Item Name="WPI_ERREncoderAllocate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_ERREncoderAllocate.vi"/>
+				<Item Name="WPI_ERRNoFreeCounter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_ERRNoFreeCounter.vi"/>
 				<Item Name="WPI_ERRPwmChannelAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_ERRPwmChannelAllocated.vi"/>
 				<Item Name="WPI_ERRSolenoidAllocation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_ERRSolenoidAllocation.vi"/>
 				<Item Name="WPI_ERRSolenoidNotAllocated.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_ERRSolenoidNotAllocated.vi"/>
@@ -556,8 +594,10 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
 				<Item Name="WPI_JoystickGetValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetValues.vi"/>
+				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
 				<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
+				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
 				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
 				<Item Name="WPI_MotorControlClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlClose.vi"/>
 				<Item Name="WPI_MotorControlDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDeviceRef.ctl"/>
@@ -598,6 +638,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_PWMERRSetOnUnallocatedChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMERRSetOnUnallocatedChannel.vi"/>
 				<Item Name="WPI_PWMGetRangeScaleFactors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMGetRangeScaleFactors.vi"/>
 				<Item Name="WPI_PWMGetValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMGetValue.vi"/>
+				<Item Name="WPI_PWMPeriodMultiplier.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMPeriodMultiplier.ctl"/>
 				<Item Name="WPI_PWMRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMRefNum Registry Read Name.vi"/>
 				<Item Name="WPI_PWMSafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMSafetyCheck.vi"/>
 				<Item Name="WPI_PWMSafetyError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMSafetyError.vi"/>
