@@ -23,4 +23,15 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&amp;11!!!"A!A!!!!!!#!#-!&amp;A!$#72P4G^U;'FO:Q&gt;'&lt;X*X98*E#%*B9WNX98*E!!!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="notifierClimb" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">climbControl2.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbControl2.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#PKQ!!!"A!A!!!!!!#!)U!]1!!!!!!!!!"%7.M;7VC1W^O&gt;(*P&lt;$)O9X2M!(-!&amp;A!'&amp;'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!R%H*F&gt;(*B9X1A=G6B=C"T&gt;'FM&gt;".S:82S97.U)':S&lt;WZU)(.U;7RU&amp;'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!S#WRJ:H1A=X2J&lt;(2[#G2P)'ZP&gt;'BJ&lt;G=!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
