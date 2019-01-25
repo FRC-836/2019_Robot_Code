@@ -36,7 +36,71 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">hatchPanelEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../hatchPanelEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#%A!!!!"A!A!!!!!!#!')!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!"(1"9!"1JE&lt;S"O&lt;X2I;7ZH"V*F&lt;'6B=W5%;'^M:!B#97.L&gt;W&amp;S:!&gt;'&lt;X*X98*E!!!23'&amp;U9WAA5'&amp;O:7QA5X2B&gt;'5!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#3DA!!!"A!A!!!!!!#!(!!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!"61"9!"AJE&lt;S"O&lt;X2I;7ZH$6.U982F)%VB9WBJ&lt;G5(5G6M:7&amp;T:12I&lt;WRE#%*B9WNX98*E"U:P=H&gt;B=G1!!"&amp;)982D;#"197ZF&lt;#"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelSMExtendTime" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!"A!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelSMGatherExtendTime" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!"A!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelSMGatherRetractTime" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!"A!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelSMReleaseTime" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!"A!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelSMScoreExtendTime" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!"A!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelSMScoreRetract" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!"A!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelSMTick" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&gt;'1!!!"A!A!!!!!!"!!5!"Q!!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelStatemachineControl" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$^_1!!!"A!A!!!!!!"!/=!&amp;A!-$E^Q:7YA&gt;']A2W&amp;U;'6S&amp;F&gt;B;81A:G^S)%&gt;B&gt;'BF=C"&amp;?(2F&lt;G102W&amp;U;'6S)%6Y&gt;'6O:'6E%V&gt;B;81A:G^S)%&gt;S97)A5'&amp;O:7Q+2X*B9C"197ZF&lt;!^$&lt;'^T:71A&gt;']A5W.P=G566W&amp;J&gt;#"G&lt;X)A5W.P=G5A28BU:7ZE$V*F972Z)(2P)&amp;.D&lt;X*F)":897FU)':P=C"3:7RF98.F)&amp;"B&lt;G6M$6*F&lt;'6B=W5A5'&amp;O:7Q86W&amp;J&gt;#"G&lt;X)A2W&amp;U;'6S)&amp;*F&gt;(*B9X176W&amp;J&gt;#"G&lt;X)A5W.P=G5A5G6U=G&amp;D&gt;!!!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Period" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
