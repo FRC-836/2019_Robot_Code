@@ -91,9 +91,9 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">climbControl2.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../climbControl2.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#PKQ!!!"A!A!!!!!!#!)U!]1!!!!!!!!!"%7.M;7VC1W^O&gt;(*P&lt;$)O9X2M!(-!&amp;A!'&amp;'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!R%H*F&gt;(*B9X1A=G6B=C"T&gt;'FM&gt;".S:82S97.U)':S&lt;WZU)(.U;7RU&amp;'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!S#WRJ:H1A=X2J&lt;(2[#G2P)'ZP&gt;'BJ&lt;G=!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">climbControl.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbControl.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#UM!!!!"A!A!!!!!!#!*)!]1!!!!!!!!!"%'.M;7VC1W^O&gt;(*P&lt;#ZD&gt;'Q!?5!7!!95:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$%3=G6U=G&amp;D&gt;#"S:7&amp;S)(.U;7RU%X*F&gt;(*B9X1A:H*P&lt;H1A=X2J&lt;(15:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$),&lt;'FG&gt;#"T&gt;'FM&gt;(I+:']A&lt;G^U;'FO:Q!%27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Rear Retracted" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
