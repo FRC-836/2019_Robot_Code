@@ -28,7 +28,8 @@
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&gt;71!!!"A!A!!!!!!"!%=!]1!!!!!!!!!"&amp;7.M;7VC5'RB&gt;':P=GV&amp;&lt;H6N,G.U&lt;!!J1"9!!AN--S"1&lt;'&amp;U:G^S&lt;1N--C"1&lt;'&amp;U:G^S&lt;1!%27ZV&lt;1!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="climbStateNotifier" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
