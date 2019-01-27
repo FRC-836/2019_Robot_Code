@@ -37,12 +37,15 @@
 	<Property Name="varPersistentID:{6C3461B4-F9A9-4438-B70A-11C5C6103790}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Up(0)</Property>
 	<Property Name="varPersistentID:{6D6EBAB5-23D9-4344-B2C4-6F61769BCC82}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LT(6)</Property>
 	<Property Name="varPersistentID:{712E4984-0ADE-4876-87E6-CE6A61E2AC66}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalAvg</Property>
+	<Property Name="varPersistentID:{73960DBB-7426-42B8-B386-E3805F73A9E7}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{754F13BE-DB18-46F1-8CA3-81FD08CF1336}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/HatchPannelPeriod</Property>
+	<Property Name="varPersistentID:{77E8D2B4-2C80-42DF-B8F0-1AD5D659CD1B}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbPlatformSelector</Property>
 	<Property Name="varPersistentID:{78F93F9E-0DCB-43F6-9BF7-C9CCFE401E16}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{7F04926E-511D-4D4E-9FC2-90102005E3C9}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_A(1)</Property>
 	<Property Name="varPersistentID:{8432015B-4DBA-45E9-94FD-F3E04F6CFC66}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/hatchPanelYellowIRAVal</Property>
 	<Property Name="varPersistentID:{843DC632-F1BB-4AAE-A5A8-E729BDA50405}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/ClimbPeriod</Property>
 	<Property Name="varPersistentID:{8592DEA5-4D82-4C11-A1CC-0B4C0C788E1B}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelNotifier</Property>
+	<Property Name="varPersistentID:{8AD08C7F-3C5B-4F74-885F-ED538503AF93}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Period</Property>
 	<Property Name="varPersistentID:{8D9BAADF-4D4F-4F0D-A9DC-AFC804A35499}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{978F3DC1-69CB-472C-B645-20472806CE49}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RT(7)</Property>
 	<Property Name="varPersistentID:{98A96D6C-4F5B-472D-9C15-2A67DAF54E57}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveIMUYawPitchRoll</Property>
@@ -53,12 +56,14 @@
 	<Property Name="varPersistentID:{B405E57C-C3A8-4EC6-8DCE-A3273461BAFE}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveNotifier</Property>
 	<Property Name="varPersistentID:{B650D955-E834-44E5-9899-87C83764A9F9}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/hasTarget</Property>
 	<Property Name="varPersistentID:{B6840377-0D22-4934-93B2-D625EA4C0201}" Type="Ref">/Target/SharedVariables/Drive Dev Ref.lvlib/Drive DevRef Out</Property>
+	<Property Name="varPersistentID:{B991A1DA-3114-4041-A3BE-83E562097B63}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Iteration Duration</Property>
 	<Property Name="varPersistentID:{BA8F5129-BA65-4140-AEA4-244BDBCF1FA2}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/cargoYellowIRBVal</Property>
 	<Property Name="varPersistentID:{C3A1F235-9671-4422-B695-1179A4B96871}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Down(180)</Property>
 	<Property Name="varPersistentID:{C83BE3B3-3B53-48C9-997A-CE081FF20C19}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveRightEncoderPosition</Property>
 	<Property Name="varPersistentID:{CB77B4F6-ED44-425F-B929-B76AE3175769}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Period</Property>
 	<Property Name="varPersistentID:{CCFB7986-C7E2-4019-957D-7BBB9B33099F}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Left_Y(1)</Property>
 	<Property Name="varPersistentID:{D25794CD-3D4C-4A82-9370-B8F8FA3C2628}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Left(270)</Property>
+	<Property Name="varPersistentID:{D357191E-9FFA-4A78-BCA6-F862D99ABD34}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbStiltNotifier</Property>
 	<Property Name="varPersistentID:{D4B06FE7-36FE-443C-9894-0387980C831F}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/notifierClimb</Property>
 	<Property Name="varPersistentID:{D9DB59A4-25ED-4806-AE75-69E25F483D8F}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Iteration Duration</Property>
 	<Property Name="varPersistentID:{DB1E8B45-3585-4BDE-8529-63F6D1D087CC}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbNotifier</Property>
@@ -279,6 +284,8 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_LibraryCall_ErrorHandle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Error/CTRE_LibraryCall_ErrorHandle.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigContinuousCurrentLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Current Limit/CTRE_Phoenix_MotorControl_ConfigContinuousCurrentLimit.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigSelectedFeedbackSensor_Enhanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_ConfigSelectedFeedbackSensor_Enhanced.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_ConfigSoftLimitEnables.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Limit Switch/CTRE_Phoenix_MotorControl_ConfigSoftLimitEnables.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_ConfigSoftLimitThresholds.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Limit Switch/CTRE_Phoenix_MotorControl_ConfigSoftLimitThresholds.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_EnableCurrentLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Current Limit/CTRE_Phoenix_MotorControl_EnableCurrentLimit.vi"/>
@@ -289,6 +296,7 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_SetSensorPhase.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSensorPhase.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_Get_Enhanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorController_Get_Enhanced.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_GetAnalogData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Get/CTRE_Phoenix_MotorController_GetAnalogData.vi"/>
