@@ -13,6 +13,20 @@
 		<Property Name="typedefPath1" Type="PathRel">../climbEnum.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#$@Q!!!"A!A!!!!!!#!'%!]1!!!!!!!!!"$7.M;7VC27ZV&lt;3ZD&gt;'Q!3U!7!!5,:'6Q&lt;'^Z)(*F98)-:'6Q&lt;'^Z)':S&lt;WZU#72P4G^U;'FO:Q&gt;'&lt;X*X98*E#%*B9WNX98*E!!N$&lt;'FN9C"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="climbPlatformSelector" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">climbPlatformEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbPlatformEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&gt;71!!!"A!A!!!!!!"!%=!]1!!!!!!!!!"&amp;7.M;7VC5'RB&gt;':P=GV&amp;&lt;H6N,G.U&lt;!!J1"9!!AN--S"1&lt;'&amp;U:G^S&lt;1N--C"1&lt;'&amp;U:G^S&lt;1!%27ZV&lt;1!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="climbStateNotifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -22,6 +36,16 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&amp;11!!!"A!A!!!!!!#!#-!&amp;A!$#72P4G^U;'FO:Q&gt;'&lt;X*X98*E#%*B9WNX98*E!!!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="climbStiltNotifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">climbStiltStateEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbStiltStateEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#JJ1!!!"A!A!!!!!!#!)=!]1!!!!!!!!!"&amp;W.M;7VC5X2J&lt;(24&gt;'&amp;U:56O&gt;7UO9X2M!'&gt;!&amp;A!&amp;#72P4G^U;'FO:R&gt;4&gt;'&amp;S&gt;#^497:F&lt;(EA4'^X:8)A1G^U;!N#&lt;X2I)%6Y&gt;'6O:!V'=G^O&gt;#"3:82S97.U$%*P&gt;'AA5G6U=G&amp;D&gt;!!!%5.M;7VC)&amp;.U;7RU)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="notifierClimb" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
