@@ -21,9 +21,9 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">climbEnum.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../climbEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#$@Q!!!"A!A!!!!!!#!'%!]1!!!!!!!!!"$7.M;7VC27ZV&lt;3ZD&gt;'Q!3U!7!!5,:'6Q&lt;'^Z)(*F98)-:'6Q&lt;'^Z)':S&lt;WZU#72P4G^U;'FO:Q&gt;'&lt;X*X98*E#%*B9WNX98*E!!N$&lt;'FN9C"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">climbStateEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbStateEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"W=A!!!"A!A!!!!!!#!&amp;1!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!!Z1"9!!QFE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=A!!#U.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="climbPlatformSelector" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -41,14 +41,13 @@
 	</Item>
 	<Item Name="climbStateNotifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/2019_Destination_Deep_Space.lvproj/Target/Untitled Library 1/</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&amp;11!!!"A!A!!!!!!#!#-!&amp;A!$#72P4G^U;'FO:Q&gt;'&lt;X*X98*E#%*B9WNX98*E!!!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">climbStateEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbStateEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"W=A!!!"A!A!!!!!!#!&amp;1!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!!Z1"9!!QFE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=A!!#U.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="climbStiltRezero" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -91,9 +90,9 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">climbControl.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../climbControl.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#UM!!!!"A!A!!!!!!#!*)!]1!!!!!!!!!"%'.M;7VC1W^O&gt;(*P&lt;#ZD&gt;'Q!?5!7!!95:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$%3=G6U=G&amp;D&gt;#"S:7&amp;S)(.U;7RU%X*F&gt;(*B9X1A:H*P&lt;H1A=X2J&lt;(15:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$),&lt;'FG&gt;#"T&gt;'FM&gt;(I+:']A&lt;G^U;'FO:Q!%27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">climbSMEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbSMEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$*R1!!!"A!A!!!!!!#!+=!]1!!!!!!!!!"$W.M;7VC5UV&amp;&lt;H6N,G.U&lt;!#01"9!#!JE&lt;S"O&lt;X2I;7ZH$(.N97RM)(.U98*U?ANM;7:U)(.U;7RU?B2E=GFW:3"M;82U&lt;'5A&gt;WBF:7QA-2.S:82S97.U)':S&lt;WZU)(.U;7RU&amp;'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!S%H*F&gt;(*B9X1A=G6B=C"T&gt;'FM&gt;!246%^1!!B$&lt;'FN9C"441!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Rear Retracted" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
