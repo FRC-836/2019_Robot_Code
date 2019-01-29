@@ -9,19 +9,33 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">climbEnum.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../climbEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#$@Q!!!"A!A!!!!!!#!'%!]1!!!!!!!!!"$7.M;7VC27ZV&lt;3ZD&gt;'Q!3U!7!!5,:'6Q&lt;'^Z)(*F98)-:'6Q&lt;'^Z)':S&lt;WZU#72P4G^U;'FO:Q&gt;'&lt;X*X98*E#%*B9WNX98*E!!N$&lt;'FN9C"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">climbStateEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbStateEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"W=A!!!"A!A!!!!!!#!&amp;1!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!!Z1"9!!QFE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=A!!#U.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="climbStateNotifier" Type="Variable">
+	<Item Name="climbPlatformSelector" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/2019_Destination_Deep_Space.lvproj/Target/Untitled Library 1/</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&amp;11!!!"A!A!!!!!!#!#-!&amp;A!$#72P4G^U;'FO:Q&gt;'&lt;X*X98*E#%*B9WNX98*E!!!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">climbPlatformEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbPlatformEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&gt;71!!!"A!A!!!!!!"!%=!]1!!!!!!!!!"&amp;7.M;7VC5'RB&gt;':P=GV&amp;&lt;H6N,G.U&lt;!!J1"9!!AN--S"1&lt;'&amp;U:G^S&lt;1N--C"1&lt;'&amp;U:G^S&lt;1!%27ZV&lt;1!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="climbStateNotifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">climbStateEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbStateEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"W=A!!!"A!A!!!!!!#!&amp;1!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!!Z1"9!!QFE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=A!!#U.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="notifierClimb" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
@@ -30,8 +44,8 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">climbControl2.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../climbControl2.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#PKQ!!!"A!A!!!!!!#!)U!]1!!!!!!!!!"%7.M;7VC1W^O&gt;(*P&lt;$)O9X2M!(-!&amp;A!'&amp;'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!R%H*F&gt;(*B9X1A=G6B=C"T&gt;'FM&gt;".S:82S97.U)':S&lt;WZU)(.U;7RU&amp;'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!S#WRJ:H1A=X2J&lt;(2[#G2P)'ZP&gt;'BJ&lt;G=!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">climbSMEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../climbSMEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$^_1!!!"A!A!!!!!!#!.M!]1!!!!!!!!!"$W.M;7VC5UV&amp;&lt;H6N,G.U&lt;!$$1"9!#1YR)#UA:']A&lt;G^U;'FO:R!S)#UA=WVB&lt;'QA=X2B=H2[$T-A,3"M;7:U)(.U;7RU?BAU)#UA:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$%8.3!N)(*F&gt;(*B9X1A:H*P&lt;H1A=X2J&lt;(19.C!N)'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!S&amp;D=A,3"S:82S97.U)(*F98)A=X2J&lt;(14/#!N)'2S;8:F)(2P)'VJ:'2M:1AZ)#UA5V205!!)1WRJ&lt;7)A5UU!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
