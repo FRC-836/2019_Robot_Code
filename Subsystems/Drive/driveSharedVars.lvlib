@@ -4,6 +4,16 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="driveClimbStateNotifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">driveClimbStateEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Climb/driveClimbStateEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Z&gt;1!!!"A!A!!!!!!#!&amp;=!]1!!!!!!!!!"&amp;W2S;8:F1WRJ&lt;7*4&gt;'&amp;U:56O&gt;7UO9X2M!$&gt;!&amp;A!##E2P)%ZP&gt;'BJ&lt;G=.2(*J&gt;G5A2G^S&gt;W&amp;S:!!!%52S;8:F)%.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="driveNotifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -13,6 +23,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">driveEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../driveEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Z&gt;1!!!"A!A!!!!!!#!&amp;=!]1!!!!!!!!!"$72S;8:F27ZV&lt;3ZD&gt;'Q!15!7!!1'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"EVB&lt;H6F&lt;!!!#U2S;8:F)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#&amp;A1!!!"A!A!!!!!!#!'-!]1!!!!!!!!!"$72S;8:F27ZV&lt;3ZD&gt;'Q!45!7!!5'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"EVB&lt;H6F&lt;!6$&lt;'FN9A!!%%2S;8:F)&amp;.U982F)%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
