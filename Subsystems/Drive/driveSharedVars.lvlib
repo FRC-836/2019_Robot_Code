@@ -23,6 +23,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">driveEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../driveEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#&amp;A1!!!"A!A!!!!!!#!'-!]1!!!!!!!!!"$72S;8:F27ZV&lt;3ZD&gt;'Q!45!7!!5'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"EVB&lt;H6F&lt;!6$&lt;'FN9A!!%%2S;8:F)&amp;.U982F)%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#0CQ!!!"A!A!!!!!!#!'U!]1!!!!!!!!!"$72S;8:F27ZV&lt;3ZD&gt;'Q!6U!7!!9*:'^/&lt;X2I;7ZH"EVB&lt;H6F&lt;!:5:7RF&lt;X!,2G^M&lt;'^X)&amp;"B&gt;'A/47^W:3"U&lt;S"598*H:81&amp;1WRJ&lt;7)!!""%=GFW:3"4&gt;'&amp;U:3"&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
