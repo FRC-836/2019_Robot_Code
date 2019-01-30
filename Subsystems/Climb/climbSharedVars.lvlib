@@ -37,6 +37,14 @@
 		<Property Name="typedefPath1" Type="PathRel">../climbStateEnum.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"W=A!!!"A!A!!!!!!#!&amp;1!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!!Z1"9!!QFE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=A!!#U.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Drive Speed" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="notifierClimb" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
