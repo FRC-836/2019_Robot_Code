@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{01C1651B-32D3-46C3-95FA-2567FFAFE496}" Type="Ref">/Target/Untitled Library 1.lvlib/Shoot_Left?</Property>
 	<Property Name="varPersistentID:{02975547-2B30-4CF2-9DC9-0216CBADB5DD}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Iteration Duration</Property>
 	<Property Name="varPersistentID:{032FF983-7BA7-44FA-9801-1E9637A3C1EA}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/rollwind</Property>
 	<Property Name="varPersistentID:{0AD4ECBC-45E3-49AE-B599-BFA975A0BF78}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Expected End [i-1]</Property>
@@ -27,7 +28,9 @@
 	<Property Name="varPersistentID:{49C7C3D7-BF10-4A47-9F89-C9999E728B2C}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/yawWind</Property>
 	<Property Name="varPersistentID:{4C296C1B-58DF-4CFE-95AC-E7EE2F4E173D}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LB(4)</Property>
 	<Property Name="varPersistentID:{4F8B63B2-4E65-4790-A99E-9DBEDD305823}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RB(5)</Property>
+	<Property Name="varPersistentID:{52D2807F-7AC9-404F-AD0B-81FDB34DBDF4}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
 	<Property Name="varPersistentID:{53F8C9EE-ADC2-4857-8870-97F44AFDC5D5}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalOffset</Property>
+	<Property Name="varPersistentID:{581AE47C-E0EF-4BFA-9075-EC62DE94F198}" Type="Ref">/Target/Untitled Library 1.lvlib/Shoot_Time</Property>
 	<Property Name="varPersistentID:{61F2A8AF-820E-44C5-8271-E6F69654F3C7}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Iteration Duration</Property>
 	<Property Name="varPersistentID:{643E36EA-3250-489A-9088-A4BB62D67203}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveLeftRawPosition</Property>
 	<Property Name="varPersistentID:{663125E6-45BC-47F4-9F55-2FEBF80EC538}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbStateNotifier</Property>
@@ -59,6 +62,7 @@
 	<Property Name="varPersistentID:{9F4DA40D-FA1D-4D8D-804F-06490040C978}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Rear Retracted</Property>
 	<Property Name="varPersistentID:{A8E0E8F7-C9E9-4662-89D5-87B223E6CEAF}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveFusedHeading</Property>
 	<Property Name="varPersistentID:{AB5D9A93-4225-4D68-B922-9EE7C753F35D}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CargoFinished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{AEAFD187-A87C-4B5B-BCD0-D81B64A274BB}" Type="Ref">/Target/Untitled Library 1.lvlib/Shoot_Right?</Property>
 	<Property Name="varPersistentID:{B405E57C-C3A8-4EC6-8DCE-A3273461BAFE}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveNotifier</Property>
 	<Property Name="varPersistentID:{B650D955-E834-44E5-9899-87C83764A9F9}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/hasTarget</Property>
 	<Property Name="varPersistentID:{B6840377-0D22-4934-93B2-D625EA4C0201}" Type="Ref">/Target/SharedVariables/Drive Dev Ref.lvlib/Drive DevRef Out</Property>
@@ -205,6 +209,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AngleInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/AngleInfo.ctl"/>
@@ -259,6 +264,7 @@ AddOutputFilter chunkFilter
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
 				<Item Name="PidInversions.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInversions.ctl"/>
 				<Item Name="PidRange.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidRange.ctl"/>
+				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Sensor_Cluster.ctl"/>
@@ -393,6 +399,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_SystemOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemOpen.vi"/>
 				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
 				<Item Name="Get Image w retry.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/Get Image w retry.vi"/>
+				<Item Name="Get Unit Quaternion.vi" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/Get Unit Quaternion.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetSystemError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/GetSystemError.vi"/>
 				<Item Name="i2c_bus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/i2clib/i2c_bus.ctl"/>
@@ -408,6 +415,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
 				<Item Name="Manage Dirty Field ID List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Dirty Field ID List.vi"/>
+				<Item Name="Multiply Quaternion by Quaternion.vi" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/Multiply Quaternion by Quaternion.vi"/>
 				<Item Name="NetComm_AllianceStation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_AllianceStation.ctl"/>
 				<Item Name="NetComm_CAN_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_CAN_Send.vi"/>
 				<Item Name="NetComm_ControlWord.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_ControlWord.ctl"/>
@@ -426,7 +434,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
@@ -456,10 +463,12 @@ AddOutputFilter chunkFilter
 				<Item Name="NT Write Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Variant.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="Prepare Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Pattern.vi"/>
+				<Item Name="Quaternion.ctl" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/Quaternion.ctl"/>
 				<Item Name="Refnum Registry Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/Refnum Registry Operation.ctl"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
 				<Item Name="roboRIO_FPGA_2019_19.0.2.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/roboRIO_FPGA_2019_19.0.2.lvbitx"/>
+				<Item Name="Rotate Vector by Quaternion.vi" Type="VI" URL="/&lt;vilib&gt;/robotics/Kinematics/Rotate Vector by Quaternion.vi"/>
 				<Item Name="Safe Image Get Image.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/Safe Image Get Image.vi"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
