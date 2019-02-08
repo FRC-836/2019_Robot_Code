@@ -93,6 +93,7 @@
 	<Property Name="varPersistentID:{FC6BC774-CFA2-481A-B278-E10A4F69111A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/limelightFinishedLate?</Property>
 	<Property Name="varPersistentID:{FCA257BB-16A9-47A3-91ED-2625FAE55588}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/cargoYellowIRCVal</Property>
 	<Property Name="varPersistentID:{FCA98D5F-1435-45D5-90D4-077548E466F5}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveLeftPositionInch</Property>
+	<Property Name="varPersistentID:{FD9C29E5-89F9-4FC5-BA78-8BB58F0885DD}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/motionProfilePathName</Property>
 	<Property Name="varPersistentID:{FE0952F0-0437-45D7-AE49-AF6E08F907D1}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/HatchPannelExpected End [i-1]</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -264,6 +265,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Sensor_Cluster.ctl"/>
+				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
 				<Item Name="TankDriveParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TankDriveParam.ctl"/>
 				<Item Name="TurnParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnParam.ctl"/>
@@ -323,6 +325,7 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_GetActiveTrajectory.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Closed Loop/CTRE_Phoenix_MotorControl_GetActiveTrajectory.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_GetMotionProfileStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Closed Loop/Motion Profile/CTRE_Phoenix_MotorControl_GetMotionProfileStatus.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_IsMotionProfileFinished.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Closed Loop/Motion Profile/CTRE_Phoenix_MotorControl_IsMotionProfileFinished.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_MotionProfileControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_MotionProfileControlMode.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_MotionProfileTrajectoryPoint.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_MotionProfileTrajectoryPoint.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_NeutralMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_NeutralMode.ctl"/>
@@ -664,10 +667,14 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
 				<Item Name="WPI_JoystickGetValues.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetValues.vi"/>
+				<Item Name="WPI_JoystickMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMapping.vi"/>
+				<Item Name="WPI_JoystickMecanumCartesianMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumCartesianMapping.vi"/>
+				<Item Name="WPI_JoystickMecanumPolarMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumPolarMapping.vi"/>
 				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
 				<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
+				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
 				<Item Name="WPI_MotorControlDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDeviceRef.ctl"/>
 				<Item Name="WPI_MotorControlDisable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDisable.vi"/>
 				<Item Name="WPI_MotorControlDisableRefType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDisableRefType.ctl"/>
@@ -720,8 +727,10 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_RobotDriveDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDevRef.ctl"/>
 				<Item Name="WPI_RobotDriveDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDoesDevRefExist.vi"/>
 				<Item Name="WPI_RobotDriveMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotors.vi"/>
+				<Item Name="WPI_RobotDriveNormalize 4.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveNormalize 4.vi"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Get.vi"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Read Name.vi"/>
+				<Item Name="WPI_RobotDriveRotateVector.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRotateVector.vi"/>
 				<Item Name="WPI_RobotDriveSafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyCheck.vi"/>
 				<Item Name="WPI_RobotDriveSafetyError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyError.vi"/>
 				<Item Name="WPI_RobotDriveSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyUpdate.vi"/>
