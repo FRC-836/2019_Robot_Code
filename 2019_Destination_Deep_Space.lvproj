@@ -93,6 +93,7 @@
 	<Property Name="varPersistentID:{FC6BC774-CFA2-481A-B278-E10A4F69111A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/limelightFinishedLate?</Property>
 	<Property Name="varPersistentID:{FCA257BB-16A9-47A3-91ED-2625FAE55588}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/cargoYellowIRCVal</Property>
 	<Property Name="varPersistentID:{FCA98D5F-1435-45D5-90D4-077548E466F5}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveLeftPositionInch</Property>
+	<Property Name="varPersistentID:{FD9C29E5-89F9-4FC5-BA78-8BB58F0885DD}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/motionProfilePathName</Property>
 	<Property Name="varPersistentID:{FE0952F0-0437-45D7-AE49-AF6E08F907D1}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/HatchPannelExpected End [i-1]</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
