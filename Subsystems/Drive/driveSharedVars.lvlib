@@ -22,8 +22,8 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typedefName1" Type="Str">driveEnum.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../driveEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#FI1!!!"A!A!!!!!!#!)-!]1!!!!!!!!!"$72S;8:F27ZV&lt;3ZD&gt;'Q!&lt;5!7!!A*:'^/&lt;X2I;7ZH"EVB&lt;H6F&lt;!:5:7RF&lt;X!,2G^M&lt;'^X)&amp;"B&gt;'A/47^W:3"U&lt;S"598*H:81&amp;1WRJ&lt;7)+4'FO:3""&lt;'FH&lt;AN4&lt;WZB=C"#=G&amp;L:1!12(*J&gt;G5A5X2B&gt;'5A27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">driveCommandEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../driveCommandEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$3TA!!!"A!A!!!!!!#!,!!]1!!!!!!!!!"&amp;'2S;8:F1W^N&lt;7&amp;O:%6O&gt;7UO9X2M!*.!&amp;A!+#72P4G^U;'FO:Q:.97ZV:7Q'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"5.M;7VC#ERJ&lt;G5A17RJ:WY*5G^U982F-4AQ'5RP972J&lt;G&gt;4&gt;'&amp;U;7^O,4Z$98*H&lt;V.I;8!,5W^O98)A1H*B;W5!%E2S;8:F)%.P&lt;7VB&lt;G1A27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
