@@ -3,7 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{01580D35-0840-45B3-B542-0A0FF28FDEA8}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMScoreExtendTime</Property>
-	<Property Name="varPersistentID:{01C1651B-32D3-46C3-95FA-2567FFAFE496}" Type="Ref">/Target/Untitled Library 1.lvlib/Shoot_Left?</Property>
+	<Property Name="varPersistentID:{01C1651B-32D3-46C3-95FA-2567FFAFE496}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/Shoot_Left?</Property>
 	<Property Name="varPersistentID:{02975547-2B30-4CF2-9DC9-0216CBADB5DD}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Iteration Duration</Property>
 	<Property Name="varPersistentID:{032FF983-7BA7-44FA-9801-1E9637A3C1EA}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/rollwind</Property>
 	<Property Name="varPersistentID:{0720D2F7-51F3-4363-82DF-15812A1C909D}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMScoreRetract</Property>
@@ -11,11 +11,12 @@
 	<Property Name="varPersistentID:{0B729DB0-2D04-407F-AD9D-22AC820F8F10}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/leftRearDriveCurrent</Property>
 	<Property Name="varPersistentID:{0C7C422D-B3A7-49D7-9CF9-DC02AAA7AE8A}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/lineIRFrontLeft</Property>
 	<Property Name="varPersistentID:{0E25BA83-F18A-40AF-9270-E17E5C786A51}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Finished Late? [i-1]</Property>
-	<Property Name="varPersistentID:{160D6E64-CB9F-4D0A-9740-EAA56861FB6E}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedCars.lvlib/cargoNotifier</Property>
+	<Property Name="varPersistentID:{160D6E64-CB9F-4D0A-9740-EAA56861FB6E}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/cargoNotifier</Property>
 	<Property Name="varPersistentID:{182A7EEC-D31B-4F77-BAA1-CDEF8D491854}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelStatemachineControl</Property>
 	<Property Name="varPersistentID:{18354E77-9EE7-4ABE-B112-FCB23E575015}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveAvgPos(SU)</Property>
 	<Property Name="varPersistentID:{1845DF97-BF3B-435A-A182-42B103213CBE}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Start(9)</Property>
 	<Property Name="varPersistentID:{1A43B044-CF04-41B2-A9E6-2F331944EA13}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMReleaseTime</Property>
+	<Property Name="varPersistentID:{1C2E98EA-A5E5-4647-9F08-2EE4031F1812}" Type="Ref">/Target/Subsystems/Sensors/Sonar/sonarSharedVars.lvlib/driveSonarBrake</Property>
 	<Property Name="varPersistentID:{1D7D9E59-D98B-4419-8047-64184B0149AC}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Front Retracted</Property>
 	<Property Name="varPersistentID:{1F0C3BF8-E70B-45F9-9611-A8754AD16309}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Period</Property>
 	<Property Name="varPersistentID:{20DAEE37-0FBE-43F6-A68C-DD2EE61812E8}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
@@ -45,7 +46,7 @@
 	<Property Name="varPersistentID:{4F8B63B2-4E65-4790-A99E-9DBEDD305823}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RB(5)</Property>
 	<Property Name="varPersistentID:{52D2807F-7AC9-404F-AD0B-81FDB34DBDF4}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
 	<Property Name="varPersistentID:{53F8C9EE-ADC2-4857-8870-97F44AFDC5D5}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalOffset</Property>
-	<Property Name="varPersistentID:{581AE47C-E0EF-4BFA-9075-EC62DE94F198}" Type="Ref">/Target/Untitled Library 1.lvlib/Shoot_Time</Property>
+	<Property Name="varPersistentID:{581AE47C-E0EF-4BFA-9075-EC62DE94F198}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/Shoot_Time</Property>
 	<Property Name="varPersistentID:{5A1B0A54-9C35-4B8D-8833-F0FB67FC7FB0}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP12Current</Property>
 	<Property Name="varPersistentID:{5B16F399-45FD-4AB6-AB87-57EAEAAD13DF}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP14Current</Property>
 	<Property Name="varPersistentID:{61F2A8AF-820E-44C5-8271-E6F69654F3C7}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Iteration Duration</Property>
@@ -90,7 +91,7 @@
 	<Property Name="varPersistentID:{A8E0E8F7-C9E9-4662-89D5-87B223E6CEAF}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveFusedHeading</Property>
 	<Property Name="varPersistentID:{AB5D9A93-4225-4D68-B922-9EE7C753F35D}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CargoFinished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{AD73F045-9F41-445E-8D25-081D90A9823D}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP13Current</Property>
-	<Property Name="varPersistentID:{AEAFD187-A87C-4B5B-BCD0-D81B64A274BB}" Type="Ref">/Target/Untitled Library 1.lvlib/Shoot_Right?</Property>
+	<Property Name="varPersistentID:{AEAFD187-A87C-4B5B-BCD0-D81B64A274BB}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/Shoot_Right?</Property>
 	<Property Name="varPersistentID:{AF3BEB1C-4BB4-4A25-9D47-A22B25AE41D7}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP6Current</Property>
 	<Property Name="varPersistentID:{B1FC7C71-F524-4636-9A15-A9BE88CF6501}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveClimbStateNotifier</Property>
 	<Property Name="varPersistentID:{B650D955-E834-44E5-9899-87C83764A9F9}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/hasTarget</Property>
@@ -251,7 +252,6 @@ AddOutputFilter chunkFilter
 		<Item Name="AutonomousHatchPanelAndRocket.vi" Type="VI" URL="../Autonomous/AutonomousHatchPanelAndRocket.vi"/>
 		<Item Name="LimelightAutoTracking.vi" Type="VI" URL="../Autonomous/LimelightAutoTracking.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AngleInfo.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/AngleInfo.ctl"/>
@@ -349,7 +349,6 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigClosedLoopConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Closed Loop/CTRE_Phoenix_MotorControl_ConfigClosedLoopConstants.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigClosedLoopPeakOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Closed Loop/CTRE_Phoenix_MotorControl_ConfigClosedLoopPeakOutput.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigClosedLoopPeriod.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Closed Loop/CTRE_Phoenix_MotorControl_ConfigClosedLoopPeriod.vi"/>
-				<Item Name="CTRE_Phoenix_MotorControl_ConfigContinuousCurrentLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Current Limit/CTRE_Phoenix_MotorControl_ConfigContinuousCurrentLimit.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigNeutralDeadband.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Output Config/CTRE_Phoenix_MotorControl_ConfigNeutralDeadband.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigNominalOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Output Config/CTRE_Phoenix_MotorControl_ConfigNominalOutput.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigPeakOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Output Config/CTRE_Phoenix_MotorControl_ConfigPeakOutput.vi"/>
