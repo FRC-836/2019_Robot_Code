@@ -32,11 +32,13 @@
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">hatchPanelEnum.ctl</Property>
+		<Property Name="typedefName2" Type="Str">hatchPanelNotifierCluster.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../hatchPanelEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#3DA!!!"A!A!!!!!!#!(!!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!"61"9!"AJE&lt;S"O&lt;X2I;7ZH$6.U982F)%VB9WBJ&lt;G5(5G6M:7&amp;T:12I&lt;WRE#%*B9WNX98*E"U:P=H&gt;B=G1!!"&amp;)982D;#"197ZF&lt;#"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath2" Type="PathRel">../hatchPanelNotifierCluster.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%3$A%!!"A!A!!!!!!'!(!!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!"61"9!"AJE&lt;S"O&lt;X2I;7ZH$6.U982F)%VB9WBJ&lt;G5(5G6M:7&amp;T:12I&lt;WRE#%*B9WNX98*E"U:P=H&gt;B=G1!!"&amp;)982D;#"197ZF&lt;#"4&gt;'&amp;U:1!71#%1476D;'&amp;O;8.N)%VP&gt;'FP&lt;A!!'E!B&amp;5&gt;B&gt;'BF=GFO:S"$&lt;'&amp;X)%VP&gt;'FP&lt;A!91#%45W.P=GFO:S"$&lt;'&amp;X)%VP&gt;'FP&lt;A!Y!0%!!!!!!!!!!2VI982D;&amp;"B&lt;G6M4G^U;7:J:8*$&lt;(6T&gt;'6S,G.U&lt;!!3!&amp;!!"!!!!!%!!A!$!!I!=!!2!!%!"!!"!!5!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="hatchPanelSMExtendTime" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
