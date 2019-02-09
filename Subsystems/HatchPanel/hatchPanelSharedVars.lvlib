@@ -100,9 +100,11 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$^_1!!!"A!A!!!!!!"!/=!&amp;A!-$E^Q:7YA&gt;']A2W&amp;U;'6S&amp;F&gt;B;81A:G^S)%&gt;B&gt;'BF=C"&amp;?(2F&lt;G102W&amp;U;'6S)%6Y&gt;'6O:'6E%V&gt;B;81A:G^S)%&gt;S97)A5'&amp;O:7Q+2X*B9C"197ZF&lt;!^$&lt;'^T:71A&gt;']A5W.P=G566W&amp;J&gt;#"G&lt;X)A5W.P=G5A28BU:7ZE$V*F972Z)(2P)&amp;.D&lt;X*F)":897FU)':P=C"3:7RF98.F)&amp;"B&lt;G6M$6*F&lt;'6B=W5A5'&amp;O:7Q86W&amp;J&gt;#"G&lt;X)A2W&amp;U;'6S)&amp;*F&gt;(*B9X176W&amp;J&gt;#"G&lt;X)A5W.P=G5A5G6U=G&amp;D&gt;!!!!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">hatchPanelStatemachineEnum.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../hatchPanelStatemachineEnum.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%O+A%!!"A!A!!!!!!"!2A!]1!!!!!!!!!"(GBB&gt;'.I5'&amp;O:7R4&gt;'&amp;U:7VB9WBJ&lt;G6&amp;&lt;H6N,G.U&lt;!$R1"9!$!Z0='6O)(2P)%&gt;B&gt;'BF=B:897FU)':P=C"(982I:8)A28BU:7ZE$U&gt;B&gt;'BF=C"&amp;?(2F&lt;G2F:".897FU)':P=C"(=G&amp;C)&amp;"B&lt;G6M#E&gt;S97)A5'&amp;O:7Q01WRP=W6E)(2P)&amp;.D&lt;X*F&amp;6&gt;B;81A:G^S)&amp;.D&lt;X*F)%6Y&gt;'6O:!^3:7&amp;E?3"U&lt;S"49W^S:3!76W&amp;J&gt;#"G&lt;X)A5G6M:7&amp;T:3"197ZF&lt;!V3:7RF98.F)&amp;"B&lt;G6M&amp;V&gt;B;81A:G^S)%&gt;B&gt;'BF=C"3:82S97.U&amp;F&gt;B;81A:G^S)&amp;.D&lt;X*F)&amp;*F&gt;(*B9X1!!!2&amp;&lt;H6N!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Period" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
