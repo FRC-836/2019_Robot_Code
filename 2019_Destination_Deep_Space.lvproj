@@ -113,6 +113,7 @@
 	<Property Name="varPersistentID:{D4B06FE7-36FE-443C-9894-0387980C831F}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/notifierClimb</Property>
 	<Property Name="varPersistentID:{D5F394EC-3DAB-4226-B010-BE6A3898D2EF}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveRightPositionInch</Property>
 	<Property Name="varPersistentID:{D6657CA7-8D1F-4416-A78A-C6882996805F}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/lineIRRearLeft</Property>
+	<Property Name="varPersistentID:{D808F255-1B6E-48CB-8E29-ADDE951CF9A0}" Type="Ref">/Target/SharedVariables/TDMS.lvlib/TDMS DevRef</Property>
 	<Property Name="varPersistentID:{D9DB59A4-25ED-4806-AE75-69E25F483D8F}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Iteration Duration</Property>
 	<Property Name="varPersistentID:{DB1E8B45-3585-4BDE-8529-63F6D1D087CC}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbNotifier</Property>
 	<Property Name="varPersistentID:{DC578F03-48DF-4A29-80CD-937028BD3FE2}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveAvgVel(inch per s)</Property>
@@ -265,6 +266,8 @@ AddOutputFilter chunkFilter
 				<Item Name="BoundAngleNeg180to180.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Math/CheezyMath/BoundAngleSupport/BoundAngleNeg180to180.vi"/>
 				<Item Name="BoundAngleNegPiToPi.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Math/CheezyMath/BoundAngleSupport/BoundAngleNegPiToPi.vi"/>
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Camera_Cluster.ctl"/>
+				<Item Name="Channel_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Channel_Config.ctl"/>
+				<Item Name="Channel_FIFO_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Channel_FIFO_Config.ctl"/>
 				<Item Name="CheesyDriveParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/CheesyDriveParam.ctl"/>
 				<Item Name="Command_Tolerance_Info.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerance_Info.ctl"/>
 				<Item Name="Command_Tolerances.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerances.ctl"/>
@@ -294,6 +297,8 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveDistanceParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/DriveDistanceParam.ctl"/>
 				<Item Name="DrivePidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/DrivePidInputs.ctl"/>
 				<Item Name="FollowCameraparam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/FollowCameraparam.ctl"/>
+				<Item Name="Group_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Group_Config.ctl"/>
+				<Item Name="Group_FIFO_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Group_FIFO_Config.ctl"/>
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/hmi_cheesy_drive.vi"/>
 				<Item Name="HoldPositionParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldPositionParam.ctl"/>
 				<Item Name="HoldYawParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/HoldYawParam.ctl"/>
@@ -304,6 +309,8 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientRefNum Registry Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum Registry Get.vi"/>
 				<Item Name="IMUOrientRefNum Registry Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum Registry Set.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/JK_Latch.vi"/>
+				<Item Name="Logger_Init.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Init.vi"/>
+				<Item Name="Logging_Settings.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Logging_Settings.ctl"/>
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
 				<Item Name="PidInversions.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInversions.ctl"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
@@ -315,6 +322,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
 				<Item Name="TankDriveParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TankDriveParam.ctl"/>
+				<Item Name="TDMS_DevRef.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/TDMS_DevRef.ctl"/>
 				<Item Name="TurnParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnParam.ctl"/>
 				<Item Name="TurnToCameraParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/TurnToCameraParam.ctl"/>
 				<Item Name="UpdatePeriodParam.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/CommandTypeInfo/UpdatePeriodParam.ctl"/>
