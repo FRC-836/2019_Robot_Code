@@ -33,6 +33,7 @@
 	<Property Name="varPersistentID:{2F8A67B2-873B-497A-B78D-4CA795FE0F54}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/pitchWind</Property>
 	<Property Name="varPersistentID:{303CB352-16D4-4034-ABA2-4B9D522F2A08}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Both Extended</Property>
 	<Property Name="varPersistentID:{35BAF86C-D101-4CFA-B2E7-CD9CA490D482}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/target</Property>
+	<Property Name="varPersistentID:{37C3A1BD-1262-4DB4-A997-355E2B85F2D7}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_LB(4)</Property>
 	<Property Name="varPersistentID:{3A035A52-272C-44CA-BE40-504BE783C4DF}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_X(0)</Property>
 	<Property Name="varPersistentID:{3BC6FBFD-3A82-421A-B2D5-6B78AF5281CD}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveNotifier</Property>
 	<Property Name="varPersistentID:{3C3FE71D-5A98-4C1E-9C17-B46B7E93A48A}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP15Current</Property>
@@ -44,6 +45,8 @@
 	<Property Name="varPersistentID:{43997B60-14D9-423A-80B7-5EE94C8695FC}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/limelightPeriod</Property>
 	<Property Name="varPersistentID:{445DA3E5-1C43-40CE-9FF0-7388BC359BB4}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/limelightIterationDuration</Property>
 	<Property Name="varPersistentID:{44F46A49-09F7-4E5D-967A-B7A77084D416}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_B(2)</Property>
+	<Property Name="varPersistentID:{452C15D7-772B-4E59-9B17-010A1586A37C}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/d_pad_left(270)</Property>
+	<Property Name="varPersistentID:{48AE408E-CA0F-45DA-A20C-B95420AEEC09}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_RB(5)</Property>
 	<Property Name="varPersistentID:{49C7C3D7-BF10-4A47-9F89-C9999E728B2C}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/yawWind</Property>
 	<Property Name="varPersistentID:{4C296C1B-58DF-4CFE-95AC-E7EE2F4E173D}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LB(4)</Property>
 	<Property Name="varPersistentID:{4D33BA22-0B58-4AAA-B420-FAE6D8A97AF9}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP4Current</Property>
@@ -83,9 +86,14 @@
 	<Property Name="varPersistentID:{7F04926E-511D-4D4E-9FC2-90102005E3C9}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_A(1)</Property>
 	<Property Name="varPersistentID:{83C12777-6120-4EF3-ABD1-D656D9075216}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/lineIRRearRight</Property>
 	<Property Name="varPersistentID:{843DC632-F1BB-4AAE-A5A8-E729BDA50405}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/ClimbPeriod</Property>
+	<Property Name="varPersistentID:{84B8C566-6905-40AA-BA6F-AE33DF7F759C}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_start(9)</Property>
 	<Property Name="varPersistentID:{8592DEA5-4D82-4C11-A1CC-0B4C0C788E1B}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelNotifier</Property>
+	<Property Name="varPersistentID:{871B67FE-3DEB-47A9-B9B5-F6A9AD719784}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_back(8)</Property>
+	<Property Name="varPersistentID:{87F24A46-E2DC-41DA-AF65-573861D99610}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/d_pad_down(180)</Property>
+	<Property Name="varPersistentID:{88004876-7020-4922-8501-30820A424D7D}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_Lt(6)</Property>
 	<Property Name="varPersistentID:{8AD08C7F-3C5B-4F74-885F-ED538503AF93}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Period</Property>
 	<Property Name="varPersistentID:{8D9BAADF-4D4F-4F0D-A9DC-AFC804A35499}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Finished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{8DA1E1D1-6104-44CF-9A98-3C976F945B1C}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/d_pad_up(0)</Property>
 	<Property Name="varPersistentID:{8F605E0D-589E-4DED-B90C-B358449C129D}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveAvgVel(SU per 100ms)</Property>
 	<Property Name="varPersistentID:{91CDE391-43A1-4B88-9335-FE41845B3A4C}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/Current Expected End [i-1]</Property>
 	<Property Name="varPersistentID:{9347FB81-7655-414B-A276-DA0EAE1B86D6}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/Current Iteration Duration</Property>
@@ -94,6 +102,7 @@
 	<Property Name="varPersistentID:{972B72CF-7B20-49B2-877C-870472EEC448}" Type="Ref">/Target/Subsystems/Loggin'/Loggin'.lvlib/Hatch_Panel_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{978F3DC1-69CB-472C-B645-20472806CE49}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RT(7)</Property>
 	<Property Name="varPersistentID:{98A96D6C-4F5B-472D-9C15-2A67DAF54E57}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveIMUYawPitchRoll</Property>
+	<Property Name="varPersistentID:{98C88FA6-E90F-4D69-A769-7AF7611DC480}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/LLDistance</Property>
 	<Property Name="varPersistentID:{9A5B7631-F8C2-4054-B492-8A06A3840EAC}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Y(3)</Property>
 	<Property Name="varPersistentID:{9BE33A31-8B78-439B-B15C-0C64FB69CC99}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/frontStiltCurrent</Property>
 	<Property Name="varPersistentID:{9EC34111-A574-4A8C-AE79-BA51A25D1F81}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Right(90)</Property>
@@ -102,9 +111,11 @@
 	<Property Name="varPersistentID:{A8E0E8F7-C9E9-4662-89D5-87B223E6CEAF}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveFusedHeading</Property>
 	<Property Name="varPersistentID:{AB5D9A93-4225-4D68-B922-9EE7C753F35D}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CargoFinished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{AD73F045-9F41-445E-8D25-081D90A9823D}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP13Current</Property>
+	<Property Name="varPersistentID:{AE5635B1-BF3C-4A05-8E08-8A8BC54DE9EA}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/d_pad_right(90)</Property>
 	<Property Name="varPersistentID:{AEAFD187-A87C-4B5B-BCD0-D81B64A274BB}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/Shoot_Right?</Property>
 	<Property Name="varPersistentID:{AF3BEB1C-4BB4-4A25-9D47-A22B25AE41D7}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP6Current</Property>
 	<Property Name="varPersistentID:{B1FC7C71-F524-4636-9A15-A9BE88CF6501}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveClimbStateNotifier</Property>
+	<Property Name="varPersistentID:{B316C338-A8FD-4A49-8B0D-34B26EEEF0D3}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/CushionLeftDrive</Property>
 	<Property Name="varPersistentID:{B650D955-E834-44E5-9899-87C83764A9F9}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/hasTarget</Property>
 	<Property Name="varPersistentID:{B6840377-0D22-4934-93B2-D625EA4C0201}" Type="Ref">/Target/SharedVariables/Drive Dev Ref.lvlib/Drive DevRef Out</Property>
 	<Property Name="varPersistentID:{B991A1DA-3114-4041-A3BE-83E562097B63}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Iteration Duration</Property>
@@ -114,6 +125,7 @@
 	<Property Name="varPersistentID:{C3A1F235-9671-4422-B695-1179A4B96871}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Down(180)</Property>
 	<Property Name="varPersistentID:{C3C4A7C7-32A7-43FA-A282-863FECFE149B}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/motionProfilePathName</Property>
 	<Property Name="varPersistentID:{C490CE9B-A168-4590-AE22-A63755676322}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP11Current</Property>
+	<Property Name="varPersistentID:{C7C11E14-B879-4527-9FC2-EC63DCE852C1}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/CushionRightDrive</Property>
 	<Property Name="varPersistentID:{C8764A84-F5B5-40B5-83E2-1B7CAB4DA8BC}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMTick</Property>
 	<Property Name="varPersistentID:{CB77B4F6-ED44-425F-B929-B76AE3175769}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Period</Property>
 	<Property Name="varPersistentID:{CCFB7986-C7E2-4019-957D-7BBB9B33099F}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Left_Y(1)</Property>
@@ -142,6 +154,7 @@
 	<Property Name="varPersistentID:{EE944C10-3FA5-45CD-B30E-B73ADABD5267}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/sonarLeftDistance(inch)</Property>
 	<Property Name="varPersistentID:{F07F96BB-8103-4C2D-8C9C-A244EFCCD97A}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/leftMiddleDriveCurrent</Property>
 	<Property Name="varPersistentID:{F0F2B6A3-39E4-4C49-99EC-335FAD8314B8}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Axis_Left_X(0)</Property>
+	<Property Name="varPersistentID:{F45CE6D2-523D-4D4A-A217-57EBBA0CC800}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_Rt(7)</Property>
 	<Property Name="varPersistentID:{F8548067-5140-481E-97F5-5BB3FC26E13D}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/lineIRFrontRight</Property>
 	<Property Name="varPersistentID:{FB072231-55D8-4F71-A464-0E1C1CC4A336}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbSkidIRRight</Property>
 	<Property Name="varPersistentID:{FC6BC774-CFA2-481A-B278-E10A4F69111A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/limelightFinishedLate?</Property>
