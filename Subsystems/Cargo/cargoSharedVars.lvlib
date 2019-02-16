@@ -4,15 +4,42 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="cargoNotifier" Type="Variable">
+	<Item Name="cargo notifier out" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="numTypedefs" Type="UInt">2</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">cargoEnum.ctl</Property>
+		<Property Name="typedefName2" Type="Str">cargoNotifier.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../cargoEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#6E1!!!"A!A!!!!!!#!(-!]1!!!!!!!!!"$7.B=G&gt;P27ZV&lt;3ZD&gt;'Q!85!7!!5+:']A&lt;G^U;'FO:QRS&lt;W.L:81A=GFH;(1,=G^D;W6U)'RF:H109W&amp;S:W]A=WBJ=#"M:7:U%'.B=G&gt;P)(.I;8!A=GFH;(1!!!N$98*H&lt;S"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefPath2" Type="PathRel">../cargoNotifier.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$&gt;W1!!!"A!A!!!!!!&amp;!(-!]1!!!!!!!!!"$7.B=G&gt;P27ZV&lt;3ZD&gt;'Q!85!7!!5+:']A&lt;G^U;'FO:QRS&lt;W.L:81A=GFH;(1,=G^D;W6U)'RF:H109W&amp;S:W]A=WBJ=#"M:7:U%'.B=G&gt;P)(.I;8!A=GFH;(1!!!N$98*H&lt;S"4&gt;'&amp;U:1!-1#%(5G^D;W6U0Q!+1#%&amp;5WBP&lt;X1!-A$R!!!!!!!!!!%29W&amp;S:W^/&lt;X2J:GFF=CZD&gt;'Q!'%"1!!-!!!!"!!)(1WRV=X2F=A!+!(!!%1!"!!-!!1!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="rocket?" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="shoot ball" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Shoot_Left?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
