@@ -49,4 +49,16 @@
 		<Property Name="typedefPath1" Type="PathRel">../driveCommandEnum.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$=W!!!!"A!A!!!!!!#!,I!]1!!!!!!!!!"&amp;'2S;8:F1W^N&lt;7&amp;O:%6O&gt;7UO9X2M!*V!&amp;A!,#72P4G^U;'FO:Q:.97ZV:7Q'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"5.M;7VC#ERJ&lt;G5A17RJ:WY*5G^U982F-4AQ'5RP972J&lt;G&gt;4&gt;'&amp;U;7^O,4Z$98*H&lt;V.I;8!,5W^O98)A1H*B;W5*4%R$&gt;8.I;7^O!"*%=GFW:3"$&lt;WVN97ZE)%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="LowGear?" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
