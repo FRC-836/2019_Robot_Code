@@ -68,6 +68,7 @@
 	<Property Name="varPersistentID:{663A7732-6E88-4EB9-8F06-775D932D03B9}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/rawHorizontalAvg</Property>
 	<Property Name="varPersistentID:{680B373F-4660-45BA-9352-0A34DFF559AE}" Type="Ref">/Target/Subsystems/Drive/Current_Limiting.lvlib/Enable Current Limit?</Property>
 	<Property Name="varPersistentID:{6967CE40-1087-4867-9603-C05ED1883688}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalAvgSizeMax</Property>
+	<Property Name="varPersistentID:{69FF7ADF-F632-4795-AC8F-23DCD35DDFC5}" Type="Ref">/Target/SharedVariables/TDMS.lvlib/TDMS DevRef</Property>
 	<Property Name="varPersistentID:{6B0770A3-32DE-4061-83DB-45AE1C6E18AD}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/rawTargets</Property>
 	<Property Name="varPersistentID:{6B5B91DA-6D0C-45B0-BE4C-FD47019763A3}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbRearPosition</Property>
 	<Property Name="varPersistentID:{6C3461B4-F9A9-4438-B70A-11C5C6103790}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Up(0)</Property>
@@ -300,6 +301,8 @@ AddOutputFilter chunkFilter
 				<Item Name="BoundAngleNeg180to180.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Math/CheezyMath/BoundAngleSupport/BoundAngleNeg180to180.vi"/>
 				<Item Name="BoundAngleNegPiToPi.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Math/CheezyMath/BoundAngleSupport/BoundAngleNegPiToPi.vi"/>
 				<Item Name="Camera_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Camera_Cluster.ctl"/>
+				<Item Name="Channel_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Channel_Config.ctl"/>
+				<Item Name="Channel_FIFO_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Channel_FIFO_Config.ctl"/>
 				<Item Name="Command_Tolerance_Info.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerance_Info.ctl"/>
 				<Item Name="Command_Tolerances.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerances.ctl"/>
 				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/De-Bounce_or_Delay.vi"/>
@@ -308,6 +311,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Drive_Code_Command_Type.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Code_Command_Type.ctl"/>
 				<Item Name="Drive_Trains.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Drive_Trains.ctl"/>
 				<Item Name="DrivePidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/DrivePidInputs.ctl"/>
+				<Item Name="Group_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Group_Config.ctl"/>
+				<Item Name="Group_FIFO_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Group_FIFO_Config.ctl"/>
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/hmi_cheesy_drive.vi"/>
 				<Item Name="ImuDevRef.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/ImuDevRef.ctl"/>
 				<Item Name="IMUOrientGetSetRefNum.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientGetSetRefNum.vi"/>
@@ -317,6 +322,10 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientRefNum Registry Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum Registry Set.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/JK_Latch.vi"/>
 				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Latch.vi"/>
+				<Item Name="Logger_Init.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Init.vi"/>
+				<Item Name="Logger_Log_Data.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Log_Data.vi"/>
+				<Item Name="Logger_Loop.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Loop.vi"/>
+				<Item Name="Logging_Settings.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Logging_Settings.ctl"/>
 				<Item Name="Open_File_Simple.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/File_Operations/Open_File_Simple.vi"/>
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
 				<Item Name="PidInversions.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInversions.ctl"/>
@@ -336,6 +345,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Split_String.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/String_Functions/Split_String.vi"/>
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
+				<Item Name="TDMS_DevRef.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/TDMS_DevRef.ctl"/>
 				<Item Name="UpDown_Counter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/UpDown_Counter.vi"/>
 				<Item Name="Wrap2Wind.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Conversions/Wrap2Wind.vi"/>
 			</Item>
@@ -899,6 +909,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TDMS_gamepadOne.vi" Type="VI" URL="../TDMS/TDMS_gamepadOne.vi"/>
+			<Item Name="TDMS_gamepadTwo.vi" Type="VI" URL="../TDMS/TDMS_gamepadTwo.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
