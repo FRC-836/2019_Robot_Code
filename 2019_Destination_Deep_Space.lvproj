@@ -32,6 +32,7 @@
 	<Property Name="varPersistentID:{2D1E9069-16C7-4E4C-A0CB-4C626C688A9E}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/rearStiltCurrent</Property>
 	<Property Name="varPersistentID:{2D420719-F235-474E-A628-92317D9250D9}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbFrontPosition</Property>
 	<Property Name="varPersistentID:{2E5CBE3D-9F5B-4069-A193-27FE41148A77}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Cargo Iteration Duration</Property>
+	<Property Name="varPersistentID:{2EC29479-54DD-43DD-AAE3-8312DE8EFC0E}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/StoredEncoderValue</Property>
 	<Property Name="varPersistentID:{2F8A67B2-873B-497A-B78D-4CA795FE0F54}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/pitchWind</Property>
 	<Property Name="varPersistentID:{303CB352-16D4-4034-ABA2-4B9D522F2A08}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Both Extended</Property>
 	<Property Name="varPersistentID:{35BAF86C-D101-4CFA-B2E7-CD9CA490D482}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/target</Property>

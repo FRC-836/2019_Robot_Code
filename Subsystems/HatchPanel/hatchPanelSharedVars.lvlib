@@ -186,4 +186,17 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(&amp;Q1%!!"A!A!!!!!!"!;]!&amp;A!2&amp;&amp;.U97.I)%^Q:7YA&gt;']A2W&amp;U;'6S(&amp;.U97.I)&amp;&gt;B;81A:G^S)%&gt;B&gt;'BF=C"&amp;?(2F&lt;G165X2B9WAA2W&amp;U;'6S)%6Y&gt;'6O:'6E'6.U97.I)&amp;&gt;B;81A:G^S)%&gt;S97)A5'&amp;O:7Q15X2B9WAA2X*B9C"197ZF&lt;"64&gt;'&amp;D;#"$&lt;'^T:71A&gt;']A5W.P=G5&lt;5X2B9WAA6W&amp;J&gt;#"G&lt;X)A5W^O98)A5WFH&lt;G&amp;M'V.U97.I)&amp;&gt;B;81A:G^S)&amp;.D&lt;X*F)%6Y&gt;'6O:"64&gt;'&amp;D;#"3:7&amp;E?3"U&lt;S"49W^S:3!=5X2B9WAA6W&amp;J&gt;#"G&lt;X)A5G6M:7&amp;T:3"197ZF&lt;".4&gt;'&amp;D;#"3:7RF98.F)&amp;"B&lt;G6M(6.U97.I)&amp;&gt;B;81A:G^S)%&gt;B&gt;'BF=C"3:82S97.U(&amp;.U97.I)&amp;&gt;B;81A:G^S)&amp;.D&lt;X*F)&amp;*F&gt;(*B9X1=5X2B9WAA6W&amp;J&gt;#"G&lt;X)A2W&amp;U;'6S)&amp;6O&lt;'^D;RN4&gt;'&amp;D;#"897FU)':P=C"49W^S:3"6&lt;GRP9WM65X2B9WAA2W&amp;U;'6S)%6O:#"-&lt;W.L&amp;&amp;.U97.I)&amp;.D&lt;X*F)%6O:#"-&lt;W.L!!!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="StoredEncoderValue" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/2019_Destination_Deep_Space.lvproj/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>
