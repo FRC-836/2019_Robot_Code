@@ -79,7 +79,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">climbSMEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../climbSMEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%0#Q%!!"A!A!!!!!!#!/U!]1!!!!!!!!!"$W.M;7VC5UV&amp;&lt;H6N,G.U&lt;!$61"9!#AYR)#UA:']A&lt;G^U;'FO:R!T)#UA=WVB&lt;'QA=X2B=H2[$T1A,3"M;7:U)(.U;7RU?BAV)#UA:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$%8.C!N)(*F&gt;(*B9X1A:H*P&lt;H1A=X2J&lt;(19.S!N)'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!S&amp;DAA,3"S:82S97.U)(*F98)A=X2J&lt;(14/3!N)'2S;8:F)(2P)'VJ:'2M:1ER-#!N)&amp;.54V!1-C!N)&amp;"S:8!A5XFT&gt;'6N=Q!)1WRJ&lt;7)A5UU!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%0#Q%!!"A!A!!!!!!#!/U!]1!!!!!!!!!"$W.M;7VC5UV&amp;&lt;H6N,G.U&lt;!$61"9!#AYR)#UA:']A&lt;G^U;'FO:R!S)#UA5(*F=#"4?8.U:7VT%$-A,3"T&lt;7&amp;M&lt;#"T&gt;'&amp;S&gt;(I0.#!N)'RJ:H1A=X2J&lt;(2['$5A,3"E=GFW:3"M;82U&lt;'5A&gt;WBF:7QA-2=W)#UA=G6U=G&amp;D&gt;#"G=G^O&gt;#"T&gt;'FM&gt;"AX)#UA:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$)7/#!N)(*F&gt;(*B9X1A=G6B=C"T&gt;'FM&gt;"-Z)#UA:(*J&gt;G5A&gt;']A&lt;7FE:'RF#4%Q)#UA5V205!!)1WRJ&lt;7)A5UU!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="runClimb" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
