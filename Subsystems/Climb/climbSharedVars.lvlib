@@ -12,6 +12,31 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"!0!!!!"A!A!!!!!!#!"Z!)2BD=G6B&gt;'5A;79A&lt;G^U)':P&gt;7ZE0S!I6#E!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="climbDriveEnable" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="climbExtendHatchPanel" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="climbNotifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -67,6 +92,18 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">climbSMEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../climbSMEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$^_1!!!"A!A!!!!!!#!.M!]1!!!!!!!!!"$W.M;7VC5UV&amp;&lt;H6N,G.U&lt;!$$1"9!#1YR)#UA:']A&lt;G^U;'FO:R!S)#UA=WVB&lt;'QA=X2B=H2[$T-A,3"M;7:U)(.U;7RU?BAU)#UA:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$%8.3!N)(*F&gt;(*B9X1A:H*P&lt;H1A=X2J&lt;(19.C!N)'2S;8:F)'RJ&gt;(2M:3"X;'6F&lt;#!S&amp;D=A,3"S:82S97.U)(*F98)A=X2J&lt;(14/#!N)'2S;8:F)(2P)'VJ:'2M:1AZ)#UA5V205!!)1WRJ&lt;7)A5UU!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%0#Q%!!"A!A!!!!!!#!/U!]1!!!!!!!!!"$W.M;7VC5UV&amp;&lt;H6N,G.U&lt;!$61"9!#AYR)#UA:']A&lt;G^U;'FO:R!S)#UA5(*F=#"4?8.U:7VT%$-A,3"T&lt;7&amp;M&lt;#"T&gt;'&amp;S&gt;(I0.#!N)'RJ:H1A=X2J&lt;(2['$5A,3"E=GFW:3"M;82U&lt;'5A&gt;WBF:7QA-2=W)#UA=G6U=G&amp;D&gt;#"G=G^O&gt;#"T&gt;'FM&gt;"AX)#UA:(*J&gt;G5A&lt;'FU&gt;'RF)(&gt;I:76M)$)7/#!N)(*F&gt;(*B9X1A=G6B=C"T&gt;'FM&gt;"-Z)#UA:(*J&gt;G5A&gt;']A&lt;7FE:'RF#4%Q)#UA5V205!!)1WRJ&lt;7)A5UU!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="runClimb" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
