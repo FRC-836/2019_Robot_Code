@@ -107,12 +107,14 @@
 	<Property Name="varPersistentID:{88004876-7020-4922-8501-30820A424D7D}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_Lt(6)</Property>
 	<Property Name="varPersistentID:{881648D9-A208-4F5D-BF50-21A6CE4CD08D}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_d_pad_down(180)</Property>
 	<Property Name="varPersistentID:{8AD08C7F-3C5B-4F74-885F-ED538503AF93}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Period</Property>
+	<Property Name="varPersistentID:{8CDE0889-7CCA-40C6-964E-0D1BCA8C6371}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/rearStiltStartPos</Property>
 	<Property Name="varPersistentID:{8D9BAADF-4D4F-4F0D-A9DC-AFC804A35499}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{8F605E0D-589E-4DED-B90C-B358449C129D}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveAvgVel(SU per 100ms)</Property>
 	<Property Name="varPersistentID:{91CDE391-43A1-4B88-9335-FE41845B3A4C}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/Current Expected End [i-1]</Property>
 	<Property Name="varPersistentID:{9347FB81-7655-414B-A276-DA0EAE1B86D6}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/Current Iteration Duration</Property>
 	<Property Name="varPersistentID:{954E5729-514E-4CBF-9F06-A53AE1076936}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_d_pad_right(90)</Property>
 	<Property Name="varPersistentID:{958BD958-E22A-4B83-9A59-7FD94D9505C0}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbPoweredIRLeft</Property>
+	<Property Name="varPersistentID:{96453BD9-6DEA-4A42-82C8-E9712D694A55}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/frontStiltStartPos</Property>
 	<Property Name="varPersistentID:{96B355AE-ADD5-48EF-A070-015CD351FEB7}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Axis_Left_y(1)</Property>
 	<Property Name="varPersistentID:{972B72CF-7B20-49B2-877C-870472EEC448}" Type="Ref">/Target/Subsystems/Loggin'/Loggin'.lvlib/Hatch_Panel_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{978F3DC1-69CB-472C-B645-20472806CE49}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RT(7)</Property>
@@ -736,6 +738,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CAN_PCMGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobal.vi"/>
 				<Item Name="WPI_CAN_PCMGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobalOps.ctl"/>
 				<Item Name="WPI_CAN_PCMMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMMessageIDs.ctl"/>
+				<Item Name="WPI_CAN_PCMReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMReceive.vi"/>
 				<Item Name="WPI_CAN_PCMSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMSend.vi"/>
 				<Item Name="WPI_CAN_PDPCommands.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPCommands.ctl"/>
 				<Item Name="WPI_CAN_PDPDecode4Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPDecode4Currents.vi"/>
@@ -847,7 +850,10 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_MXP SPI Bus to first MXP Pin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP SPI Bus to first MXP Pin.vi"/>
 				<Item Name="WPI_MXP_ChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_ChannelCache.vi"/>
 				<Item Name="WPI_MXP_Grab Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MXP/WPI_MXP_Grab Mutex.vi"/>
+				<Item Name="WPI_Power Get PCM Compressor Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Compressor Current.vi"/>
 				<Item Name="WPI_Power Get PDP Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Currents.vi"/>
+				<Item Name="WPI_Power Get PDP Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Voltage.vi"/>
+				<Item Name="WPI_Power Get roboRIO Input Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get roboRIO Input Voltage and Current.vi"/>
 				<Item Name="WPI_PWMChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCache.vi"/>
 				<Item Name="WPI_PWMChannelCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCacheOp.ctl"/>
 				<Item Name="WPI_PWMDeadband.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMDeadband.ctl"/>
