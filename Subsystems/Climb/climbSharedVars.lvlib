@@ -45,7 +45,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">climbStateEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../climbStateEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"W=A!!!"A!A!!!!!!#!&amp;1!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!!Z1"9!!QFE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=A!!#U.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#!@!!!!"A!A!!!!!!#!&amp;Y!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!"$1"9!"!FE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=AF5:8.U)%VP:'5!!!N$&lt;'FN9C"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="climbPlatformSelector" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -69,7 +69,19 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">climbStateEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../climbStateEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"W=A!!!"A!A!!!!!!#!&amp;1!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!!Z1"9!!QFE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=A!!#U.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#!@!!!!"A!A!!!!!!#!&amp;Y!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!"$1"9!"!FE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=AF5:8.U)%VP:'5!!!N$&lt;'FN9C"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="climbTestModeEnable?" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Drive Speed" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
