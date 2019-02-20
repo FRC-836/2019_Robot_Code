@@ -26,6 +26,7 @@
 	<Property Name="varPersistentID:{1F0C3BF8-E70B-45F9-9611-A8754AD16309}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Period</Property>
 	<Property Name="varPersistentID:{20DAEE37-0FBE-43F6-A68C-DD2EE61812E8}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
 	<Property Name="varPersistentID:{212B7B47-2711-49EF-95FB-EB9BE14ACCBB}" Type="Ref">/Target/Subsystems/Loggin'/Loggin'.lvlib/Drive_QCP_DevRef_Out</Property>
+	<Property Name="varPersistentID:{2268B389-214C-4BDB-B67A-A5B15AAE401E}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/alignAngleSetpoint</Property>
 	<Property Name="varPersistentID:{24A00719-777A-42C3-993D-21A1612BC4B2}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/SensorsPeriod</Property>
 	<Property Name="varPersistentID:{250F3ACB-31E7-45F9-80DE-2A519B9DDBD6}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMGrabTime</Property>
 	<Property Name="varPersistentID:{27AFB948-BB59-4F23-9EF3-6EDF677C632F}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_B(2)</Property>
@@ -172,6 +173,7 @@
 	<Property Name="varPersistentID:{E35F0EDF-DAB2-44E0-9094-B61F66942307}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{E3DB4D28-D630-4F8F-B26C-433ABF338040}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP0Current</Property>
 	<Property Name="varPersistentID:{E45D2486-7CCF-4F75-AFCD-FC73433DA952}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP2Current</Property>
+	<Property Name="varPersistentID:{E5013627-A4A8-4647-91BD-FA2388109341}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/alignAngleTriggered</Property>
 	<Property Name="varPersistentID:{E79236DB-E222-44E2-9806-6562970A303E}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalAvgSize</Property>
 	<Property Name="varPersistentID:{E8E9BACC-C846-42E2-AA73-9876EC077417}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Right_Y(3)</Property>
 	<Property Name="varPersistentID:{EB2965C1-F99D-4B5E-8787-2E79BDF8B993}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMGatherExtendTime</Property>
