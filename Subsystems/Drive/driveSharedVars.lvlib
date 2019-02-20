@@ -47,7 +47,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">driveCommandEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../driveCommandEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$=W!!!!"A!A!!!!!!#!,I!]1!!!!!!!!!"&amp;'2S;8:F1W^N&lt;7&amp;O:%6O&gt;7UO9X2M!*V!&amp;A!,#72P4G^U;'FO:Q:.97ZV:7Q'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"5.M;7VC#ERJ&lt;G5A17RJ:WY*5G^U982F-4AQ'5RP972J&lt;G&gt;4&gt;'&amp;U;7^O,4Z$98*H&lt;V.I;8!,5W^O98)A1H*B;W5*4%R$&gt;8.I;7^O!"*%=GFW:3"$&lt;WVN97ZE)%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$M[!!!!"A!A!!!!!!#!-I!]1!!!!!!!!!"&amp;'2S;8:F1W^N&lt;7&amp;O:%6O&gt;7UO9X2M!+V!&amp;A!-#72P4G^U;'FO:Q:.97ZV:7Q'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"5.M;7VC#ERJ&lt;G5A17RJ:WY*5G^U982F-4AQ'5RP972J&lt;G&gt;4&gt;'&amp;U;7^O,4Z$98*H&lt;V.I;8!,5W^O98)A1H*B;W5*4%R$&gt;8.I;7^O$UQR5GFH;(25&lt;U.B=G&gt;P/!!32(*J&gt;G5A1W^N&lt;7&amp;O:#"&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="driveShifterPosition" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
