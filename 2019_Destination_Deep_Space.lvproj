@@ -25,7 +25,6 @@
 	<Property Name="varPersistentID:{1E6D47FF-36A6-4325-B59B-F79E529694BD}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_y(3)</Property>
 	<Property Name="varPersistentID:{1F0C3BF8-E70B-45F9-9611-A8754AD16309}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Period</Property>
 	<Property Name="varPersistentID:{20DAEE37-0FBE-43F6-A68C-DD2EE61812E8}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
-	<Property Name="varPersistentID:{212B7B47-2711-49EF-95FB-EB9BE14ACCBB}" Type="Ref">/Target/Subsystems/Loggin'/Loggin'.lvlib/Drive_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{2268B389-214C-4BDB-B67A-A5B15AAE401E}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/alignAngleSetpoint</Property>
 	<Property Name="varPersistentID:{24A00719-777A-42C3-993D-21A1612BC4B2}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/SensorsPeriod</Property>
 	<Property Name="varPersistentID:{250F3ACB-31E7-45F9-80DE-2A519B9DDBD6}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMGrabTime</Property>
@@ -60,7 +59,6 @@
 	<Property Name="varPersistentID:{4C296C1B-58DF-4CFE-95AC-E7EE2F4E173D}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LB(4)</Property>
 	<Property Name="varPersistentID:{4C769BFF-176F-4A08-AFA9-0F72A7A00087}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Cushion Iteration Duration</Property>
 	<Property Name="varPersistentID:{4D33BA22-0B58-4AAA-B420-FAE6D8A97AF9}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP4Current</Property>
-	<Property Name="varPersistentID:{4DE156DA-4D7B-40B9-A182-4B62EC8026C0}" Type="Ref">/Target/Subsystems/Loggin'/Loggin'.lvlib/Sensors_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{4F8B63B2-4E65-4790-A99E-9DBEDD305823}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RB(5)</Property>
 	<Property Name="varPersistentID:{52D2807F-7AC9-404F-AD0B-81FDB34DBDF4}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
 	<Property Name="varPersistentID:{53F8C9EE-ADC2-4857-8870-97F44AFDC5D5}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalOffset</Property>
@@ -69,7 +67,6 @@
 	<Property Name="varPersistentID:{5B16F399-45FD-4AB6-AB87-57EAEAAD13DF}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP14Current</Property>
 	<Property Name="varPersistentID:{5EB08AEF-52BA-4456-8BAA-853BF494B45D}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbFinished</Property>
 	<Property Name="varPersistentID:{61F2A8AF-820E-44C5-8271-E6F69654F3C7}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Iteration Duration</Property>
-	<Property Name="varPersistentID:{63AB356F-D906-4189-8AC3-9921B2824401}" Type="Ref">/Target/Subsystems/Loggin'/Loggin'.lvlib/Cargo_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{643E36EA-3250-489A-9088-A4BB62D67203}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveLeftRawPosition</Property>
 	<Property Name="varPersistentID:{648616FB-DAE7-4DD4-8572-FD980F5788FF}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP3Current</Property>
 	<Property Name="varPersistentID:{663125E6-45BC-47F4-9F55-2FEBF80EC538}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbStateNotifier</Property>
@@ -122,7 +119,6 @@
 	<Property Name="varPersistentID:{96453BD9-6DEA-4A42-82C8-E9712D694A55}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/frontStiltStartPos</Property>
 	<Property Name="varPersistentID:{96B27C49-E3EA-46F6-9DEA-FCF0A72BD910}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/climbTestDownPos?</Property>
 	<Property Name="varPersistentID:{96B355AE-ADD5-48EF-A070-015CD351FEB7}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Axis_Left_y(1)</Property>
-	<Property Name="varPersistentID:{972B72CF-7B20-49B2-877C-870472EEC448}" Type="Ref">/Target/Subsystems/Loggin'/Loggin'.lvlib/Hatch_Panel_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{978F3DC1-69CB-472C-B645-20472806CE49}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RT(7)</Property>
 	<Property Name="varPersistentID:{98A96D6C-4F5B-472D-9C15-2A67DAF54E57}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveIMUYawPitchRoll</Property>
 	<Property Name="varPersistentID:{98C88FA6-E90F-4D69-A769-7AF7611DC480}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/LLDistance</Property>
@@ -173,7 +169,6 @@
 	<Property Name="varPersistentID:{DCD602D9-67D6-405A-AF87-4488519F3718}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Right_X(2)</Property>
 	<Property Name="varPersistentID:{DD09B003-3DD3-48B0-BEA1-6E6193EAD8B3}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CargoPeriod</Property>
 	<Property Name="varPersistentID:{DDAFE0C7-5748-48EF-BD4C-D489972B7364}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/rightMiddleDriveCurrent</Property>
-	<Property Name="varPersistentID:{DFD4B3CC-7DD7-4F97-8729-101DB73C2164}" Type="Ref">/Target/Subsystems/Loggin'/Loggin'.lvlib/Auto_QCP_DevRef_Out</Property>
 	<Property Name="varPersistentID:{E2073A8E-B388-4DEB-A6FE-3CA17DF40656}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Axis_right_y(3)</Property>
 	<Property Name="varPersistentID:{E35F0EDF-DAB2-44E0-9094-B61F66942307}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{E3DB4D28-D630-4F8F-B26C-433ABF338040}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP0Current</Property>
@@ -320,7 +315,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Begins_With.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/String_Functions/Begins_With.vi"/>
 				<Item Name="BoundAngle.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Math/CheezyMath/BoundAngle.vi"/>
 				<Item Name="BoundAngle0To2Pi.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Math/CheezyMath/BoundAngleSupport/BoundAngle0To2Pi.vi"/>
 				<Item Name="BoundAngle0To360.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Math/CheezyMath/BoundAngleSupport/BoundAngle0To360.vi"/>
@@ -332,7 +326,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Command_Tolerance_Info.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerance_Info.ctl"/>
 				<Item Name="Command_Tolerances.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Command_Tolerances.ctl"/>
 				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/De-Bounce_or_Delay.vi"/>
-				<Item Name="De-Commentify.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/File_Operations/De-Commentify.vi"/>
 				<Item Name="Drive_Code_Command_List.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Code_Command_List.ctl"/>
 				<Item Name="Drive_Code_Command_Type.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/Command_Sends/Drive_Code_Command_Type.ctl"/>
 				<Item Name="Drive_Trains.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/DriveTrains/Drive_Trains.ctl"/>
@@ -347,28 +340,18 @@ AddOutputFilter chunkFilter
 				<Item Name="IMUOrientRefNum Registry Get.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum Registry Get.vi"/>
 				<Item Name="IMUOrientRefNum Registry Set.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/IMUOrientRefNum Registry Set.vi"/>
 				<Item Name="JK_Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/JK_Latch.vi"/>
-				<Item Name="Latch.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Latch.vi"/>
 				<Item Name="Logger_Init.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Init.vi"/>
 				<Item Name="Logger_Log_Data.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Log_Data.vi"/>
 				<Item Name="Logger_Loop.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Logger_Loop.vi"/>
 				<Item Name="Logging_Settings.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Logging_Settings.ctl"/>
-				<Item Name="Open_File_Simple.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/File_Operations/Open_File_Simple.vi"/>
 				<Item Name="PidInputs.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInputs.ctl"/>
 				<Item Name="PidInversions.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/PidClusters/PidInversions.ctl"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
-				<Item Name="QCP_Open.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_Open.vi"/>
-				<Item Name="QCP_ReadFile.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_ReadFile.vi"/>
-				<Item Name="QCP_RefNum.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCPSupportCode/QCP_RefNum.ctl"/>
-				<Item Name="QCP_TuningModeSet.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_TuningModeSet.vi"/>
-				<Item Name="QCP_WriteFile.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCP_WriteFile.vi"/>
-				<Item Name="QCPData.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/QCP_V2/QCPSupportCode/QCPData.ctl"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Quaternion to Euler.vi"/>
 				<Item Name="Rate_Selective_Filter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Rate_Selective_Filter.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Sensor_Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Drive_Code_V2/Drive_Code_Support/SensorTypedefs/Sensor_Cluster.ctl"/>
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Setup State.ctl"/>
-				<Item Name="Signal_Pulse.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Signal_Pulse.vi"/>
-				<Item Name="Split_String.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/String_Functions/Split_String.vi"/>
 				<Item Name="Stable.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Stable.vi"/>
 				<Item Name="Status.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Status.vi"/>
 				<Item Name="TDMS_DevRef.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/TDMS_DevRef.ctl"/>
@@ -555,7 +538,6 @@ AddOutputFilter chunkFilter
 				<Item Name="FPGA_SystemGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemGet.vi"/>
 				<Item Name="FPGA_SystemOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemOpen.vi"/>
 				<Item Name="FPGA_SystemStart Async Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemStart Async Agent.vi"/>
-				<Item Name="FPGA_UtilitiesRead UserButton.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesRead UserButton.vi"/>
 				<Item Name="Get Image w retry.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/Get Image w retry.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="GetSystemError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/GetSystemError.vi"/>
@@ -602,7 +584,6 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
-				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="NT Globals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Globals.vi"/>
 				<Item Name="NT Read Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean Array.vi"/>
@@ -922,7 +903,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SPIBusCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBusCacheOp.ctl"/>
 				<Item Name="WPI_UtilitiesERRGetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesERRGetRefNum.vi"/>
 				<Item Name="WPI_UtilitiesFRC Build Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC Build Error.vi"/>
-				<Item Name="WPI_UtilitiesFRC ReadUserButton.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC ReadUserButton.vi"/>
 				<Item Name="WPI_UtilitiesFRC SendMessageToConsole.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC SendMessageToConsole.vi"/>
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
