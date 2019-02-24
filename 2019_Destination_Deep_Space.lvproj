@@ -176,6 +176,7 @@
 	<Property Name="varPersistentID:{E3DB4D28-D630-4F8F-B26C-433ABF338040}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP0Current</Property>
 	<Property Name="varPersistentID:{E45D2486-7CCF-4F75-AFCD-FC73433DA952}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP2Current</Property>
 	<Property Name="varPersistentID:{E5013627-A4A8-4647-91BD-FA2388109341}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/alignAngleTriggered</Property>
+	<Property Name="varPersistentID:{E629500F-CA3B-4317-BE56-9B7D40493A5B}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Hatch_Claws_Open?</Property>
 	<Property Name="varPersistentID:{E79236DB-E222-44E2-9806-6562970A303E}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalAvgSize</Property>
 	<Property Name="varPersistentID:{E8E9BACC-C846-42E2-AA73-9876EC077417}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Right_Y(3)</Property>
 	<Property Name="varPersistentID:{EB2965C1-F99D-4B5E-8787-2E79BDF8B993}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMGatherExtendTime</Property>
