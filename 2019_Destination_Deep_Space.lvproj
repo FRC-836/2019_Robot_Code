@@ -38,6 +38,7 @@
 	<Property Name="varPersistentID:{2EC29479-54DD-43DD-AAE3-8312DE8EFC0E}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/StoredEncoderValue</Property>
 	<Property Name="varPersistentID:{2F8A67B2-873B-497A-B78D-4CA795FE0F54}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/pitchWind</Property>
 	<Property Name="varPersistentID:{303CB352-16D4-4034-ABA2-4B9D522F2A08}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Both Extended</Property>
+	<Property Name="varPersistentID:{30A4DDBC-8DAF-4F46-A107-9DB2B86B3A48}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Joystick Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{35BAF86C-D101-4CFA-B2E7-CD9CA490D482}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/target</Property>
 	<Property Name="varPersistentID:{37C3A1BD-1262-4DB4-A997-355E2B85F2D7}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_LB(4)</Property>
 	<Property Name="varPersistentID:{37D8193E-B146-482A-92E8-36087D89CD62}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/line align notifier out</Property>
@@ -114,6 +115,7 @@
 	<Property Name="varPersistentID:{8AD08C7F-3C5B-4F74-885F-ED538503AF93}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Period</Property>
 	<Property Name="varPersistentID:{8CDE0889-7CCA-40C6-964E-0D1BCA8C6371}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/rearStiltStartPos</Property>
 	<Property Name="varPersistentID:{8D9BAADF-4D4F-4F0D-A9DC-AFC804A35499}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Finished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{8DF6CAC9-17A0-44EB-9EF7-D7247145CC60}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Joystick Iteration Duration</Property>
 	<Property Name="varPersistentID:{8F605E0D-589E-4DED-B90C-B358449C129D}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveAvgVel(SU per 100ms)</Property>
 	<Property Name="varPersistentID:{90EFA40A-AF4E-4F51-9760-EB2F7213DC55}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/stiltLockSkidSolDevRef</Property>
 	<Property Name="varPersistentID:{91CDE391-43A1-4B88-9335-FE41845B3A4C}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Current Expected End [i-1]</Property>
@@ -199,6 +201,7 @@
 	<Property Name="varPersistentID:{F07F96BB-8103-4C2D-8C9C-A244EFCCD97A}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/leftMiddleDriveCurrent</Property>
 	<Property Name="varPersistentID:{F0F2B6A3-39E4-4C49-99EC-335FAD8314B8}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Axis_Left_X(0)</Property>
 	<Property Name="varPersistentID:{F45CE6D2-523D-4D4A-A217-57EBBA0CC800}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_Rt(7)</Property>
+	<Property Name="varPersistentID:{F5E7201D-F893-4F70-A8BD-C526E58626DD}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Joystick Period</Property>
 	<Property Name="varPersistentID:{F8548067-5140-481E-97F5-5BB3FC26E13D}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/lineIRFrontRight</Property>
 	<Property Name="varPersistentID:{FB072231-55D8-4F71-A464-0E1C1CC4A336}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbSkidIRRight</Property>
 	<Property Name="varPersistentID:{FB8193CC-699B-4516-8B2E-9460B424D0AF}" Type="Ref">/Target/Subsystems/Current.lvlib/Finished Late? [i-1]</Property>
@@ -460,12 +463,10 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorController_GetSelectedSensorData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Get/CTRE_Phoenix_MotorController_GetSelectedSensorData.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_GetSelectedSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CCI/CTRE_Phoenix_MotorController_GetSelectedSensorPosition.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_GetSelectedSensorVelocity.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CCI/CTRE_Phoenix_MotorController_GetSelectedSensorVelocity.vi"/>
-				<Item Name="CTRE_Phoenix_MotorController_GetStatusFramePeriod_Enhanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Frame Rate/CTRE_Phoenix_MotorController_GetStatusFramePeriod_Enhanced.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_GetTemperature.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Get/CTRE_Phoenix_MotorController_GetTemperature.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_GetVoltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Get/CTRE_Phoenix_MotorController_GetVoltage.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_SetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CCI/CTRE_Phoenix_MotorController_SetParameter.vi"/>
 				<Item Name="CTRE_Phoenix_Params.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Controls/CTRE_Phoenix_Params.ctl"/>
-				<Item Name="CTRE_Phoenix_PigeonIMU_GetStatusFramePeriod.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_Phoenix_PigeonIMU_GetStatusFramePeriod.vi"/>
 				<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
 				<Item Name="CTRE_Phoenix_VictorSPX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Victor SPX/CTRE_Phoenix_VictorSPX_Open.vi"/>
 				<Item Name="CTRE_PigeonIMU_CalibrationMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_CalibrationMode.ctl"/>
@@ -970,9 +971,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PigeonGetStatusRates.vi" Type="VI" URL="../Other VIs/PigeonGetStatusRates.vi"/>
 			<Item Name="PigeonSetStatusRates.vi" Type="VI" URL="../Other VIs/PigeonSetStatusRates.vi"/>
-			<Item Name="TalonSRXGetStatusRates.vi" Type="VI" URL="../Other VIs/TalonSRXGetStatusRates.vi"/>
 			<Item Name="TalonSRXSetStatusRates.vi" Type="VI" URL="../Other VIs/TalonSRXSetStatusRates.vi"/>
 			<Item Name="VictorSPXSetStatusRates.vi" Type="VI" URL="../Other VIs/VictorSPXSetStatusRates.vi"/>
 		</Item>
