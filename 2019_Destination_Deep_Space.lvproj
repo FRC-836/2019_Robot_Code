@@ -61,7 +61,7 @@
 	<Property Name="varPersistentID:{4C769BFF-176F-4A08-AFA9-0F72A7A00087}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Cushion Iteration Duration</Property>
 	<Property Name="varPersistentID:{4D33BA22-0B58-4AAA-B420-FAE6D8A97AF9}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP4Current</Property>
 	<Property Name="varPersistentID:{4F8B63B2-4E65-4790-A99E-9DBEDD305823}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RB(5)</Property>
-	<Property Name="varPersistentID:{5156E23E-0A8E-45D2-8E1E-B463137738C0}" Type="Ref">/Target/Subsystems/Sensors/canSensors.lvlib/CanSensorsFinished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{5156E23E-0A8E-45D2-8E1E-B463137738C0}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsFinished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{52D2807F-7AC9-404F-AD0B-81FDB34DBDF4}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
 	<Property Name="varPersistentID:{53F8C9EE-ADC2-4857-8870-97F44AFDC5D5}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalOffset</Property>
 	<Property Name="varPersistentID:{581AE47C-E0EF-4BFA-9075-EC62DE94F198}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/Shoot_Time</Property>
@@ -96,7 +96,7 @@
 	<Property Name="varPersistentID:{754F13BE-DB18-46F1-8CA3-81FD08CF1336}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/HatchPannelPeriod</Property>
 	<Property Name="varPersistentID:{76B87489-D01A-4E27-A48F-C0CE70B79D6B}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/lineDrive</Property>
 	<Property Name="varPersistentID:{77E8D2B4-2C80-42DF-B8F0-1AD5D659CD1B}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbPlatformSelector</Property>
-	<Property Name="varPersistentID:{785B3879-E560-4ECA-93E2-F625F73F269A}" Type="Ref">/Target/Subsystems/Sensors/canSensors.lvlib/CanSensorsIteration Duration</Property>
+	<Property Name="varPersistentID:{785B3879-E560-4ECA-93E2-F625F73F269A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsIteration Duration</Property>
 	<Property Name="varPersistentID:{786D4EF0-1779-4565-91D4-1B1D261896A9}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP1Current</Property>
 	<Property Name="varPersistentID:{78F93F9E-0DCB-43F6-9BF7-C9CCFE401E16}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{790C87FA-DAAD-4358-B605-44A96C553A21}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/sonarLeftRaw(V)</Property>
@@ -146,7 +146,7 @@
 	<Property Name="varPersistentID:{AEAFD187-A87C-4B5B-BCD0-D81B64A274BB}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/Shoot_Right?</Property>
 	<Property Name="varPersistentID:{AF3BEB1C-4BB4-4A25-9D47-A22B25AE41D7}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP6Current</Property>
 	<Property Name="varPersistentID:{AF72622C-1EC7-4272-8E49-4FCF186066B9}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/MotionButtonPressedBefore?</Property>
-	<Property Name="varPersistentID:{B1027A03-1D2D-477C-8526-4779DFBBC290}" Type="Ref">/Target/Subsystems/Sensors/canSensors.lvlib/CanSensorsPeriod</Property>
+	<Property Name="varPersistentID:{B1027A03-1D2D-477C-8526-4779DFBBC290}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsPeriod</Property>
 	<Property Name="varPersistentID:{B1FC7C71-F524-4636-9A15-A9BE88CF6501}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveClimbStateNotifier</Property>
 	<Property Name="varPersistentID:{B316C338-A8FD-4A49-8B0D-34B26EEEF0D3}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/CushionLeftDrive</Property>
 	<Property Name="varPersistentID:{B650D955-E834-44E5-9899-87C83764A9F9}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/hasTarget</Property>
