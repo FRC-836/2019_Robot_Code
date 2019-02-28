@@ -39,6 +39,7 @@
 	<Property Name="varPersistentID:{2F8A67B2-873B-497A-B78D-4CA795FE0F54}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/pitchWind</Property>
 	<Property Name="varPersistentID:{303CB352-16D4-4034-ABA2-4B9D522F2A08}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Both Extended</Property>
 	<Property Name="varPersistentID:{30A4DDBC-8DAF-4F46-A107-9DB2B86B3A48}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Joystick Finished Late? [i-1]</Property>
+	<Property Name="varPersistentID:{35886857-C291-4A1C-AB46-B30724F3B407}" Type="Ref">/Target/Subsystems/Sensors/Sonar/sonarSharedVars.lvlib/SonarBrakeState</Property>
 	<Property Name="varPersistentID:{35BAF86C-D101-4CFA-B2E7-CD9CA490D482}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/target</Property>
 	<Property Name="varPersistentID:{37C3A1BD-1262-4DB4-A997-355E2B85F2D7}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_LB(4)</Property>
 	<Property Name="varPersistentID:{37D8193E-B146-482A-92E8-36087D89CD62}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/line align notifier out</Property>
