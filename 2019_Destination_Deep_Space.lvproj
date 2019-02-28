@@ -175,6 +175,7 @@
 	<Property Name="varPersistentID:{D393F399-2091-454F-A663-04BE21FD5D35}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/LowGear?</Property>
 	<Property Name="varPersistentID:{D4B06FE7-36FE-443C-9894-0387980C831F}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/notifierClimb</Property>
 	<Property Name="varPersistentID:{D502BAC3-9942-4FC0-B115-6A32E135CD5C}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/hpExtendSolDevRef</Property>
+	<Property Name="varPersistentID:{D591065A-E14A-4098-AC26-F5882CB2D416}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/LineAlignState</Property>
 	<Property Name="varPersistentID:{D5F394EC-3DAB-4226-B010-BE6A3898D2EF}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveRightPositionInch</Property>
 	<Property Name="varPersistentID:{D6657CA7-8D1F-4416-A78A-C6882996805F}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/lineIRRearLeft</Property>
 	<Property Name="varPersistentID:{D8F6A1C7-8276-406C-8700-19D89B008F37}" Type="Ref">/Target/SharedVariables/MotorDevRefs.lvlib/climbCrawlerMotorDevRef</Property>
