@@ -95,6 +95,7 @@
 	<Property Name="varPersistentID:{75311786-2E37-4BFE-9049-260F49AEDEAA}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/Skip_1_Line_align</Property>
 	<Property Name="varPersistentID:{754AC443-0B01-491B-B482-08BAB7605E7E}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/limelightModeNotifier</Property>
 	<Property Name="varPersistentID:{754F13BE-DB18-46F1-8CA3-81FD08CF1336}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/HatchPannelPeriod</Property>
+	<Property Name="varPersistentID:{75E12A46-CE1C-461F-B7DE-A6C1A44EB26D}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/climbStiltIdleMode</Property>
 	<Property Name="varPersistentID:{76B87489-D01A-4E27-A48F-C0CE70B79D6B}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/lineDrive</Property>
 	<Property Name="varPersistentID:{77E8D2B4-2C80-42DF-B8F0-1AD5D659CD1B}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbPlatformSelector</Property>
 	<Property Name="varPersistentID:{785B3879-E560-4ECA-93E2-F625F73F269A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsIteration Duration</Property>
