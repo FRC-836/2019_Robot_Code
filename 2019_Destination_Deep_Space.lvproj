@@ -138,7 +138,6 @@
 	<Property Name="varPersistentID:{9E8D0602-A0FF-417B-9A7D-C3B2994A18FF}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/stiltLockPoweredSolDevRef</Property>
 	<Property Name="varPersistentID:{9EC34111-A574-4A8C-AE79-BA51A25D1F81}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Right(90)</Property>
 	<Property Name="varPersistentID:{9F4DA40D-FA1D-4D8D-804F-06490040C978}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Rear Retracted</Property>
-	<Property Name="varPersistentID:{A0A5FFD1-4189-49D5-B7FC-DFA96C1E5EF3}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Hatch_Claws_Open?</Property>
 	<Property Name="varPersistentID:{A53FAF0C-007C-4BFB-8251-7FAC5EAE72B2}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP9Current</Property>
 	<Property Name="varPersistentID:{A6227933-ADCE-4954-BCAB-E10CAE91DA9B}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/stachModeHatchPanelStateMachineControl</Property>
 	<Property Name="varPersistentID:{A824354C-5EEB-44E4-98E2-F54212C7D8BA}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/enableTracking</Property>
@@ -166,6 +165,7 @@
 	<Property Name="varPersistentID:{C3A1F235-9671-4422-B695-1179A4B96871}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Down(180)</Property>
 	<Property Name="varPersistentID:{C3C4A7C7-32A7-43FA-A282-863FECFE149B}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/motionProfilePathName</Property>
 	<Property Name="varPersistentID:{C490CE9B-A168-4590-AE22-A63755676322}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP11Current</Property>
+	<Property Name="varPersistentID:{C54A9155-048C-421D-BAD7-30288D5561DB}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Hatch_Claws_Close?</Property>
 	<Property Name="varPersistentID:{C6B4F87B-3E38-4A32-8344-094F7D65F89A}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbTestModeEnable?</Property>
 	<Property Name="varPersistentID:{C7C11E14-B879-4527-9FC2-EC63DCE852C1}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/CushionRightDrive</Property>
 	<Property Name="varPersistentID:{C8764A84-F5B5-40B5-83E2-1B7CAB4DA8BC}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMTick</Property>
