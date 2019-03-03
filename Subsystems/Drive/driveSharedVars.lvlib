@@ -74,6 +74,18 @@
 		<Property Name="typedefPath1" Type="PathRel">../../Climb/driveClimbStateEnum.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Z&gt;1!!!"A!A!!!!!!#!&amp;=!]1!!!!!!!!!"&amp;W2S;8:F1WRJ&lt;7*4&gt;'&amp;U:56O&gt;7UO9X2M!$&gt;!&amp;A!##E2P)%ZP&gt;'BJ&lt;G=.2(*J&gt;G5A2G^S&gt;W&amp;S:!!!%52S;8:F)%.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="driveMoveToTargetPower" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="driveNotifier" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -83,7 +95,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">driveCommandEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../driveCommandEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[^A!!!"A!A!!!!!!#!.A!]1!!!!!!!!!"&amp;'2S;8:F1W^N&lt;7&amp;O:%6O&gt;7UO9X2M!,N!&amp;A!.#72P4G^U;'FO:Q:.97ZV:7Q'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"5.M;7VC#ERJ&lt;G5A17RJ:WY*5G^U982F-4AQ'5RP972J&lt;G&gt;4&gt;'&amp;U;7^O,4Z$98*H&lt;V.I;8!,5W^O98)A1H*B;W5*4%R$&gt;8.I;7^O$UQR5GFH;(25&lt;U.B=G&gt;P/!V5&gt;8*O)&amp;2P)%&amp;O:WRF!"*%=GFW:3"$&lt;WVN97ZE)%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$__A!!!"A!A!!!!!!#!.Q!]1!!!!!!!!!"&amp;'2S;8:F1W^N&lt;7&amp;O:%6O&gt;7UO9X2M!,^!&amp;A!.#72P4G^U;'FO:Q:.97ZV:7Q'6'6M:7^Q#U:P&lt;'RP&gt;S"1982I$EVP&gt;G5A&gt;']A6'&amp;S:W6U"5.M;7VC#ERJ&lt;G5A17RJ:WY*5G^U982F-4AQ'5RP972J&lt;G&gt;4&gt;'&amp;U;7^O,4Z$98*H&lt;V.I;8!05W^O98)A1H*B;W65:7RF#5R-1X6T;'FP&lt;A^--6*J:WBU6'^$98*H&lt;TA.6(6S&lt;C"5&lt;S""&lt;G&gt;M:1!32(*J&gt;G5A1W^N&lt;7&amp;O:#"&amp;&lt;H6N!!!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="driveShifterPosition" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>

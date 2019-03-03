@@ -67,6 +67,7 @@
 	<Property Name="varPersistentID:{53F8C9EE-ADC2-4857-8870-97F44AFDC5D5}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalOffset</Property>
 	<Property Name="varPersistentID:{581AE47C-E0EF-4BFA-9075-EC62DE94F198}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/Shoot_Time</Property>
 	<Property Name="varPersistentID:{5A1B0A54-9C35-4B8D-8833-F0FB67FC7FB0}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP12Current</Property>
+	<Property Name="varPersistentID:{5A684BD7-BFB3-4FCC-BC5E-31928CCD5A36}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveMoveToTargetPower</Property>
 	<Property Name="varPersistentID:{5B16F399-45FD-4AB6-AB87-57EAEAAD13DF}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP14Current</Property>
 	<Property Name="varPersistentID:{5EB08AEF-52BA-4456-8BAA-853BF494B45D}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbFinished</Property>
 	<Property Name="varPersistentID:{61911D0C-F352-4BCB-9F6E-08242ABD729D}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/hpGrabSolDevRef</Property>
@@ -95,7 +96,6 @@
 	<Property Name="varPersistentID:{75311786-2E37-4BFE-9049-260F49AEDEAA}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/Skip_1_Line_align</Property>
 	<Property Name="varPersistentID:{754AC443-0B01-491B-B482-08BAB7605E7E}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/limelightModeNotifier</Property>
 	<Property Name="varPersistentID:{754F13BE-DB18-46F1-8CA3-81FD08CF1336}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/HatchPannelPeriod</Property>
-	<Property Name="varPersistentID:{75E12A46-CE1C-461F-B7DE-A6C1A44EB26D}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/climbStiltIdleMode</Property>
 	<Property Name="varPersistentID:{76B87489-D01A-4E27-A48F-C0CE70B79D6B}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/lineDrive</Property>
 	<Property Name="varPersistentID:{77E8D2B4-2C80-42DF-B8F0-1AD5D659CD1B}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbPlatformSelector</Property>
 	<Property Name="varPersistentID:{785B3879-E560-4ECA-93E2-F625F73F269A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsIteration Duration</Property>
@@ -115,6 +115,7 @@
 	<Property Name="varPersistentID:{871B67FE-3DEB-47A9-B9B5-F6A9AD719784}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_Back(8)</Property>
 	<Property Name="varPersistentID:{88004876-7020-4922-8501-30820A424D7D}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_Lt(6)</Property>
 	<Property Name="varPersistentID:{881648D9-A208-4F5D-BF50-21A6CE4CD08D}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_d_pad_down(180)</Property>
+	<Property Name="varPersistentID:{89582DBA-12F7-4D3B-A70A-341FF4EF4513}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelReadyToScore</Property>
 	<Property Name="varPersistentID:{8AD08C7F-3C5B-4F74-885F-ED538503AF93}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Period</Property>
 	<Property Name="varPersistentID:{8CDE0889-7CCA-40C6-964E-0D1BCA8C6371}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/rearStiltStartPos</Property>
 	<Property Name="varPersistentID:{8D9BAADF-4D4F-4F0D-A9DC-AFC804A35499}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Finished Late? [i-1]</Property>
@@ -152,6 +153,7 @@
 	<Property Name="varPersistentID:{B1027A03-1D2D-477C-8526-4779DFBBC290}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsPeriod</Property>
 	<Property Name="varPersistentID:{B1FC7C71-F524-4636-9A15-A9BE88CF6501}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveClimbStateNotifier</Property>
 	<Property Name="varPersistentID:{B316C338-A8FD-4A49-8B0D-34B26EEEF0D3}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/CushionLeftDrive</Property>
+	<Property Name="varPersistentID:{B43B5503-F9EB-4A67-A6FE-E46BA693D1BF}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelScored</Property>
 	<Property Name="varPersistentID:{B650D955-E834-44E5-9899-87C83764A9F9}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/hasTarget</Property>
 	<Property Name="varPersistentID:{B73FE7C1-1D55-496C-9E0D-63C955B01338}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/driveShiftSolDevRef</Property>
 	<Property Name="varPersistentID:{B991A1DA-3114-4041-A3BE-83E562097B63}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Iteration Duration</Property>
@@ -196,6 +198,7 @@
 	<Property Name="varPersistentID:{E6F552F6-336F-47A7-8D43-4CE6D2CD71BD}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Line Align Period</Property>
 	<Property Name="varPersistentID:{E79236DB-E222-44E2-9806-6562970A303E}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalAvgSize</Property>
 	<Property Name="varPersistentID:{E8E9BACC-C846-42E2-AA73-9876EC077417}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Right_Y(3)</Property>
+	<Property Name="varPersistentID:{EA23EA1F-BB1D-4B81-A238-2C030165761D}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/climbStiltEnable</Property>
 	<Property Name="varPersistentID:{EB2965C1-F99D-4B5E-8787-2E79BDF8B993}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMGatherExtendTime</Property>
 	<Property Name="varPersistentID:{EC2F4377-BDCF-460F-A5BB-256435EE6BE5}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbSkidIRLeft</Property>
 	<Property Name="varPersistentID:{ED392A88-3B47-4D76-9CC3-3DFA10872AF6}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/hpLockSolDevRef</Property>
@@ -346,6 +349,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Channel_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Channel_Config.ctl"/>
 				<Item Name="Channel_FIFO_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Channel_FIFO_Config.ctl"/>
 				<Item Name="De-Bounce_or_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/De-Bounce_or_Delay.vi"/>
+				<Item Name="Differential_Steering.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/Differential_Steering.vi"/>
 				<Item Name="Group_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Group_Config.ctl"/>
 				<Item Name="Group_FIFO_Config.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Group_FIFO_Config.ctl"/>
 				<Item Name="hmi_cheesy_drive.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Drive/hmi_cheesy_drive.vi"/>
@@ -977,6 +981,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PigeonSetStatusRates.vi" Type="VI" URL="../Other VIs/PigeonSetStatusRates.vi"/>
+			<Item Name="Snap 90__Foreward.vi" Type="VI" URL="../Other VIs/Snap 90__Foreward.vi"/>
 			<Item Name="TalonSRXSetStatusRates.vi" Type="VI" URL="../Other VIs/TalonSRXSetStatusRates.vi"/>
 			<Item Name="VictorSPXSetStatusRates.vi" Type="VI" URL="../Other VIs/VictorSPXSetStatusRates.vi"/>
 		</Item>
