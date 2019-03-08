@@ -50,6 +50,7 @@
 	<Property Name="varPersistentID:{3DEEF2E6-8F89-440C-B617-9C702BD36246}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP5Current</Property>
 	<Property Name="varPersistentID:{3E077014-B034-4606-B670-4635C18AD602}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Current Period</Property>
 	<Property Name="varPersistentID:{4018399F-4303-43DA-9EB7-C2ADF23F446D}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMGatherRetractTime</Property>
+	<Property Name="varPersistentID:{40D97830-207D-4E39-81D1-97C99A8887E3}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/hatchPanelDistRaw</Property>
 	<Property Name="varPersistentID:{423D43FE-9CE1-408C-9337-8F3C4B4EDA3A}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Back(8)</Property>
 	<Property Name="varPersistentID:{43725C42-0600-4650-B9CB-84B0640CABD5}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/climbStiltRezero</Property>
 	<Property Name="varPersistentID:{43997B60-14D9-423A-80B7-5EE94C8695FC}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Limelight Period</Property>
