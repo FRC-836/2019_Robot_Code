@@ -63,6 +63,7 @@
 	<Property Name="varPersistentID:{4C296C1B-58DF-4CFE-95AC-E7EE2F4E173D}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LB(4)</Property>
 	<Property Name="varPersistentID:{4C769BFF-176F-4A08-AFA9-0F72A7A00087}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Cushion Iteration Duration</Property>
 	<Property Name="varPersistentID:{4D33BA22-0B58-4AAA-B420-FAE6D8A97AF9}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP4Current</Property>
+	<Property Name="varPersistentID:{4EA015CD-E73B-4E60-9F17-13AA8BBBECCD}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/disableClimbIdle-climbTestModeEnable?</Property>
 	<Property Name="varPersistentID:{4F8B63B2-4E65-4790-A99E-9DBEDD305823}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_RB(5)</Property>
 	<Property Name="varPersistentID:{5156E23E-0A8E-45D2-8E1E-B463137738C0}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsFinished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{52D2807F-7AC9-404F-AD0B-81FDB34DBDF4}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
@@ -168,7 +169,6 @@
 	<Property Name="varPersistentID:{C3C4A7C7-32A7-43FA-A282-863FECFE149B}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/motionProfilePathName</Property>
 	<Property Name="varPersistentID:{C490CE9B-A168-4590-AE22-A63755676322}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP11Current</Property>
 	<Property Name="varPersistentID:{C54A9155-048C-421D-BAD7-30288D5561DB}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Hatch_Claws_Close?</Property>
-	<Property Name="varPersistentID:{C6B4F87B-3E38-4A32-8344-094F7D65F89A}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbTestModeEnable?</Property>
 	<Property Name="varPersistentID:{C7C11E14-B879-4527-9FC2-EC63DCE852C1}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/CushionRightDrive</Property>
 	<Property Name="varPersistentID:{C8764A84-F5B5-40B5-83E2-1B7CAB4DA8BC}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMTick</Property>
 	<Property Name="varPersistentID:{CB77B4F6-ED44-425F-B929-B76AE3175769}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Period</Property>
@@ -235,7 +235,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
+		<Property Name="alias.value" Type="Str">10.8.36.2</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
