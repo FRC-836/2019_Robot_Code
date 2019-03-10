@@ -95,7 +95,7 @@
 		<Property Name="typedefPath1" Type="PathRel">../climbStateEnum.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#!@!!!!"A!A!!!!!!#!&amp;Y!]1!!!!!!!!!"%G.M;7VC5X2B&gt;'6&amp;&lt;H6N,G.U&lt;!"$1"9!"!FE&lt;UZP&gt;'BJ&lt;G=*186U&lt;S".&lt;W2F$&amp;.B:G6M?3"-&lt;X&gt;F=AF5:8.U)%VP:'5!!!N$&lt;'FN9C"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="climbTestModeEnable?" Type="Variable">
+	<Item Name="disableClimbIdle-climbTestModeEnable?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
