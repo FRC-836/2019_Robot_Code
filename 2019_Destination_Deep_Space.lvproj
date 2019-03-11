@@ -115,11 +115,13 @@
 	<Property Name="varPersistentID:{85642728-77C1-4B6B-BAD1-131732845544}" Type="Ref">/Target/Subsystems/Sensors/Sonar/sonarSharedVars.lvlib/SonarStandOff</Property>
 	<Property Name="varPersistentID:{8592DEA5-4D82-4C11-A1CC-0B4C0C788E1B}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelNotifier</Property>
 	<Property Name="varPersistentID:{869B5F77-B994-4765-8472-70BFD1B26098}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Cushion Period</Property>
+	<Property Name="varPersistentID:{86DD3442-258D-451C-ACC7-E50C0D464316}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/codeDriveSteer</Property>
 	<Property Name="varPersistentID:{871B67FE-3DEB-47A9-B9B5-F6A9AD719784}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_Back(8)</Property>
 	<Property Name="varPersistentID:{88004876-7020-4922-8501-30820A424D7D}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_Lt(6)</Property>
 	<Property Name="varPersistentID:{881648D9-A208-4F5D-BF50-21A6CE4CD08D}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_d_pad_down(180)</Property>
 	<Property Name="varPersistentID:{89582DBA-12F7-4D3B-A70A-341FF4EF4513}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelReadyToScore</Property>
 	<Property Name="varPersistentID:{8AD08C7F-3C5B-4F74-885F-ED538503AF93}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Period</Property>
+	<Property Name="varPersistentID:{8CBC45F8-7427-4631-8E2C-B1209237F996}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/codeDriveThrottle</Property>
 	<Property Name="varPersistentID:{8CDE0889-7CCA-40C6-964E-0D1BCA8C6371}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/rearStiltStartPos</Property>
 	<Property Name="varPersistentID:{8D9BAADF-4D4F-4F0D-A9DC-AFC804A35499}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{8DF6CAC9-17A0-44EB-9EF7-D7247145CC60}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Joystick Iteration Duration</Property>
@@ -339,7 +341,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="AutonomousHatchPanelAndRocket.vi" Type="VI" URL="../Autonomous/AutonomousHatchPanelAndRocket.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
