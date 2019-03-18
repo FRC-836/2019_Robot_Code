@@ -126,6 +126,7 @@
 	<Property Name="varPersistentID:{8F605E0D-589E-4DED-B90C-B358449C129D}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveAvgVel(SU per 100ms)</Property>
 	<Property Name="varPersistentID:{90EFA40A-AF4E-4F51-9760-EB2F7213DC55}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/stiltLockSkidSolDevRef</Property>
 	<Property Name="varPersistentID:{9347FB81-7655-414B-A276-DA0EAE1B86D6}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Current Iteration Duration</Property>
+	<Property Name="varPersistentID:{936A545E-3A4A-4CCF-90C9-740CA2AECFF3}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/HatchPanelSwitchB</Property>
 	<Property Name="varPersistentID:{954E5729-514E-4CBF-9F06-A53AE1076936}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_d_pad_right(90)</Property>
 	<Property Name="varPersistentID:{958BD958-E22A-4B83-9A59-7FD94D9505C0}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbPoweredIRLeft</Property>
 	<Property Name="varPersistentID:{95907B44-6CCB-491C-8313-354AF5715D2E}" Type="Ref">/Target/TDMS/TDMS.lvlib/TDMS DevRef</Property>
@@ -216,6 +217,7 @@
 	<Property Name="varPersistentID:{F77C5470-8CAC-4CE5-A05D-658DE4028A6B}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sonar Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{F8548067-5140-481E-97F5-5BB3FC26E13D}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/lineIRFrontRight</Property>
 	<Property Name="varPersistentID:{FB072231-55D8-4F71-A464-0E1C1CC4A336}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbSkidIRRight</Property>
+	<Property Name="varPersistentID:{FC466C77-0BF9-4A5E-B557-31220F8C8D6F}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/HatchPanelSwitchA</Property>
 	<Property Name="varPersistentID:{FC6BC774-CFA2-481A-B278-E10A4F69111A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Limelight Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{FCA257BB-16A9-47A3-91ED-2625FAE55588}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/cargoYellowIRCVal</Property>
 	<Property Name="varPersistentID:{FCA98D5F-1435-45D5-90D4-077548E466F5}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveLeftPositionInch</Property>
