@@ -4,29 +4,23 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="alignAngleSetpoint" Type="Variable">
+	<Item Name="autoDBOptions" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="numTypedefs" Type="UInt">3</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="alignAngleTriggered" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		<Property Name="typedefName1" Type="Str">AutoOptions.ctl</Property>
+		<Property Name="typedefName2" Type="Str">Path_Decider.ctl</Property>
+		<Property Name="typedefName3" Type="Str">StartingPosition.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../AutoOptions.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../Path_Decider.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../StartingPosition.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(=W!%!!"A!A!!!!!!%!()!]1!!!!!!!!!"&amp;&amp;.U98*U;7ZH5'^T;82J&lt;WYO9X2M!&amp;6!&amp;A!'#%RF:H1A4$%A#5VJ:'2M:3"--1B3;7&gt;I&gt;#"--1&gt;-:7:U)%QS#&amp;*J:WBU)%QS#E2P&lt;C&gt;U)%VP&gt;G5!%6.U98*U;7ZH)&amp;"P=WFU;7^O!)Q!]1!!!!!!!!!"%&amp;"B&gt;'B@2'6D;72F=CZD&gt;'Q!=U!7!!Q"-1%S!4-".!%V!49".Q%Y%5RF:H2@5G^D;W6U8U:S&lt;WZU%%RF:H2@5G^D;W6U8V*F98)35GFH;(2@5G^D;W6U8U:S&lt;WZU%6*J:WBU8V*P9WNF&gt;&amp;^3:7&amp;S!!^';8*T&gt;#"49W^S:3"1&lt;X-!DA$R!!!!!!!!!!%15'&amp;U;&amp;^%:7.J:'6S,G.U&lt;!"V1"9!$!%R!4)"-Q%U!45".A%X!4A24'6G&gt;&amp;^3&lt;W.L:82@2H*P&lt;H114'6G&gt;&amp;^3&lt;W.L:82@5G6B=B*3;7&gt;I&gt;&amp;^3&lt;W.L:82@2H*P&lt;H125GFH;(2@5G^D;W6U8V*F98)!%&amp;.F9W^O:#"49W^S:3"1&lt;X-!!$9!]1!!!!!!!!!"$U&amp;V&gt;'^0=(2J&lt;WZT,G.U&lt;!!?1&amp;!!!Q!!!!%!!AR"&gt;82P)%^Q&gt;'FP&lt;H-!!!%!!Q!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="motionProfilePathName" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>

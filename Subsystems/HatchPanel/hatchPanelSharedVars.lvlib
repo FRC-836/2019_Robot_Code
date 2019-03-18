@@ -27,7 +27,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Hatch_Claws_Open?" Type="Variable">
+	<Item Name="Hatch_Claws_Close?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -53,6 +53,30 @@
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;14!%!!"A!A!!!!!!'!+9!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!#,1"9!#!JE&lt;S"O&lt;X2I;7ZH$6.U982F)%VB9WBJ&lt;G5+5X2B9WAA47^E:1J$&lt;'FN9C".&lt;W2F%&amp;*F&gt;(*B9X2F:#"$&lt;'^T:71/5G6U=G&amp;D&gt;'6E)%^Q:7Y028BU:7ZE:71A1WRP=W6E$56Y&gt;'6O:'6E)%^Q:7Y!!"&amp;)982D;#"197ZF&lt;#"4&gt;'&amp;U:1!71#%1476D;'&amp;O;8.N)%VP&gt;'FP&lt;A!!'E!B&amp;5&gt;B&gt;'BF=GFO:S"$&lt;'&amp;X)%VP&gt;'FP&lt;A!91#%45W.P=GFO:S"$&lt;'&amp;X)%VP&gt;'FP&lt;A"!!0%!!!!!!!!!!2VI982D;&amp;"B&lt;G6M4G^U;7:J:8*$&lt;(6T&gt;'6S,G.U&lt;!!;1&amp;!!"!!!!!%!!A!$"U.M&gt;8.U:8)!#A"Q!"%!!1!%!!%!"1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="hatchPanelReadyForClimb" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelReadyToScore" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="hatchPanelScored" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
