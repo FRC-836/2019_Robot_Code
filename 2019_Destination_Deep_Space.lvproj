@@ -343,6 +343,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Cargo Solenid set.vi" Type="VI" URL="../Dashboard v2/Cargo Solenid set.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="TestingLogFileCatalog.vi" Type="VI" URL="../../TestingLogFileCatalog.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Dashboard v2/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
