@@ -345,7 +345,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Cargo Solenid set.vi" Type="VI" URL="../Dashboard v2/Cargo Solenid set.vi"/>
-		<Item Name="Constants.vi" Type="VI" URL="../../2019_Robot_Code - Copy/Subsystems/Drive/MotionProfile/Constants.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Dashboard v2/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
