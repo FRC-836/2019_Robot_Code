@@ -82,7 +82,6 @@
 	<Property Name="varPersistentID:{6A6D1353-B543-40D6-B45B-F8E8EBBBA26A}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbDriveEnable</Property>
 	<Property Name="varPersistentID:{6B0770A3-32DE-4061-83DB-45AE1C6E18AD}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/rawTargets</Property>
 	<Property Name="varPersistentID:{6B5B91DA-6D0C-45B0-BE4C-FD47019763A3}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/climbRearPosition</Property>
-	<Property Name="varPersistentID:{6B9151D4-528E-41C2-AFF0-1633765CFA55}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/Fused Distance</Property>
 	<Property Name="varPersistentID:{6C3461B4-F9A9-4438-B70A-11C5C6103790}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Up(0)</Property>
 	<Property Name="varPersistentID:{6D6EBAB5-23D9-4344-B2C4-6F61769BCC82}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LT(6)</Property>
 	<Property Name="varPersistentID:{712E4984-0ADE-4876-87E6-CE6A61E2AC66}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/horizontalAvg</Property>
@@ -142,6 +141,7 @@
 	<Property Name="varPersistentID:{9E8D0602-A0FF-417B-9A7D-C3B2994A18FF}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/stiltLockPoweredSolDevRef</Property>
 	<Property Name="varPersistentID:{9EC34111-A574-4A8C-AE79-BA51A25D1F81}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Right(90)</Property>
 	<Property Name="varPersistentID:{9F4DA40D-FA1D-4D8D-804F-06490040C978}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Rear Retracted</Property>
+	<Property Name="varPersistentID:{A485EF0B-281C-42D6-B85E-E90E708E1CF2}" Type="Ref">/Target/TDMS/TDMS.lvlib/logDatabaseFilePath</Property>
 	<Property Name="varPersistentID:{A53FAF0C-007C-4BFB-8251-7FAC5EAE72B2}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP9Current</Property>
 	<Property Name="varPersistentID:{A6227933-ADCE-4954-BCAB-E10CAE91DA9B}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/stachModeHatchPanelStateMachineControl</Property>
 	<Property Name="varPersistentID:{A824354C-5EEB-44E4-98E2-F54212C7D8BA}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/enableTracking</Property>
@@ -609,7 +609,6 @@ AddOutputFilter chunkFilter
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="LEB Encoder.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/LEB Encoder.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
@@ -675,7 +674,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Refnum Registry Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/Refnum Registry Operation.ctl"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
@@ -804,8 +802,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CAN_PDPMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPMessageIDs.ctl"/>
 				<Item Name="WPI_CAN_PDPReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPReceive.vi"/>
 				<Item Name="WPI_CAN_PDPSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPSend.vi"/>
-				<Item Name="WPI_CAN_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/WPI_CAN_Receive.vi"/>
-				<Item Name="WPI_CAN_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/WPI_CAN_Send.vi"/>
 				<Item Name="WPI_CompressorClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorClose.vi"/>
 				<Item Name="WPI_CompressorDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorDevRef.ctl"/>
 				<Item Name="WPI_CompressorOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorOpen.vi"/>
@@ -1055,13 +1051,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PigeonSetStatusRates.vi" Type="VI" URL="../Other VIs/PigeonSetStatusRates.vi"/>
-			<Item Name="PwF ToF RangingMode.ctl" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_TypeDef/PwF ToF RangingMode.ctl"/>
-			<Item Name="PwF ToF Ref.ctl" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_TypeDef/PwF ToF Ref.ctl"/>
-			<Item Name="PwF_ToF_ConfigRanging.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_ConfigRanging.vi"/>
-			<Item Name="PwF_ToF_GetDistance.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_GetDistance.vi"/>
-			<Item Name="PwF_ToF_Open.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_Open.vi"/>
-			<Item Name="PwF_ToF_RefNumRegistryGet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistryGet.vi"/>
-			<Item Name="PwF_ToF_RefNumRegistrySet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistrySet.vi"/>
 			<Item Name="Snap 90__Foreward.vi" Type="VI" URL="../Other VIs/Snap 90__Foreward.vi"/>
 			<Item Name="TalonSRXSetStatusRates.vi" Type="VI" URL="../Other VIs/TalonSRXSetStatusRates.vi"/>
 			<Item Name="VictorSPXSetStatusRates.vi" Type="VI" URL="../Other VIs/VictorSPXSetStatusRates.vi"/>
