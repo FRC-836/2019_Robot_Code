@@ -70,6 +70,7 @@
 	<Property Name="varPersistentID:{5A684BD7-BFB3-4FCC-BC5E-31928CCD5A36}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveMoveToTargetPower</Property>
 	<Property Name="varPersistentID:{5B16F399-45FD-4AB6-AB87-57EAEAAD13DF}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP14Current</Property>
 	<Property Name="varPersistentID:{5EB08AEF-52BA-4456-8BAA-853BF494B45D}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbFinished</Property>
+	<Property Name="varPersistentID:{5F6DBA89-D52A-4640-9A05-739E1BE7F649}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/Fused Distance</Property>
 	<Property Name="varPersistentID:{61911D0C-F352-4BCB-9F6E-08242ABD729D}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/hpGrabSolDevRef</Property>
 	<Property Name="varPersistentID:{61F2A8AF-820E-44C5-8271-E6F69654F3C7}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Iteration Duration</Property>
 	<Property Name="varPersistentID:{643E36EA-3250-489A-9088-A4BB62D67203}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveLeftRawPosition</Property>
@@ -342,10 +343,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Cargo Solenid set.vi" Type="VI" URL="../Dashboard v2/Cargo Solenid set.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="TestingLogFileCatalog.vi" Type="VI" URL="../../TestingLogFileCatalog.vi"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../Dashboard v2/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="BoundAngle.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Math/CheezyMath/BoundAngle.vi"/>
@@ -1062,6 +1060,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PwF_ToF_Open.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_Open.vi"/>
 			<Item Name="PwF_ToF_RefNumRegistryGet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistryGet.vi"/>
 			<Item Name="PwF_ToF_RefNumRegistrySet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistrySet.vi"/>
+			<Item Name="SendToDash.vi" Type="VI" URL="../Other VIs/SendToDash.vi"/>
 			<Item Name="Snap 90__Foreward.vi" Type="VI" URL="../Other VIs/Snap 90__Foreward.vi"/>
 			<Item Name="TalonSRXSetStatusRates.vi" Type="VI" URL="../Other VIs/TalonSRXSetStatusRates.vi"/>
 			<Item Name="VictorSPXSetStatusRates.vi" Type="VI" URL="../Other VIs/VictorSPXSetStatusRates.vi"/>
