@@ -328,7 +328,7 @@
 	</Item>
 	<Item Name="sonarLeftDistance(inch)" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
