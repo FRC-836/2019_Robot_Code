@@ -928,6 +928,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PwF_ToF_RefNumRegistrySet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistrySet.vi"/>
 			<Item Name="SendToDash.vi" Type="VI" URL="../Other VIs/SendToDash.vi"/>
 			<Item Name="Snap 90__Foreward.vi" Type="VI" URL="../Other VIs/Snap 90__Foreward.vi"/>
+			<Item Name="SonarBrake - Rev2.vi" Type="VI" URL="../Subsystems/Sensors/Sonar/SonarBrake - Rev2.vi"/>
 			<Item Name="TalonSRXSetStatusRates.vi" Type="VI" URL="../Other VIs/TalonSRXSetStatusRates.vi"/>
 			<Item Name="VictorSPXSetStatusRates.vi" Type="VI" URL="../Other VIs/VictorSPXSetStatusRates.vi"/>
 		</Item>
