@@ -121,6 +121,17 @@
 		<Property Name="typedefPath1" Type="PathRel">../driveCommandEnum.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Q\!!!!"A!A!!!!!!#!-Y!]1!!!!!!!!!"&amp;'2S;8:F1W^N&lt;7&amp;O:%6O&gt;7UO9X2M!,&amp;!&amp;A!-#72P4G^U;'FO:Q:.97ZV:7Q'6'6M:7^Q$EVP&gt;G5A&gt;']A6'&amp;S:W6U"5.M;7VC#ERJ&lt;G5A17RJ:WY05W^O98)A1H*B;W65:7RF$62V=GYA6']A17ZH&lt;'5+186U&lt;S"%=GFW:2&amp;5:8.U)%&amp;V&gt;']A2G^S&gt;W&amp;S:"*5:8.U)%&amp;V&gt;']A5G6W:8*T:71+1W^E:3"%=GFW:1!!%E2S;8:F)%.P&lt;7VB&lt;G1A27ZV&lt;1!!#A"Q!"%!!1!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="driveShifterNotifier" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">gear notifier.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../gear notifier.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Q&lt;!!!!"A!A!!!!!!%!""!)1J);7&gt;I)%&gt;F98)`!!!/1#%*4'^X)%&gt;F98)`!$!!]1!!!!!!!!!"%7&gt;F98)A&lt;G^U;7:J:8)O9X2M!":!5!!#!!!!!1&gt;$&lt;(6T&gt;'6S!!I!=!!2!!%!!A!"!!-!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="driveShifterPosition" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
