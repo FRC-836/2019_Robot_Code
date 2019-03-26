@@ -14,50 +14,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="climbPoweredIRLeft" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/2019_Destination_Deep_Space.lvproj/Target/SensorSharedVars.lvlib/</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="climbPoweredIRRight" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/2019_Destination_Deep_Space.lvproj/Target/SensorSharedVars.lvlib/</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="climbSkidIRLeft" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/2019_Destination_Deep_Space.lvproj/Target/SensorSharedVars.lvlib/</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="climbSkidIRRight" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/2019_Destination_Deep_Space.lvproj/Target/SensorSharedVars.lvlib/</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"A!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="driveAvgPos(inch)" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -199,18 +155,6 @@
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="HatchPanelDetect" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="hatchPanelDistRaw" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
