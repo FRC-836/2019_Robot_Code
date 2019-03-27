@@ -36,7 +36,6 @@
 	<Property Name="varPersistentID:{37C3A1BD-1262-4DB4-A997-355E2B85F2D7}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_lb(4)</Property>
 	<Property Name="varPersistentID:{37D8193E-B146-482A-92E8-36087D89CD62}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/line align notifier out</Property>
 	<Property Name="varPersistentID:{3A035A52-272C-44CA-BE40-504BE783C4DF}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_X(0)</Property>
-	<Property Name="varPersistentID:{3A8F7012-3585-4544-B2DF-2BB750D083FE}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/CushionLeftDrive</Property>
 	<Property Name="varPersistentID:{3C3FE71D-5A98-4C1E-9C17-B46B7E93A48A}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP15Current</Property>
 	<Property Name="varPersistentID:{3DEEF2E6-8F89-440C-B617-9C702BD36246}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP5Current</Property>
 	<Property Name="varPersistentID:{3E077014-B034-4606-B670-4635C18AD602}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Current Period</Property>
@@ -81,7 +80,6 @@
 	<Property Name="varPersistentID:{732DCCA8-2F66-4F0C-A5D5-2B64B3C8116F}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Hatch Pannel Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{7345DBA4-332C-4141-B0C1-F94247199A1F}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_x(0)</Property>
 	<Property Name="varPersistentID:{73960DBB-7426-42B8-B386-E3805F73A9E7}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Finished Late? [i-1]</Property>
-	<Property Name="varPersistentID:{73B30425-567B-40EF-A481-23856C259EC0}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/CushionRightDrive</Property>
 	<Property Name="varPersistentID:{73E14C65-C6FC-475A-B4DB-D179D4196F8B}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveRightRawPosition</Property>
 	<Property Name="varPersistentID:{73F1FAEC-810C-4576-A6E6-0E05DA17FB40}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/PDP7Current</Property>
 	<Property Name="varPersistentID:{7481E8BB-6E79-4EC4-9CB3-82798BF0C55A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sonar Iteration Duration</Property>
@@ -213,7 +211,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
+		<Property Name="alias.value" Type="Str">10.8.36.2</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
