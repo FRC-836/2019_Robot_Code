@@ -50,7 +50,7 @@
 		<Property Name="typedefName2" Type="Str">hatchPanelNotifierCluster.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../hatchPanelEnum.ctl</Property>
 		<Property Name="typedefPath2" Type="PathRel">../hatchPanelNotifierCluster.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;14!%!!"A!A!!!!!!'!+9!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!#,1"9!#!JE&lt;S"O&lt;X2I;7ZH$6.U982F)%VB9WBJ&lt;G5+5X2B9WAA47^E:1J$&lt;'FN9C".&lt;W2F%&amp;*F&gt;(*B9X2F:#"$&lt;'^T:71/5G6U=G&amp;D&gt;'6E)%^Q:7Y028BU:7ZE:71A1WRP=W6E$56Y&gt;'6O:'6E)%^Q:7Y!!"&amp;)982D;#"197ZF&lt;#"4&gt;'&amp;U:1!71#%1476D;'&amp;O;8.N)%VP&gt;'FP&lt;A!!'E!B&amp;5&gt;B&gt;'BF=GFO:S"$&lt;'&amp;X)%VP&gt;'FP&lt;A!91#%45W.P=GFO:S"$&lt;'&amp;X)%VP&gt;'FP&lt;A"!!0%!!!!!!!!!!2VI982D;&amp;"B&lt;G6M4G^U;7:J:8*$&lt;(6T&gt;'6S,G.U&lt;!!;1&amp;!!"!!!!!%!!A!$"U.M&gt;8.U:8)!#A"Q!"%!!1!%!!%!"1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;#0A%!!"A!A!!!!!!'!*A!]1!!!!!!!!!"%GBB&gt;'.I5'&amp;O:7R&amp;&lt;H6N,G.U&lt;!"^1"9!"QJE&lt;S"O&lt;X2I;7ZH#F.U97.I)%VP:'5+1WRJ&lt;7)A47^E:2"3:82S97.U:71A1WRP=W6E$F*F&gt;(*B9X2F:#"0='6O$U6Y&gt;'6O:'6E)%.M&lt;X.F:!V&amp;?(2F&lt;G2F:#"0='6O!!!23'&amp;U9WAA5'&amp;O:7QA5X2B&gt;'5!&amp;E!B%%VF9WBB&lt;GFT&lt;3".&lt;X2J&lt;WY!!"J!)26(982I:8*J&lt;G=A1WRB&gt;S".&lt;X2J&lt;WY!'%!B%V.D&lt;X*J&lt;G=A1WRB&gt;S".&lt;X2J&lt;WY!1!$R!!!!!!!!!!%&gt;;'&amp;U9WB197ZF&lt;%ZP&gt;'FG;76S1WRV=X2F=CZD&gt;'Q!'E"1!!1!!!!"!!)!!Q&gt;$&lt;(6T&gt;'6S!!I!=!!2!!%!"!!"!!5!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="hatchPanelReadyForClimb" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -88,91 +88,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="hatchPanelSMGatherExtendTime" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"A!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="hatchPanelSMGatherRetractTime" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"A!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="hatchPanelSMGrabTime" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"A!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="hatchPanelSMReleaseTime" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"A!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="hatchPanelSMScoreExtendTime" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"A!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="hatchPanelSMScoreRetractTime" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"A!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="hatchPanelSMTick" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"A!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="hatchPanelSMUnlockTime" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
