@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{00E56559-9885-42D4-952A-01CEF8C9399F}" Type="Ref">/Target/SharedVariables/Dash PIDs.lvlib/PID Gains A</Property>
 	<Property Name="varPersistentID:{01C1651B-32D3-46C3-95FA-2567FFAFE496}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/Shoot_Left?</Property>
 	<Property Name="varPersistentID:{02975547-2B30-4CF2-9DC9-0216CBADB5DD}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Iteration Duration</Property>
 	<Property Name="varPersistentID:{032FF983-7BA7-44FA-9801-1E9637A3C1EA}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/rollwind</Property>
@@ -85,6 +86,7 @@
 	<Property Name="varPersistentID:{7481E8BB-6E79-4EC4-9CB3-82798BF0C55A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sonar Iteration Duration</Property>
 	<Property Name="varPersistentID:{75311786-2E37-4BFE-9049-260F49AEDEAA}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/Skip_1_Line_align</Property>
 	<Property Name="varPersistentID:{754AC443-0B01-491B-B482-08BAB7605E7E}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/limelightModeNotifier</Property>
+	<Property Name="varPersistentID:{756268D2-C83B-4C3A-A106-F49EC151A141}" Type="Ref">/Target/SharedVariables/Dash PIDs.lvlib/PID Gains B</Property>
 	<Property Name="varPersistentID:{76B87489-D01A-4E27-A48F-C0CE70B79D6B}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/lineDrive</Property>
 	<Property Name="varPersistentID:{77E8D2B4-2C80-42DF-B8F0-1AD5D659CD1B}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbPlatformSelector</Property>
 	<Property Name="varPersistentID:{785B3879-E560-4ECA-93E2-F625F73F269A}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsIteration Duration</Property>
