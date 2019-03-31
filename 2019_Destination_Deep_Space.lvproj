@@ -334,7 +334,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Logging_Settings.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/System/TDMS_V2/Support/Logging_Settings.ctl"/>
 				<Item Name="Pulse_Stretch_&amp;_Delay.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Pulse_Stretch_&amp;_Delay.vi"/>
 				<Item Name="Quaternion to Euler.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Quaternion to Euler.vi"/>
-				<Item Name="Rate_Selective_Filter.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/Rate_Selective_Filter.vi"/>
 				<Item Name="Rot Order.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Rot Order.ctl"/>
 				<Item Name="Setup State.ctl" Type="VI" URL="/&lt;userlib&gt;/836-Library/Sensor/IMU/Setup State.ctl"/>
 				<Item Name="Square Waves Generator.vi" Type="VI" URL="/&lt;userlib&gt;/836-Library/Logic/Square Waves Generator.vi"/>
@@ -795,6 +794,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PwF_ToF_Open.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_Open.vi"/>
 			<Item Name="PwF_ToF_RefNumRegistryGet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistryGet.vi"/>
 			<Item Name="PwF_ToF_RefNumRegistrySet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistrySet.vi"/>
+			<Item Name="Rate_Selective_Filter_Local.vi" Type="VI" URL="../Other VIs/Rate_Selective_Filter_Local.vi"/>
 			<Item Name="SendToDash.vi" Type="VI" URL="../Other VIs/SendToDash.vi"/>
 			<Item Name="Snap 90__Foreward.vi" Type="VI" URL="../Other VIs/Snap 90__Foreward.vi"/>
 			<Item Name="TalonSRXSetStatusRates.vi" Type="VI" URL="../Other VIs/TalonSRXSetStatusRates.vi"/>
