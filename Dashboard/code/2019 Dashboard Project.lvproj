@@ -252,9 +252,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
-			<Item Name="Dash Read.vi" Type="VI" URL="../../Dash Read.vi"/>
 			<Item Name="StartingPosition.ctl" Type="VI" URL="../../../Subsystems/Drive/MotionProfile/StartingPosition.ctl"/>
 			<Item Name="Path_Decider.ctl" Type="VI" URL="../../../Subsystems/Drive/MotionProfile/Path_Decider.ctl"/>
+			<Item Name="Dash Read.vi" Type="VI" URL="../Dash Read.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
