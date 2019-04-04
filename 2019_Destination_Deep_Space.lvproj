@@ -187,6 +187,7 @@
 	<Property Name="varPersistentID:{EEE610ED-9DB4-4AC5-B85C-A6A6CD7F3418}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/rocket?</Property>
 	<Property Name="varPersistentID:{F07F96BB-8103-4C2D-8C9C-A244EFCCD97A}" Type="Ref">/Target/Subsystems/Sensors/CurrentIdk.lvlib/leftMiddleDriveCurrent</Property>
 	<Property Name="varPersistentID:{F0F2B6A3-39E4-4C49-99EC-335FAD8314B8}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Axis_left_x(0)</Property>
+	<Property Name="varPersistentID:{F3D10C25-D59A-4064-A70A-9B8EA03AF57D}" Type="Ref">/Target/Subsystems/Sensors/Sonar/sonarSharedVars.lvlib/LIDAR Valid</Property>
 	<Property Name="varPersistentID:{F45CE6D2-523D-4D4A-A217-57EBBA0CC800}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_rt(7)</Property>
 	<Property Name="varPersistentID:{F5A33EA5-3EF9-4ACE-BDC7-7F68244EE703}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sonar Period</Property>
 	<Property Name="varPersistentID:{F5E7201D-F893-4F70-A8BD-C526E58626DD}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Joystick Period</Property>
