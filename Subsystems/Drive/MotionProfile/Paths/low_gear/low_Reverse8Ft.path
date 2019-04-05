@@ -1,1 +1,1 @@
-{"points":[[17,8],[9.88,8],[13.05,12.56],[5,12.56]],"velocities":[8,8.2],"reversed":true}
+{"points":[[17,8],[9.88,8],[13.05,12.56],[5,12.56]],"velocities":[8,8.2],"reversed":true,"maxVel":8,"maxAcc":12}
