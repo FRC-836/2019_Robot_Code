@@ -91,6 +91,7 @@
 	<Property Name="varPersistentID:{786D4EF0-1779-4565-91D4-1B1D261896A9}" Type="Ref">/Target/Subsystems/Sensors/Current.lvlib/PDP1Current</Property>
 	<Property Name="varPersistentID:{78F93F9E-0DCB-43F6-9BF7-C9CCFE401E16}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{790C87FA-DAAD-4358-B605-44A96C553A21}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/sonarLeftRaw(V)</Property>
+	<Property Name="varPersistentID:{79B8F4EE-11DB-4BCF-9EDF-95066F4B9026}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/LimelightPipelineMode</Property>
 	<Property Name="varPersistentID:{79D10644-30A9-46AE-9DF5-E58FC5A78DFC}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Current Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{7AB8AD56-B541-4D13-9C07-B645CEEF987F}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/LowGear?</Property>
 	<Property Name="varPersistentID:{7B9C5249-36B4-49BD-8415-E43A526DBA67}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Sensors Period</Property>
