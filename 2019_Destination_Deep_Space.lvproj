@@ -153,6 +153,7 @@
 	<Property Name="varPersistentID:{C490CE9B-A168-4590-AE22-A63755676322}" Type="Ref">/Target/Subsystems/Sensors/Current.lvlib/PDP11Current</Property>
 	<Property Name="varPersistentID:{C54A9155-048C-421D-BAD7-30288D5561DB}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/Hatch_Claws_Close?</Property>
 	<Property Name="varPersistentID:{C8764A84-F5B5-40B5-83E2-1B7CAB4DA8BC}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelSMTick</Property>
+	<Property Name="varPersistentID:{CA48E107-B07A-425E-AA2E-0C07B5F6C738}" Type="Ref">/Target/SharedVariables/RobotMode.lvlib/Robot Mode</Property>
 	<Property Name="varPersistentID:{CB77B4F6-ED44-425F-B929-B76AE3175769}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Drive Period</Property>
 	<Property Name="varPersistentID:{CCFB7986-C7E2-4019-957D-7BBB9B33099F}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Left_Y(1)</Property>
 	<Property Name="varPersistentID:{CD89D2B9-2C3D-4E0A-BAE2-E1C662E9B8C4}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/driveAvgPos(inch)</Property>
@@ -817,7 +818,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Builds</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">93</Property>
+				<Property Name="Bld_version.build" Type="Int">101</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
