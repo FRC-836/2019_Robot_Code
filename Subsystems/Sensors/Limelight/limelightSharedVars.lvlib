@@ -38,6 +38,20 @@
 		<Property Name="typedefPath1" Type="PathRel">../LimelightModeEnum.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#,BQ!!!"A!A!!!!!!#!'E!]1!!!!!!!!!"&amp;5RJ&lt;76M;7&gt;I&gt;%VP:'6&amp;&lt;H6N,G.U&lt;!",1"9!"!J413!N)%:S&lt;WZU#6.")#UA5G6B=B&amp;413!N)&amp;.J:'5A9HEA5WFE:2&amp;7;8.J&lt;WYA5(*P9W6T=WFO:Q!!"%6O&gt;7U!!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="LimelightPipelineMode" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typedefName1" Type="Str">LimelightPipelineMode.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../LimelightPipelineMode.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"F91!!!"A!A!!!!!!"!%]!]1!!!!!!!!!"'5RJ&lt;76M;7&gt;I&gt;&amp;"J='6M;7ZF47^E:3ZD&gt;'Q!,5!7!!-(1WRP=W6T&gt;!B-:7:U&lt;7^T&gt;!F3;7&gt;I&gt;'VP=X1!!!2&amp;&lt;H6N!!!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="targetHorizontalOffset" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
