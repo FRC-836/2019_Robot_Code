@@ -73,6 +73,7 @@
 	<Property Name="varPersistentID:{6728E981-9A4A-4570-80E0-16FA0939AFBF}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/runClimb</Property>
 	<Property Name="varPersistentID:{68B90044-EAEA-42FA-9987-1658084F1ED9}" Type="Ref">/Target/Subsystems/Sensors/Current.lvlib/PDP14Current</Property>
 	<Property Name="varPersistentID:{6A6D1353-B543-40D6-B45B-F8E8EBBBA26A}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climbDriveEnable</Property>
+	<Property Name="varPersistentID:{6A9FBA9A-A664-4FA3-9FC2-0C1241FFE495}" Type="Ref">/Target/Subsystems/Sensors/Sonar/LIDAR.lvlib/LIDAR Status</Property>
 	<Property Name="varPersistentID:{6C3461B4-F9A9-4438-B70A-11C5C6103790}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_D_Pad_Up(0)</Property>
 	<Property Name="varPersistentID:{6CAC757E-7FF0-42F2-AC8B-C6D9B1C252C2}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/alignAngleSetpoint</Property>
 	<Property Name="varPersistentID:{6D6EBAB5-23D9-4344-B2C4-6F61769BCC82}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_LT(6)</Property>
@@ -149,6 +150,7 @@
 	<Property Name="varPersistentID:{B991A1DA-3114-4041-A3BE-83E562097B63}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Iteration Duration</Property>
 	<Property Name="varPersistentID:{BA063672-A0D7-4A3A-AE22-0684FA8F90DF}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Line Align Finished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{BA39E243-A61E-473C-8A15-C65CC9471D37}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Axis_right_x(2)</Property>
+	<Property Name="varPersistentID:{BCA7EA28-F895-4646-9908-A6D081A557DF}" Type="Ref">/Target/Subsystems/Sensors/sensorsSharedVars.lvlib/sonarRightDistance(inch)</Property>
 	<Property Name="varPersistentID:{BECDFBAC-B034-406D-8AC1-B9196756410A}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/climb? notifier out</Property>
 	<Property Name="varPersistentID:{BFB39872-4A62-4DCD-BE4B-166666121061}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/shoot ball</Property>
 	<Property Name="varPersistentID:{BFD716A8-54BA-4109-A2CD-87F40B5E1AFB}" Type="Ref">/Target/Subsystems/Sensors/Current.lvlib/rightMiddleDriveCurrent</Property>
@@ -178,6 +180,7 @@
 	<Property Name="varPersistentID:{DCB7CB58-77C9-4D59-9B1D-66AFB219319D}" Type="Ref">/Target/Subsystems/LineAlignment/lineSharedVars.lvlib/Line_Align?</Property>
 	<Property Name="varPersistentID:{DCD602D9-67D6-405A-AF87-4488519F3718}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Axis_Right_X(2)</Property>
 	<Property Name="varPersistentID:{DD09B003-3DD3-48B0-BEA1-6E6193EAD8B3}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CargoPeriod</Property>
+	<Property Name="varPersistentID:{DD31F8D1-7CB7-40E4-9726-BC5F21F3917A}" Type="Ref">/Target/Subsystems/Sensors/Sonar/sonarSharedVars.lvlib/LIDAR2 Valid</Property>
 	<Property Name="varPersistentID:{E19CD329-4FB9-4D7A-A656-FF91FA2EB3CA}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/driveClimbStateNotifier</Property>
 	<Property Name="varPersistentID:{E2073A8E-B388-4DEB-A6FE-3CA17DF40656}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Axis_right_y(3)</Property>
 	<Property Name="varPersistentID:{E35F0EDF-DAB2-44E0-9094-B61F66942307}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Finished Late? [i-1]</Property>
@@ -216,7 +219,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
+		<Property Name="alias.value" Type="Str">10.8.36.2</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -794,7 +797,11 @@ AddOutputFilter chunkFilter
 			<Item Name="PwF ToF RangingMode.ctl" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_TypeDef/PwF ToF RangingMode.ctl"/>
 			<Item Name="PwF ToF Ref.ctl" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_TypeDef/PwF ToF Ref.ctl"/>
 			<Item Name="PwF_ToF_ConfigRanging.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_ConfigRanging.vi"/>
+			<Item Name="PwF_ToF_CoreDeviceConfig.vi" Type="VI" URL="../../PWF LIDAR/PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_CoreDeviceConfig.vi"/>
+			<Item Name="PwF_ToF_DeviceID_Tuning_Panel.vi" Type="VI" URL="../../PWF LIDAR/PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_DeviceID_Tuning_Panel.vi"/>
+			<Item Name="PwF_ToF_FlashLED.vi" Type="VI" URL="../../PWF LIDAR/PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_FlashLED.vi"/>
 			<Item Name="PwF_ToF_GetDistance.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_GetDistance.vi"/>
+			<Item Name="PwF_ToF_HeartbeatRead.vi" Type="VI" URL="../../PWF LIDAR/PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_HeartbeatRead.vi"/>
 			<Item Name="PwF_ToF_Open.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_Open.vi"/>
 			<Item Name="PwF_ToF_RefNumRegistryGet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistryGet.vi"/>
 			<Item Name="PwF_ToF_RefNumRegistrySet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistrySet.vi"/>
