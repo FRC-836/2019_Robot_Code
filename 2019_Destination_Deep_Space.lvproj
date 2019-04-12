@@ -27,6 +27,7 @@
 	<Property Name="varPersistentID:{20DAEE37-0FBE-43F6-A68C-DD2EE61812E8}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
 	<Property Name="varPersistentID:{2121CCE2-28DA-425D-9F5C-DB13F7CC50F9}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/climbStiltEnable</Property>
 	<Property Name="varPersistentID:{27AFB948-BB59-4F23-9EF3-6EDF677C632F}" Type="Ref">/Target/SharedVariables/Joystick-opperator.lvlib/Button_b(2)</Property>
+	<Property Name="varPersistentID:{28762575-C9B0-46F6-8AEC-B439741D68FA}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/rearStiltChanged</Property>
 	<Property Name="varPersistentID:{29962BFD-2A65-4BDD-AC85-7E846EB6B73D}" Type="Ref">/Target/Subsystems/Cargo/cargoSharedVars.lvlib/cargo notifier out</Property>
 	<Property Name="varPersistentID:{2A118ED6-249E-41D7-9A85-CB4E2B1D476F}" Type="Ref">/Target/Subsystems/Drive/driveSharedVars.lvlib/codeDriveThrottle</Property>
 	<Property Name="varPersistentID:{2E5CBE3D-9F5B-4069-A193-27FE41148A77}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Cargo Iteration Duration</Property>
@@ -57,6 +58,7 @@
 	<Property Name="varPersistentID:{4FB98EBF-36F9-4D5A-A56A-8BFBF5CEC96B}" Type="Ref">/Target/Subsystems/Sensors/Current.lvlib/PDP11Current</Property>
 	<Property Name="varPersistentID:{5156E23E-0A8E-45D2-8E1E-B463137738C0}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsFinished Late? [i-1]</Property>
 	<Property Name="varPersistentID:{52D2807F-7AC9-404F-AD0B-81FDB34DBDF4}" Type="Ref">/Target/Subsystems/Climb/climbSharedVars.lvlib/Drive Speed</Property>
+	<Property Name="varPersistentID:{558FB799-CEAE-4244-9280-FC65B5591206}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/frontStiltChanged</Property>
 	<Property Name="varPersistentID:{56D19D6D-2728-4A25-AB06-7675F5489BBD}" Type="Ref">/Target/Subsystems/Sensors/Current.lvlib/rearStiltCurrent</Property>
 	<Property Name="varPersistentID:{5776EE3D-3154-4234-AAEC-02A4A4E44345}" Type="Ref">/Target/Subsystems/Drive/MotionProfile/motionProfileSharedVars.lvlib/motionProfilePathName</Property>
 	<Property Name="varPersistentID:{5792157C-726F-4E1B-B7BD-1277CEE38AD9}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Hatch Pannel Expected End [i-1]</Property>
@@ -823,7 +825,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Builds</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">74</Property>
+				<Property Name="Bld_version.build" Type="Int">75</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
