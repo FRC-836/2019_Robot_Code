@@ -797,7 +797,6 @@ AddOutputFilter chunkFilter
 			<Item Name="PwF ToF RangingMode.ctl" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_TypeDef/PwF ToF RangingMode.ctl"/>
 			<Item Name="PwF ToF Ref.ctl" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_TypeDef/PwF ToF Ref.ctl"/>
 			<Item Name="PwF_ToF_ConfigRanging.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_ConfigRanging.vi"/>
-			<Item Name="PwF_ToF_DeviceID_Tuning_Panel.vi" Type="VI" URL="../../PWF LIDAR/PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_DeviceID_Tuning_Panel.vi"/>
 			<Item Name="PwF_ToF_GetDistance.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_GetDistance.vi"/>
 			<Item Name="PwF_ToF_Open.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_Open.vi"/>
 			<Item Name="PwF_ToF_RefNumRegistryGet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistryGet.vi"/>
