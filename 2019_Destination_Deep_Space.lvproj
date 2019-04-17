@@ -797,7 +797,6 @@ AddOutputFilter chunkFilter
 			<Item Name="PwF ToF RangingMode.ctl" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_TypeDef/PwF ToF RangingMode.ctl"/>
 			<Item Name="PwF ToF Ref.ctl" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_TypeDef/PwF ToF Ref.ctl"/>
 			<Item Name="PwF_ToF_ConfigRanging.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_ConfigRanging.vi"/>
-			<Item Name="PwF_ToF_DeviceID_Tuning_Panel.vi" Type="VI" URL="../../PWF LIDAR/PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/ToF_config/PwF_ToF_DeviceID_Tuning_Panel.vi"/>
 			<Item Name="PwF_ToF_GetDistance.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_GetDistance.vi"/>
 			<Item Name="PwF_ToF_Open.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_Open.vi"/>
 			<Item Name="PwF_ToF_RefNumRegistryGet.vi" Type="VI" URL="../PWFusion_TimeOfFlight_SEN-36005/LabVIEW-FRC/PwF_ToF_RefNumRegistryGet.vi"/>
@@ -823,7 +822,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Builds</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">73</Property>
+				<Property Name="Bld_version.build" Type="Int">74</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
