@@ -36,7 +36,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">climbStiltStateEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../climbStiltStateEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#TLQ!!!"A!A!!!!!!#!*%!]1!!!!!!!!!"&amp;W.M;7VC5X2J&lt;(24&gt;'&amp;U:56O&gt;7UO9X2M!(&amp;!&amp;A!'#72P4G^U;'FO:R&gt;4&gt;'&amp;S&gt;#^497:F&lt;(EA4'^X:8)A1G^U;!N#&lt;X2I)%6Y&gt;'6O:!V'=G^O&gt;#"3:82S97.U$%*P&gt;'AA5G6U=G&amp;D&gt;!F5:8.U)%VP:'5!!"&amp;$&lt;'FN9C"4&gt;'FM&gt;#"4&gt;'&amp;U:1!+!(!!%1!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#\NQ!!!"A!A!!!!!!#!*E!]1!!!!!!!!!"&amp;W.M;7VC5X2J&lt;(24&gt;'&amp;U:56O&gt;7UO9X2M!(F!&amp;A!(#72P4G^U;'FO:R&gt;4&gt;'&amp;S&gt;#^497:F&lt;(EA4'^X:8)A1G^U;!N#&lt;X2I)%6Y&gt;'6O:!V'=G^O&gt;#"3:82S97.U$%*P&gt;'AA5G6U=G&amp;D&gt;!F5:8.U)%VP:'5(1G&amp;M97ZD:1!!%5.M;7VC)&amp;.U;7RU)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="climbTestDownPos?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
