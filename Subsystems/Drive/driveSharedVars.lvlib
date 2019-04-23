@@ -85,7 +85,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typedefName1" Type="Str">driveClimbStateEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../Climb/driveClimbStateEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Z&gt;1!!!"A!A!!!!!!#!&amp;=!]1!!!!!!!!!"&amp;W2S;8:F1WRJ&lt;7*4&gt;'&amp;U:56O&gt;7UO9X2M!$&gt;!&amp;A!##E2P)%ZP&gt;'BJ&lt;G=.2(*J&gt;G5A2G^S&gt;W&amp;S:!!!%52S;8:F)%.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#,BQ!!!"A!A!!!!!!#!'E!]1!!!!!!!!!"&amp;W2S;8:F1WRJ&lt;7*4&gt;'&amp;U:56O&gt;7UO9X2M!%F!&amp;A!$#E2P)%ZP&gt;'BJ&lt;G=.2(*J&gt;G5A2G^S&gt;W&amp;S:"&amp;4&lt;'^X)%VB&lt;H6B&lt;#"%=GFW:1!!%52S;8:F)%.M;7VC)&amp;.U982F!!I!=!!2!!%!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="driveMoveToTargetPower" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
