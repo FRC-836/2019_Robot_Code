@@ -149,6 +149,7 @@
 	<Property Name="varPersistentID:{B1027A03-1D2D-477C-8526-4779DFBBC290}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/CanSensorsPeriod</Property>
 	<Property Name="varPersistentID:{B43B5503-F9EB-4A67-A6FE-E46BA693D1BF}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/hatchPanelScored</Property>
 	<Property Name="varPersistentID:{B650D955-E834-44E5-9899-87C83764A9F9}" Type="Ref">/Target/Subsystems/Sensors/Limelight/limelightSharedVars.lvlib/hasTarget</Property>
+	<Property Name="varPersistentID:{B6B53A88-33D8-4844-B067-13B8C2F884F0}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/Both Lowered</Property>
 	<Property Name="varPersistentID:{B73FE7C1-1D55-496C-9E0D-63C955B01338}" Type="Ref">/Target/SharedVariables/SolenoidDevRefs.lvlib/driveShiftSolDevRef</Property>
 	<Property Name="varPersistentID:{B991A1DA-3114-4041-A3BE-83E562097B63}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Climb Stilt Iteration Duration</Property>
 	<Property Name="varPersistentID:{BA063672-A0D7-4A3A-AE22-0684FA8F90DF}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Line Align Finished Late? [i-1]</Property>
@@ -825,7 +826,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Builds</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">79</Property>
+				<Property Name="Bld_version.build" Type="Int">95</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
