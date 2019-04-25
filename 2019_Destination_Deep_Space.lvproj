@@ -42,6 +42,7 @@
 	<Property Name="varPersistentID:{3ADE177D-324E-4DBA-B30F-5C73D72EAC77}" Type="Ref">/Target/Subsystems/Sensors/Current.lvlib/PDP8Current</Property>
 	<Property Name="varPersistentID:{3D0A22F5-1449-492E-931E-DB80DA22C501}" Type="Ref">/Target/Subsystems/Climb/climbStilt/climbStiltSharedVars.lvlib/stiltBalanceRetract</Property>
 	<Property Name="varPersistentID:{3E077014-B034-4606-B670-4635C18AD602}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Current Period</Property>
+	<Property Name="varPersistentID:{3E0A16CD-EB17-4BB9-AA7B-730EA5C43FAA}" Type="Ref">/Target/Subsystems/HatchPanel/hatchPanelSharedVars.lvlib/HatchPanelExtended</Property>
 	<Property Name="varPersistentID:{423D43FE-9CE1-408C-9337-8F3C4B4EDA3A}" Type="Ref">/Target/SharedVariables/Joystick.lvlib/Button_Back(8)</Property>
 	<Property Name="varPersistentID:{43997B60-14D9-423A-80B7-5EE94C8695FC}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Limelight Period</Property>
 	<Property Name="varPersistentID:{445DA3E5-1C43-40CE-9FF0-7388BC359BB4}" Type="Ref">/Target/SharedVariables/ControlRoom.lvlib/Limelight Iteration Duration</Property>
